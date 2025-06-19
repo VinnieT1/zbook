@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a1f414e1-5df9-4629-ac63-50177a532799")
-		(property "Sheetname" "Peripherals"
+		(property "Sheetname" "Peripherals 1"
 			(at 138.43 56.4384 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "peripherals.kicad_sch"
+		(property "Sheetfile" "peripherals1.kicad_sch"
 			(at 138.43 79.3246 0)
 			(effects
 				(font
@@ -127,6 +127,48 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 58.42)
+		(size 19.05 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e26c05ee-f364-47de-be04-e77902e037c8")
+		(property "Sheetname" "Peripherals 2"
+			(at 189.23 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals2.kicad_sch"
+			(at 189.23 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372"
+					(page "5")
 				)
 			)
 		)
