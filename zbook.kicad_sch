@@ -114,7 +114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "main.kicad_sch"
+		(property "Sheetfile" "power_supply.kicad_sch"
 			(at 44.45 66.6246 0)
 			(effects
 				(font
