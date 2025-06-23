@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "ca49e9ca-9709-4d00-abee-50410fb35eec")
 	(paper "A3")
+	(title_block
+		(title "Microcontroller")
+		(company "Os Circuitados")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -3770,6 +3774,18 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Microcontroller"
+		(exclude_from_sim no)
+		(at 209.804 24.892 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 2.032)
+				(bold yes)
+			)
+		)
+		(uuid "08730f5f-7823-466e-99c8-6cdbea111d36")
 	)
 	(text "External Flashes\n"
 		(exclude_from_sim no)

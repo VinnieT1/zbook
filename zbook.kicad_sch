@@ -3,11 +3,27 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b90666d0-8852-4bb1-832d-f9d855027372")
-	(paper "A3")
+	(paper "A4")
+	(title_block
+		(title "ZBook")
+		(company "Os Circuitados")
+	)
 	(lib_symbols)
+	(text "ZBook\n"
+		(exclude_from_sim no)
+		(at 147.066 22.606 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 2.032)
+				(bold yes)
+			)
+		)
+		(uuid "156f5075-53c4-4df7-889f-a491d523ccf3")
+	)
 	(sheet
-		(at 138.43 57.15)
-		(size 20.32 21.59)
+		(at 152.4 82.55)
+		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +37,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a1f414e1-5df9-4629-ac63-50177a532799")
-		(property "Sheetname" "Peripherals 1"
-			(at 138.43 56.4384 0)
+		(property "Sheetname" "Peripherals  - GPIOs and ADCs"
+			(at 152.4 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +47,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals1.kicad_sch"
-			(at 138.43 79.3246 0)
+			(at 152.4 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +64,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 50.8)
-		(size 21.59 16.51)
+		(at 116.84 106.68)
+		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +80,7 @@
 		)
 		(uuid "d36fc6ee-483e-4a4a-988a-06a4ba308aa7")
 		(property "Sheetname" "Microcontroller"
-			(at 83.82 50.0884 0)
+			(at 116.84 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +89,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 83.82 67.8946 0)
+			(at 116.84 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +106,7 @@
 		)
 	)
 	(sheet
-		(at 44.45 48.26)
+		(at 116.84 82.55)
 		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +122,7 @@
 		)
 		(uuid "d670a894-5140-4373-b43b-8923af8a146b")
 		(property "Sheetname" "Power Supply"
-			(at 44.45 47.5484 0)
+			(at 116.84 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +131,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 44.45 66.6246 0)
+			(at 116.84 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +148,8 @@
 		)
 	)
 	(sheet
-		(at 189.23 58.42)
-		(size 19.05 19.05)
+		(at 152.4 106.68)
+		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -147,8 +163,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e26c05ee-f364-47de-be04-e77902e037c8")
-		(property "Sheetname" "Peripherals 2"
-			(at 189.23 57.7084 0)
+		(property "Sheetname" "Peripherals - I2C and SPI"
+			(at 152.4 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +173,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals2.kicad_sch"
-			(at 189.23 78.0546 0)
+			(at 152.4 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

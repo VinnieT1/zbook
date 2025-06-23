@@ -641,11 +641,11 @@
     ],
     [
       "a1f414e1-5df9-4629-ac63-50177a532799",
-      "Peripherals 1"
+      "Peripherals  - GPIOs and ADCs"
     ],
     [
       "e26c05ee-f364-47de-be04-e77902e037c8",
-      "Peripherals 2"
+      "Peripherals - I2C and SPI"
     ]
   ],
   "text_variables": {}
