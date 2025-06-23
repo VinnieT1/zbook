@@ -2019,16 +2019,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -33.02 35.56 0)
+			(property "Reference" "U1"
+				(at 31.75 28.0102 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 31.75 26.1051 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2062,20 +2062,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2350B_0_1"
+			(property "MPN" "SC1510"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP2350B_1_1"
 				(rectangle
 					(start -29.21 34.29)
 					(end 29.21 -34.29)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "RP2350B_1_1"
 				(pin passive line
 					(at -31.75 24.13 0)
 					(length 2.54)
