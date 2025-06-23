@@ -2699,8 +2699,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35f8a1e2-e0b8-44a8-a3e7-46ab6118f981")
-		(property "Reference" "U"
-			(at 183.642 31.496 0)
+		(property "Reference" "U1"
+			(at 183.515 30.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2708,7 +2708,7 @@
 			)
 		)
 		(property "Value" "GSDA213"
-			(at 183.642 34.036 0)
+			(at 183.515 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2790,7 +2790,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/e26c05ee-f364-47de-be04-e77902e037c8"
-					(reference "U")
+					(reference "U1")
 					(unit 1)
 				)
 			)
