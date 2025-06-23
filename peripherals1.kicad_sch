@@ -685,206 +685,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Photo"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Photo"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -6.35 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Photoresistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable light sensitive opto LDR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LDR* R?LDR*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Photo_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.762) (xy -4.064 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.762) (xy -2.286 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.762) (xy -1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy -4.064 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy -2.286 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy -1.524 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Photo_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Potentiometer"
+		(symbol "Device:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -900,7 +701,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Potentiometer"
+			(property "Value" "R_Potentiometer_US"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -926,7 +727,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Potentiometer"
+			(property "Description" "Potentiometer, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -953,12 +754,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Potentiometer_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+			(symbol "R_Potentiometer_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.286)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -990,7 +840,7 @@
 					)
 				)
 			)
-			(symbol "R_Potentiometer_1_1"
+			(symbol "R_Potentiometer_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1594,6 +1444,170 @@
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_US_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R18"
+				(at 2.54 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -1.27 1.27) (xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 -1.27) (xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2611,7 +2625,7 @@
 	(text_box "Buttons - GPIO"
 		(exclude_from_sim no)
 		(at 106.68 16.51 0)
-		(size 73.66 107.95)
+		(size 73.66 69.85)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2689,10 +2703,10 @@
 		(uuid "b621dbd0-129c-4b30-a83d-4d9558ad8c5d")
 	)
 	(junction
-		(at 165.1 57.15)
+		(at 127 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0cd897b8-7b71-4e06-ac7a-b504f594408b")
+		(uuid "10f58617-3b9e-4e91-89d7-3fd4b7942ac0")
 	)
 	(junction
 		(at 209.55 101.6)
@@ -2707,16 +2721,10 @@
 		(uuid "27a7751d-ecc2-4f6b-8ea6-aaddda7307d9")
 	)
 	(junction
-		(at 127 107.95)
+		(at 163.83 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ba685e8-653a-445c-8b51-9e828ba5b4e8")
-	)
-	(junction
-		(at 165.1 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36c48c7c-6dc6-4e0f-aec8-e80e8d4d0272")
+		(uuid "4393e25b-eae7-4622-8366-2d6c9658be88")
 	)
 	(junction
 		(at 248.92 35.56)
@@ -2728,37 +2736,31 @@
 		(at 127 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ea67a21-00c3-48fe-8d9a-70f31aa9ec38")
+		(uuid "677ddf35-7c83-46c5-b96e-26ffa4e1cb34")
 	)
 	(junction
-		(at 127 82.55)
+		(at 127 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb5dfa54-8e57-41c1-9233-04ce244c54dd")
+		(uuid "6d529d92-82d6-46b2-be05-96837013bfa4")
+	)
+	(junction
+		(at 163.83 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87db3d0d-c6d7-4bb4-a4a8-9b6f8eff9fbb")
+	)
+	(junction
+		(at 163.83 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af8c5b44-fd22-4ef3-aac7-1365da1d9dda")
 	)
 	(junction
 		(at 196.85 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde2b7c5-7b08-4d15-b965-0e180ee1a551")
-	)
-	(junction
-		(at 127 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f21b2dc0-8ffd-4a2b-97b1-0ddbdcd1512d")
-	)
-	(junction
-		(at 165.1 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9989da2-c8f8-4dbd-8185-f2ba5d905893")
-	)
-	(junction
-		(at 165.1 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff74d83f-75aa-4a04-9a76-3a35b23ea8d1")
 	)
 	(no_connect
 		(at 72.39 34.29)
@@ -2786,6 +2788,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 49.53) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cb8e94-98d1-45b7-a8ce-b1d9b38ed356")
+	)
+	(wire
+		(pts
 			(xy 82.55 109.22) (xy 85.09 109.22)
 		)
 		(stroke
@@ -2793,6 +2805,16 @@
 			(type default)
 		)
 		(uuid "156f7672-0482-4061-8883-bd53fa8b5411")
+	)
+	(wire
+		(pts
+			(xy 163.83 29.21) (xy 163.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17919bdd-e135-4f59-a9a7-98737bbdcbe7")
 	)
 	(wire
 		(pts
@@ -2806,23 +2828,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 29.21) (xy 127 29.21)
+			(xy 124.46 36.83) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2255f8ba-78f3-4a54-8c0d-a4650b718e53")
-	)
-	(wire
-		(pts
-			(xy 127 87.63) (xy 127 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a4c5e6-331e-4be1-8762-162a2cb642b9")
 	)
 	(wire
 		(pts
@@ -2836,16 +2848,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 29.21) (xy 152.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a15ab9-9030-4b01-8af7-d28c721b91c2")
-	)
-	(wire
-		(pts
 			(xy 196.85 101.6) (xy 201.93 101.6)
 		)
 		(stroke
@@ -2853,6 +2855,16 @@
 			(type default)
 		)
 		(uuid "2eca6e83-bbdb-4f1a-9e4e-9fd780239532")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d49c37-fd1a-4bd4-85f8-00904dc928ea")
 	)
 	(wire
 		(pts
@@ -2866,23 +2878,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 167.64 82.55)
+			(xy 127 54.61) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35075616-ee7d-4147-846f-4558793eeac2")
+		(uuid "33c0309c-0080-4151-a178-74b4c6e31612")
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 152.4 82.55)
+			(xy 127 57.15) (xy 138.43 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37fc813c-9340-4bb0-84ec-16cc0b5bb43c")
+		(uuid "35eef052-2b66-4dfb-af78-b75233e49b2f")
 	)
 	(wire
 		(pts
@@ -2893,6 +2905,16 @@
 			(type default)
 		)
 		(uuid "40045bec-3570-4514-9cd4-a481a88c3cec")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d4fb5e-f25c-4aba-a564-8e080c0037da")
 	)
 	(wire
 		(pts
@@ -2916,33 +2938,43 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 35.56) (xy 248.92 34.29)
+			(xy 163.83 34.29) (xy 163.83 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47cc8b56-e08d-44a2-aeb3-5eb9cf5865b3")
+		(uuid "527609ae-0fea-469c-ad90-d527fad3b5a9")
 	)
 	(wire
 		(pts
-			(xy 124.46 57.15) (xy 127 57.15)
+			(xy 124.46 77.47) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "489c66c3-b690-4574-a704-32f417b85c5e")
+		(uuid "5ef230d4-dbb3-4eb3-822a-a2c2622aa349")
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 167.64 57.15)
+			(xy 161.29 36.83) (xy 163.83 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cfdd91b-cda9-4b98-b84d-b1c1c98dd0ab")
+		(uuid "5fbf6432-69c7-4a06-a54b-29b141cdce63")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 163.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a85115-15a6-42d9-acfd-026b7e5323af")
 	)
 	(wire
 		(pts
@@ -2966,6 +2998,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 33.02) (xy 248.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bb74a7-33a2-47c7-9207-d705497a29ad")
+	)
+	(wire
+		(pts
 			(xy 252.73 95.25) (xy 270.51 95.25)
 		)
 		(stroke
@@ -2973,16 +3015,6 @@
 			(type default)
 		)
 		(uuid "66c12fe0-86d2-47bc-a7a5-ed4e7b7d6cc1")
-	)
-	(wire
-		(pts
-			(xy 165.1 29.21) (xy 167.64 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6bd7e9-8ebd-40d0-97f5-9057c65fface")
 	)
 	(wire
 		(pts
@@ -2996,17 +3028,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 57.15) (xy 165.1 57.15)
+			(xy 163.83 54.61) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72c6a379-92f9-44aa-8765-1b01e867412c")
+		(uuid "6f9ca3f0-55de-45a6-aea2-c0e4a7722b3e")
 	)
 	(wire
 		(pts
-			(xy 248.92 25.4) (xy 248.92 26.67)
+			(xy 248.92 25.4) (xy 248.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3026,36 +3058,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 57.15) (xy 152.4 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89991cdb-d7c6-43c5-9675-91406f148e76")
-	)
-	(wire
-		(pts
-			(xy 127 29.21) (xy 129.54 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1b28f2-d900-436a-adb1-b9b7eb2da616")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 152.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a31b831-9ed6-448b-86bf-c98301a728fb")
-	)
-	(wire
-		(pts
 			(xy 209.55 87.63) (xy 209.55 90.17)
 		)
 		(stroke
@@ -3063,16 +3065,6 @@
 			(type default)
 		)
 		(uuid "8fcd5c1f-50db-4cd3-985a-265e09281f49")
-	)
-	(wire
-		(pts
-			(xy 127 57.15) (xy 129.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9028ab84-30c3-414c-9b04-86cde0457718")
 	)
 	(wire
 		(pts
@@ -3086,33 +3078,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 167.64 107.95)
+			(xy 163.83 69.85) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93c558aa-c55b-4a7e-b623-34a06f640fcb")
-	)
-	(wire
-		(pts
-			(xy 165.1 113.03) (xy 165.1 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f2b619-cca3-41f7-bb84-6ed907f4670a")
-	)
-	(wire
-		(pts
-			(xy 162.56 29.21) (xy 165.1 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965cf3e2-7c40-42f4-a60c-65f46ddc4bb2")
+		(uuid "974d0956-6990-448d-b585-328db793d585")
 	)
 	(wire
 		(pts
@@ -3136,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 36.83) (xy 175.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeea4b7-8233-4756-94df-1e4bea61f5da")
+	)
+	(wire
+		(pts
 			(xy 82.55 92.71) (xy 85.09 92.71)
 		)
 		(stroke
@@ -3153,26 +3135,6 @@
 			(type default)
 		)
 		(uuid "9eaa9824-e2d3-4ddd-9f31-db954d78e770")
-	)
-	(wire
-		(pts
-			(xy 165.1 87.63) (xy 165.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6941e4e-805b-4f9f-ab27-9f5db2369e18")
-	)
-	(wire
-		(pts
-			(xy 165.1 34.29) (xy 165.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71ecb44-046e-4413-ae9a-034b04e4c8b0")
 	)
 	(wire
 		(pts
@@ -3196,13 +3158,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 62.23) (xy 127 66.04)
+			(xy 163.83 57.15) (xy 175.26 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aed6a858-2339-4870-bd2b-d0e5a21b0719")
+		(uuid "ae161ac0-8ad2-42c9-a5dc-c1eaae9763a7")
+	)
+	(wire
+		(pts
+			(xy 127 29.21) (xy 127 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbd631e-9f50-403d-916b-dd2d9cf9c272")
+	)
+	(wire
+		(pts
+			(xy 127 36.83) (xy 138.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a2747a-4a4e-420a-9940-76c29cb201f1")
 	)
 	(wire
 		(pts
@@ -3216,16 +3198,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e94014-ab35-432d-ba2d-376e2eb0f4de")
-	)
-	(wire
-		(pts
 			(xy 82.55 78.74) (xy 85.09 78.74)
 		)
 		(stroke
@@ -3233,16 +3205,6 @@
 			(type default)
 		)
 		(uuid "b92962b0-0eb4-48ad-ba92-2b7df5dade3e")
-	)
-	(wire
-		(pts
-			(xy 127 107.95) (xy 129.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd704862-de15-48f5-b55d-4d55487240c5")
 	)
 	(wire
 		(pts
@@ -3326,13 +3288,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 129.54 82.55)
+			(xy 127 74.93) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d110447d-1919-405f-83b4-b656b4a29ccb")
+		(uuid "d1b06adb-ebc9-4b25-bb30-7a4c2e2fba5b")
 	)
 	(wire
 		(pts
@@ -3356,16 +3318,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de5ac39c-e5f4-42e6-a533-89706a30b97f")
-	)
-	(wire
-		(pts
 			(xy 248.92 46.99) (xy 248.92 45.72)
 		)
 		(stroke
@@ -3386,23 +3338,43 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 82.55) (xy 165.1 82.55)
+			(xy 161.29 77.47) (xy 163.83 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2e257de-7101-48dc-90ce-a9b9f067d5f7")
+		(uuid "e564c6b0-b475-4043-93fe-f90373b275d1")
 	)
 	(wire
 		(pts
-			(xy 127 34.29) (xy 127 38.1)
+			(xy 163.83 77.47) (xy 175.26 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eae074ff-6ae6-4662-bdc2-f245234ae6db")
+		(uuid "e7ee5c79-107e-47c3-8ae3-df6e994cbe02")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fbb1b4-5e90-45ca-a672-bb086c5206fd")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead80780-3965-407b-aa9f-c665d621a828")
 	)
 	(wire
 		(pts
@@ -3436,23 +3408,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 127 82.55)
+			(xy 163.83 49.53) (xy 163.83 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f30a7491-e044-41e9-8eb5-f2dcbfd122db")
-	)
-	(wire
-		(pts
-			(xy 165.1 62.23) (xy 165.1 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59b80dc-d517-4e71-b974-6e26aa0321c8")
+		(uuid "f518e25e-fe80-4c69-9a43-0f528a4a6ecf")
 	)
 	(wire
 		(pts
@@ -3466,13 +3428,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 165.1 107.95)
+			(xy 127 34.29) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fea8ee30-f6df-48b8-9d5f-b83b28722901")
+		(uuid "fb24045e-2ece-4216-a8cb-2fbdc37ebb75")
 	)
 	(wire
 		(pts
@@ -3504,35 +3466,25 @@
 		)
 		(uuid "03310c3f-12bd-4596-b5ce-7ebec7b2f79c")
 	)
-	(label "Button2_GPIO"
-		(at 167.64 57.15 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b3d6722-93ca-4b13-aa00-f71c24e7a0c5")
-	)
 	(label "MICROPHONE_ADC"
-		(at 209.55 34.29 0)
+		(at 220.98 34.29 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "390aeea1-5564-4fd4-9c20-af1fd67396da")
 	)
-	(label "Button1_GPIO"
-		(at 167.64 29.21 0)
+	(label "BUTTON5_GPIO"
+		(at 138.43 77.47 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "500c248e-80e0-4675-870a-f5fc21e49057")
+		(uuid "421d0520-6e15-49d9-be2d-2adbc4b60c92")
 	)
 	(label "MOSFET_DRAIN"
 		(at 223.52 87.63 180)
@@ -3544,26 +3496,6 @@
 		)
 		(uuid "5b24d03d-fdbc-4457-9c59-5bb3ac8bc991")
 	)
-	(label "Button7_GPIO"
-		(at 129.54 82.55 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "60920c18-9c3b-4678-a38c-fcfe3c41bd7a")
-	)
-	(label "Button4_GPIO"
-		(at 167.64 107.95 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "69a32546-7759-4ad6-968d-829e40f72798")
-	)
 	(label "POTENTIOMETER1_ADC"
 		(at 270.51 71.12 180)
 		(effects
@@ -3574,15 +3506,15 @@
 		)
 		(uuid "7cc1e2f6-5bb6-4a41-8695-33942094b820")
 	)
-	(label "Button6_GPIO"
-		(at 129.54 57.15 0)
+	(label "BUTTON3_GPIO"
+		(at 138.43 57.15 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "83bc8fb1-2f85-485c-96ab-b3c4cc3eb42e")
+		(uuid "7f34ee9e-2fb6-49f6-a5f4-04946f8fb368")
 	)
 	(label "LED_red_GPIO"
 		(at 63.5 78.74 0)
@@ -3614,6 +3546,16 @@
 		)
 		(uuid "a40e9899-7a23-4bca-b662-1cf55cc1172d")
 	)
+	(label "BUTTON6_GPIO"
+		(at 175.26 77.47 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "b701b3c5-25c0-4bc8-b7b3-ae1dada559fa")
+	)
 	(label "POTENTIOMETER2_ADC"
 		(at 270.51 95.25 180)
 		(effects
@@ -3624,23 +3566,13 @@
 		)
 		(uuid "bce3fd47-5f64-4563-ae48-c51507bb2b05")
 	)
-	(label "Button3_GPIO"
-		(at 167.64 82.55 0)
+	(label "BUTTON1_GPIO"
+		(at 138.43 36.83 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
-		)
-		(uuid "bddfd008-7b2c-493e-88dc-7428770d75b8")
-	)
-	(label "Button5_GPIO"
-		(at 129.54 29.21 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c85eb81d-b8a2-402b-933d-69be6c2f5ab9")
 	)
@@ -3654,6 +3586,16 @@
 		)
 		(uuid "cb2251b6-5ad0-4f0f-9aa6-7e80f414fd3f")
 	)
+	(label "BUTTON4_GPIO"
+		(at 175.26 57.15 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "dde8b3c0-7523-472b-bf32-340777f58022")
+	)
 	(label "LED_end_GPIO"
 		(at 92.71 34.29 0)
 		(effects
@@ -3664,6 +3606,16 @@
 		)
 		(uuid "e24721b1-c4ff-4abd-82ed-942ea9681eee")
 	)
+	(label "BUTTON2_GPIO"
+		(at 175.26 36.83 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec8096a1-78b2-4c2b-bc7e-26fed7483b8e")
+	)
 	(label "BUZZER_GPIO"
 		(at 195.58 64.77 180)
 		(effects
@@ -3673,16 +3625,6 @@
 			(justify right bottom)
 		)
 		(uuid "ece376f6-b89c-456e-b800-b93405d6053c")
-	)
-	(label "Button8_GPIO"
-		(at 129.54 107.95 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "f541b3b1-ccbf-48aa-904a-13d128adf5dc")
 	)
 	(label "LED_green_GPIO"
 		(at 63.5 63.5 0)
@@ -3695,148 +3637,6 @@
 		(uuid "fb96dfc8-f801-44a1-a231-40f48481e367")
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 127 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "012a5ada-d024-4752-aff1-7e66f2ce0ab9")
-		(property "Reference" "R13"
-			(at 131.318 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 129.286 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-0710KL"
-			(at 127 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d407d3e1-78d8-4fd0-b5c1-744d6a35d599")
-		)
-		(pin "2"
-			(uuid "d300871a-d5cc-4221-98fa-988e3cccb61c")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "023b8137-639b-4aa5-9dd4-ec2bd32834c0")
-		(property "Reference" "#PWR015"
-			(at 149.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70aaa628-40cf-461a-93fb-ba5878cc55af")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 248.92 90.17 0)
 		(unit 1)
@@ -3846,7 +3646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04858508-822d-407d-9cb9-762673bbb4cd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0111"
 			(at 248.92 93.98 0)
 			(effects
 				(font
@@ -3896,7 +3696,73 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR05")
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "079b4756-381f-43e1-bb96-15637ef5af3f")
+		(property "Reference" "#PWR091"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e30228-1e78-4813-a7c2-2be9d863dd93")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -3912,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0860bcc0-ef43-4da3-b5f0-d6cbe0117429")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0101"
 			(at 95.25 64.77 0)
 			(effects
 				(font
@@ -3962,7 +3828,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR031")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3978,7 +3844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0886107c-17ff-4b43-8e75-6ff06038e5eb")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 87.3125 72.39 0)
 			(effects
 				(font
@@ -4048,7 +3914,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4064,7 +3930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0966402f-969a-4e6f-8b0c-babde83f0316")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0110"
 			(at 95.25 93.98 0)
 			(effects
 				(font
@@ -4114,41 +3980,43 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR029")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 57.15 0)
+		(lib_name "R_Small_US_1")
+		(lib_id "Device:R_Small_US")
+		(at 248.92 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12924819-cb42-4f7a-b929-e14ab498fad2")
-		(property "Reference" "#PWR011"
-			(at 149.86 63.5 0)
+		(uuid "16f55ea6-6137-4f97-a5a2-26b4bad3d4e7")
+		(property "Reference" "R20"
+			(at 251.46 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 62.23 0)
+		(property "Value" "R_Photo"
+			(at 251.46 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 57.15 0)
+			(at 248.92 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,8 +4024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 149.86 57.15 0)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/feztek/FZ2812-5050/18647407?s=N4IgTCBcDaIGIC0wA4CMYC0BWADLkAugL5A"
+			(at 248.92 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,8 +4033,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 57.15 0)
+		(property "Description" "Photoresistor"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FZ2812-5050"
+			(at 248.92 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,12 +4052,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e0bdfcc-2e03-4157-936e-4a5d8dc2e9f3")
+			(uuid "a15eddcc-e3b6-4582-805e-9e2b61e393c6")
+		)
+		(pin "2"
+			(uuid "2778422e-0a21-430f-bb56-e21110a624b0")
+		)
+		(instances
+			(project ""
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 127 72.39 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18dcf0d2-9217-44ba-a445-d3a52fe442fd")
+		(property "Reference" "R28"
+			(at 131.318 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 129.286 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 127 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e51502-0f47-410c-9846-237f40a93c27")
+		)
+		(pin "2"
+			(uuid "49c388e1-ed70-496d-b241-d0c532e7aade")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR011")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4195,7 +4152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b604d86-8bf1-47f5-af95-7997cf409da9")
-		(property "Reference" "R4"
+		(property "Reference" "R27"
 			(at 198.12 60.452 90)
 			(effects
 				(font
@@ -4256,139 +4213,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b7e7177-f38d-4b27-87e0-8e985497d06f")
-		(property "Reference" "#PWR09"
-			(at 165.1 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e93874c3-e4df-47d4-a19b-e205667f0e1a")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 127 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dcc4232-5a36-484a-ae80-9ff6c36c6009")
-		(property "Reference" "#PWR018"
-			(at 127 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cda50004-6ab4-4aa0-989d-90a3c328f827")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR018")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "227cfcf6-e409-408f-846a-e41c37171fdb")
-		(property "Reference" "R5"
+		(property "Reference" "R19"
 			(at 200.914 27.94 90)
 			(effects
 				(font
@@ -4464,7 +4289,73 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R5")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22df9bde-0339-43e4-8cd0-00210387652a")
+		(property "Reference" "#PWR099"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f529452d-9c4b-4cea-a470-fbf4c09c94b6")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "243e8d86-0128-40b1-8456-4259a749d73b")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 87.3125 86.36 0)
 			(effects
 				(font
@@ -4550,7 +4441,84 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "D7")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 52.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "246f893a-9259-4d68-9593-ed41adf48689")
+		(property "Reference" "R25"
+			(at 168.148 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.116 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 163.83 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b464e1f1-6ed8-4866-a824-9e38dcbc609b")
+		)
+		(pin "2"
+			(uuid "c5d04e33-f3c1-4409-a4f3-5fc0f2b923a6")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4566,7 +4534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2618897d-2c10-4878-98ad-0235a2624e69")
-		(property "Reference" "MK2"
+		(property "Reference" "MK1"
 			(at 200.66 41.3384 0)
 			(effects
 				(font
@@ -4629,7 +4597,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "MK2")
+					(reference "MK1")
 					(unit 1)
 				)
 			)
@@ -4645,7 +4613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266e8757-006c-4830-b738-5f22d90c2cc0")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR089"
 			(at 80.01 30.48 0)
 			(effects
 				(font
@@ -4695,7 +4663,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR026")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -4703,7 +4671,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 38.1 180)
+		(at 127 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4711,8 +4679,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27d2e9f0-6caf-4078-86ec-f91c04b2ec43")
-		(property "Reference" "#PWR020"
-			(at 127 34.29 0)
+		(property "Reference" "#PWR090"
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4689,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 127 43.18 0)
+			(at 127 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 38.1 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 38.1 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 38.1 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,84 +4729,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2828a8f0-7c20-4a78-a1ac-f27496574361")
-		(property "Reference" "SW1"
-			(at 157.48 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 157.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 157.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 157.48 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4937f77-1dc5-48b1-a830-9a7eaddf7f65")
-		)
-		(pin "1"
-			(uuid "48be8244-8ed1-4240-87a4-86e5e9af45f5")
-		)
-		(instances
-			(project ""
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW1")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -4854,7 +4745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "292b499d-2d55-419f-a629-b5702e44c0ee")
-		(property "Reference" "R2"
+		(property "Reference" "R23"
 			(at 251.46 41.9099 0)
 			(effects
 				(font
@@ -4917,83 +4808,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 165.1 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fedfd5f-64e2-4c73-8909-b2df4b6b51c4")
-		(property "Reference" "R8"
-			(at 169.418 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 167.386 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 165.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 165.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-0710KL"
-			(at 165.1 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37c62e73-3ee3-4e99-9920-8d0aebfd283d")
-		)
-		(pin "2"
-			(uuid "3b480028-f32e-47be-9185-09bb00a86b73")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R8")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5008,7 +4823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35a00e1f-a7e4-42c7-86a6-bf3c2d9e3e04")
-		(property "Reference" "R16"
+		(property "Reference" "R31"
 			(at 80.01 88.392 90)
 			(effects
 				(font
@@ -5069,7 +4884,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R16")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5085,7 +4900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38165bb7-79ee-4a06-a4a1-c33777a946fa")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0105"
 			(at 199.39 76.2 0)
 			(effects
 				(font
@@ -5135,7 +4950,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR025")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5143,15 +4958,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 165.1 59.69 0)
+		(at 163.83 72.39 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3bdc5480-a112-4a64-abf6-94c8b807dbdf")
-		(property "Reference" "R7"
-			(at 169.418 59.69 90)
+		(uuid "3d1a2460-d650-4a44-8761-c8389e4a4f83")
+		(property "Reference" "R29"
+			(at 168.148 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +4975,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 167.386 59.69 90)
+			(at 166.116 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +4983,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 59.69 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +4992,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 165.1 59.69 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5001,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 165.1 59.69 0)
+			(at 163.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5010,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-0710KL"
-			(at 165.1 59.69 90)
+			(at 163.83 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,158 +5019,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "02503f32-d230-48d8-8618-36b8622d41a4")
+			(uuid "7dbb2a28-69f2-48bb-8f19-21672308fc8b")
 		)
 		(pin "2"
-			(uuid "fdc45cc9-68ca-4202-9b05-7fcd5f695e5c")
+			(uuid "b4b15985-c9e8-4db0-9a20-49fe98d75490")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42598dc2-a368-4e91-8cc9-0b5b0d777ce2")
-		(property "Reference" "#PWR023"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2320380-c036-4fa0-a7e0-fc8d39b362a9")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 119.38 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "453a37be-00be-423d-987e-9cf6f7b00962")
-		(property "Reference" "SW6"
-			(at 119.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 119.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abbb84fb-8577-4d23-8aaf-1936e92e4990")
-		)
-		(pin "1"
-			(uuid "ae8fb1b7-d167-405c-9122-32d6a6761a37")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW6")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5369,7 +5042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51560cd4-1c11-4a08-bb2f-0e352eb0dcc8")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 88.9 57.404 0)
 			(effects
 				(font
@@ -5439,32 +5112,33 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 119.38 82.55 0)
+		(lib_id "power:GND")
+		(at 151.13 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "527885af-9f8b-4dbb-9c64-75ef45182478")
-		(property "Reference" "SW7"
-			(at 119.38 74.93 0)
+		(uuid "51e273da-7159-4ee9-83e4-5669b4f043f9")
+		(property "Reference" "#PWR0109"
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 119.38 77.47 0)
+		(property "Value" "GND"
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 77.47 0)
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,8 +5154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 119.38 77.47 0)
+		(property "Datasheet" ""
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,59 +5163,48 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1a61047-3506-4a95-b5df-ea3ade9f9d4b")
 		)
 		(pin "1"
-			(uuid "3f578cec-e875-4a2a-90d8-b257fa7f3931")
+			(uuid "4003bc96-2ceb-45b5-9143-0b8ec618070e")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW7")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 57.15 0)
+		(lib_id "power:GND")
+		(at 151.13 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57b4b184-0bfa-4833-84b1-a51648992c87")
-		(property "Reference" "SW2"
-			(at 157.48 49.53 0)
+		(uuid "5339c4a0-f04b-4ec7-99bb-93693a773cba")
+		(property "Reference" "#PWR0100"
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 157.48 52.07 0)
+		(property "Value" "GND"
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 52.07 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,8 +5220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 157.48 52.07 0)
+		(property "Datasheet" ""
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,34 +5229,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76b7e903-adaf-4c65-a2ea-a7496540c028")
 		)
 		(pin "1"
-			(uuid "959b8f40-8611-4902-90ed-e17ccfcd4030")
+			(uuid "00220c0e-6e2a-4a21-8f30-0d2e47113efd")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW2")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5608,7 +5259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57e714a2-6400-40a8-9340-b51c912a8158")
-		(property "Reference" "R14"
+		(property "Reference" "R26"
 			(at 80.01 59.182 90)
 			(effects
 				(font
@@ -5669,7 +5320,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R14")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5685,7 +5336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "597ea479-fea3-463b-b0e4-2cbe4da108bf")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0106"
 			(at 95.25 80.01 0)
 			(effects
 				(font
@@ -5735,7 +5386,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR030")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ac48ebd-ec24-4bfe-b941-4206520b3717")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR097"
 			(at 196.85 53.34 0)
 			(effects
 				(font
@@ -5801,7 +5452,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR07")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -5809,16 +5460,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 91.44 180)
+		(at 127 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5c7e4ad2-b0ee-42bb-8ec7-0f44c10b8224")
-		(property "Reference" "#PWR024"
-			(at 127 87.63 0)
+		(uuid "5e16782a-fe40-4ef6-8e7b-cda61f9f879c")
+		(property "Reference" "#PWR095"
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5478,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 127 96.52 0)
+			(at 127 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +5486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 91.44 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +5495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 91.44 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +5504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 91.44 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,89 +5513,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3061b1f-1575-42d5-8c0b-83c56131c183")
+			(uuid "069eb5f5-dfbc-45c4-92e5-9bcff94af570")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "602e4ff4-9727-4d0a-8213-34e502d930f8")
-		(property "Reference" "SW4"
-			(at 157.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 157.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 157.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 157.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7711562b-735f-4dbc-a34f-dcfb1fbd924c")
-		)
-		(pin "1"
-			(uuid "e766261a-62e5-4e40-bc0a-5e950c2f0db7")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW4")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -5960,7 +5534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6387c8bc-ef2c-41db-8be3-17a8f3ba92f4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0108"
 			(at 248.92 83.82 0)
 			(effects
 				(font
@@ -6010,7 +5584,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR03")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6018,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 29.21 0)
+		(at 114.3 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6026,8 +5600,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6424b942-7f24-4f26-8fdb-96b7a6e6d767")
-		(property "Reference" "#PWR019"
-			(at 114.3 35.56 0)
+		(property "Reference" "#PWR092"
+			(at 114.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +5610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 34.29 0)
+			(at 114.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +5618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 29.21 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +5627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 29.21 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +5636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 29.21 0)
+			(at 114.3 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +5650,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR019")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6092,7 +5666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6463582e-e0be-40ee-aa41-9849f5bc948e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR088"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -6142,118 +5716,40 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR01")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 165.1 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69229ef4-13c7-48c3-be8b-e71e9c3a3b5d")
-		(property "Reference" "R6"
-			(at 169.418 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 167.386 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-0710KL"
-			(at 165.1 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60b1d08b-1baa-4f74-926f-33215d30ae8b")
-		)
-		(pin "2"
-			(uuid "10e1cfb7-ce52-4e7a-8765-f08ad7969585")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 248.92 71.12 0)
+		(lib_id "Switch:SW_Push")
+		(at 156.21 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70b6e703-888b-4f5f-936f-d75747083d24")
-		(property "Reference" "RV1"
-			(at 246.38 69.8499 0)
+		(uuid "68f845cf-347d-45fd-8aae-60d6effcf99b")
+		(property "Reference" "SW4"
+			(at 156.21 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 246.38 72.3899 0)
+		(property "Value" "SW_Push"
+			(at 156.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 71.12 0)
+			(at 156.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,8 +5757,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 248.92 71.12 0)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
+			(at 156.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,8 +5766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 248.92 71.12 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 156.21 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,19 +5775,168 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "8d425d29-468c-485f-b1a7-d7d641cfb0cf")
-		)
-		(pin "1"
-			(uuid "66714fd9-5ac0-4a4b-a2e1-179b17ece663")
+		(property "MPN" "PTS636SM43SMTR LFS"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "bab2fdeb-4afe-4e57-b894-fd4d6f66eda4")
+			(uuid "74ba7251-445e-44d6-94cf-a5c72e4742c4")
+		)
+		(pin "1"
+			(uuid "c76f336a-4903-4ff3-938f-ce8b523ff0c3")
 		)
 		(instances
-			(project ""
+			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "RV1")
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 156.21 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b78f6da-4c26-4219-a283-4189e4fac4f1")
+		(property "Reference" "SW8"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS636SM43SMTR LFS"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec948f8f-3944-4ca5-bd9f-e0b4e35a1b4b")
+		)
+		(pin "1"
+			(uuid "d0344f65-18ef-40ff-857e-f39b6bd47e94")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed6e966-bcd1-4efc-a59f-484178bb14a7")
+		(property "Reference" "#PWR093"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a0ebddb-ac4b-43f0-a6e8-0c9c4b16c00f")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6300,13 +5945,14 @@
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 127 31.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7be204f1-c223-46c8-99d3-c5e7f29f0ef4")
-		(property "Reference" "R11"
+		(property "Reference" "R21"
 			(at 131.318 31.75 90)
 			(effects
 				(font
@@ -6367,7 +6013,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R11")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e1ebf38-8f18-4d16-b5e4-67c6eaa4feb8")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 87.3125 102.87 0)
 			(effects
 				(font
@@ -6453,7 +6099,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6469,7 +6115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f6d50f0-55a4-4acd-97f0-c53d482466ca")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0102"
 			(at 248.92 68.58 0)
 			(effects
 				(font
@@ -6519,7 +6165,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR04")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6527,15 +6173,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 127 59.69 0)
+		(at 127 52.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "82984e11-309e-4141-abe6-bd4548fb1486")
-		(property "Reference" "R12"
-			(at 131.318 59.69 90)
+		(uuid "820cdc24-5c20-4acd-b004-ac716bf68c0f")
+		(property "Reference" "R24"
+			(at 131.318 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6190,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 129.286 59.69 90)
+			(at 129.286 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 59.69 0)
+			(at 127 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6207,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 127 59.69 0)
+			(at 127 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6216,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 127 59.69 0)
+			(at 127 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6225,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-0710KL"
-			(at 127 59.69 90)
+			(at 127 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,15 +6234,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d139fbbd-12f5-485d-8501-9ea0b03b5d3d")
+			(uuid "894446d8-ab67-473d-af21-1d52adde86f3")
 		)
 		(pin "2"
-			(uuid "06f40603-af81-4f9d-a9a8-aafd90e70ed3")
+			(uuid "b5fc4c48-cf13-4b0c-88bc-83143f1219b9")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R12")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6603,16 +6250,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 165.1 116.84 180)
+		(at 163.83 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88d4e6a0-29d6-4e07-94aa-c786560e64d4")
-		(property "Reference" "#PWR016"
-			(at 165.1 113.03 0)
+		(uuid "82bed7bc-7798-4e6b-bbac-b688814b3d2a")
+		(property "Reference" "#PWR096"
+			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6268,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 165.1 121.92 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 116.84 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 116.84 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 116.84 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,12 +6303,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d160bf1-5a4c-4e2c-917c-5c8620deceba")
+			(uuid "8fd193e9-b838-4ae5-927f-0c49c020c6c3")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR016")
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 248.92 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d4b615-72ce-4c31-8296-25d9b6a0a1af")
+		(property "Reference" "RV1"
+			(at 246.38 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer_US"
+			(at 246.38 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 248.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e2ac4cc3-9e95-49ef-8147-999651c7493f")
+		)
+		(pin "1"
+			(uuid "1b520dbb-3295-4aae-a684-d1b9f5ab214c")
+		)
+		(pin "2"
+			(uuid "dc44546c-c0dd-478e-b903-4f6c449e1f50")
+		)
+		(instances
+			(project ""
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -6669,16 +6389,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 119.38 107.95 0)
+		(at 119.38 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "90a10141-d74e-4e90-92d3-865becf33f77")
-		(property "Reference" "SW8"
-			(at 119.38 100.33 0)
+		(uuid "869d9a43-aad1-4dda-92b0-07b8dfd51edc")
+		(property "Reference" "SW5"
+			(at 119.38 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6406,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 119.38 102.87 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 102.87 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 119.38 102.87 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6432,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 107.95 0)
+			(at 119.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6441,7 @@
 			)
 		)
 		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 119.38 107.95 0)
+			(at 119.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,40 +6450,41 @@
 			)
 		)
 		(pin "2"
-			(uuid "9fdedccb-a454-4231-8fbb-49356ad8e45c")
+			(uuid "45994a35-0e81-4f34-8545-4579e5f778f8")
 		)
 		(pin "1"
-			(uuid "ca353591-473f-4a3f-b5fe-45b0ef4a58e0")
+			(uuid "650a1250-4223-41a6-93b1-d8a1e0cf447e")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW8")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 119.38 29.21 0)
+		(lib_id "power:+3V3")
+		(at 163.83 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "948b1f0d-7999-4581-bea2-88ebb1cdc29c")
-		(property "Reference" "SW5"
-			(at 119.38 21.59 0)
+		(uuid "8911c19f-b04e-4962-8b7d-144a0f3e0975")
+		(property "Reference" "#PWR0104"
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 119.38 24.13 0)
+		(property "Value" "+3V3"
+			(at 163.83 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +6492,72 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 24.13 0)
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44c31828-e977-4744-a24e-6ef827dba3f3")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 119.38 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "948b1f0d-7999-4581-bea2-88ebb1cdc29c")
+		(property "Reference" "SW3"
+			(at 119.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 119.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6566,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 119.38 24.13 0)
+			(at 119.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +6575,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 29.21 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +6584,7 @@
 			)
 		)
 		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 119.38 29.21 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6601,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6901,72 +6687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96bc8ff0-6c39-4608-aecf-4f4caf10f800")
-		(property "Reference" "#PWR013"
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca78e82d-0d98-4633-b63b-17faf523d734")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_Optical:TSDP343xx")
 		(at 39.37 35.56 0)
 		(unit 1)
@@ -6976,7 +6696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9880b01a-99a6-42b3-b9d4-6924dbfdda9b")
-		(property "Reference" "U1"
+		(property "Reference" "U7"
 			(at 37.635 24.13 0)
 			(effects
 				(font
@@ -7031,7 +6751,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "U1")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7048,7 +6768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c53f680-56b3-469b-945a-8750af73e68a")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 91.44 27.8698 0)
 			(effects
 				(font
@@ -7117,164 +6837,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Photo")
-		(at 248.92 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e542cbf-f7ec-4d68-be74-dbf095ee34cc")
-		(property "Reference" "R1"
-			(at 251.46 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Photo"
-			(at 251.46 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/feztek/FZ2812-5050/18647407?s=N4IgTCBcDaIGIC0wA4CMYC0BWADLkAugL5A"
-			(at 248.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Photoresistor"
-			(at 248.92 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FZ2812-5050"
-			(at 248.92 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ee34055-a215-4165-8c5f-167de81ad730")
-		)
-		(pin "1"
-			(uuid "842e6758-4b85-4d4b-b6b1-1ca2020c1116")
-		)
-		(instances
-			(project ""
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a61699a9-9925-4420-ab41-e56a4016af3d")
-		(property "Reference" "SW3"
-			(at 157.48 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS636SM43SMTR LFS"
-			(at 157.48 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c374be94-50f0-4cc2-a522-c5216fac5f2b")
-		)
-		(pin "1"
-			(uuid "9ca9891a-4603-4ec3-81ab-b560fa0de88f")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "SW3")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7289,7 +6852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aecfe279-e507-4c48-ad1f-6cea121b5e3b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR087"
 			(at 196.85 25.4 0)
 			(effects
 				(font
@@ -7340,7 +6903,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR08")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7355,7 +6918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b118ad7b-7aa6-4a61-8fc0-74e137145050")
-		(property "Reference" "R3"
+		(property "Reference" "R32"
 			(at 204.47 97.282 90)
 			(effects
 				(font
@@ -7416,48 +6979,40 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R3")
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 127 110.49 0)
+		(lib_id "Switch:SW_Push")
+		(at 156.21 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4eb0eea-09d2-410b-9603-f5d08330c069")
-		(property "Reference" "R10"
-			(at 131.318 110.49 90)
+		(fields_autoplaced yes)
+		(uuid "ca6aef0c-8e5e-4b8a-a0a1-f0958f83fbe9")
+		(property "Reference" "SW6"
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 129.286 110.49 90)
+		(property "Value" "SW_Push"
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 127 110.49 0)
+		(property "Footprint" ""
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,8 +7020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 127 110.49 0)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,8 +7029,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-0710KL"
-			(at 127 110.49 90)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,290 +7038,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3ec2cbe3-6653-4ff7-b01f-815bda19397d")
+		(property "MPN" "PTS636SM43SMTR LFS"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "79ed36be-db67-4f72-bf46-517203919e88")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6048405-5755-46de-9b87-03edf1f49cd0")
-		(property "Reference" "#PWR012"
-			(at 165.1 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "f3f400b3-6237-4da9-864e-fa18103006fd")
 		)
 		(pin "1"
-			(uuid "031c218f-243e-4c08-b770-8fa2275def8f")
+			(uuid "c510b48d-6fa9-4a7a-ae29-bb073ccd242f")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 165.1 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be08f1a5-3b7f-4186-aab4-5f4af47c48a7")
-		(property "Reference" "R9"
-			(at 169.418 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 167.386 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 165.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-0710KL"
-			(at 165.1 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b89b5fca-8866-4663-8016-f0d0adbc3234")
-		)
-		(pin "2"
-			(uuid "423e7e7c-cf4a-453e-979f-2b112b4ddd60")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c180e348-a8db-4ea7-aba5-d54c6015362e")
-		(property "Reference" "#PWR017"
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b5f7c4f-e062-4421-ad91-b22548f1135e")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7636be1-d784-4553-a844-f2bad3b19189")
-		(property "Reference" "#PWR010"
-			(at 149.86 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47992391-8b61-427c-8364-728a03c9f795")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR010")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -7782,7 +7072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1735a6-87db-4176-8c50-ed0b1f6a5526")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0113"
 			(at 209.55 109.22 0)
 			(effects
 				(font
@@ -7832,24 +7122,24 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR036")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 91.44 180)
+		(lib_id "power:GND")
+		(at 114.3 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d01cb827-a10d-4760-a22e-f40aac6c424e")
-		(property "Reference" "#PWR014"
-			(at 165.1 87.63 0)
+		(uuid "cdefae0c-ba69-4ee3-9da5-877d171c2d94")
+		(property "Reference" "#PWR0107"
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,8 +7147,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 165.1 96.52 0)
+		(property "Value" "GND"
+			(at 114.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 91.44 0)
+			(at 114.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +7165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 91.44 0)
+			(at 114.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,8 +7173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,19 +7183,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "35848b7b-2fa0-41c1-aefe-797603a39ee7")
+			(uuid "9ffda56e-09e3-4f9f-a35b-2a955103171d")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR014")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "Device:R_Potentiometer_US")
 		(at 248.92 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7913,7 +7203,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d82ea1b1-4a6c-4c3a-b291-aefd24b4d597")
+		(uuid "d85d3704-cc55-4044-86b7-de15dbbbfb59")
 		(property "Reference" "RV2"
 			(at 246.38 93.9799 0)
 			(effects
@@ -7923,7 +7213,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "R_Potentiometer_US"
 			(at 246.38 96.5199 0)
 			(effects
 				(font
@@ -7950,7 +7240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "Potentiometer, US symbol"
 			(at 248.92 95.25 0)
 			(effects
 				(font
@@ -7960,16 +7250,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "ea4e84ce-4004-4295-b785-2f8b11425668")
+			(uuid "e2ac4cc3-9e95-49ef-8147-999651c7493f")
 		)
 		(pin "1"
-			(uuid "58d1ac0d-6e37-4c2c-863b-b6f7a42463f3")
+			(uuid "1b520dbb-3295-4aae-a684-d1b9f5ab214c")
 		)
 		(pin "2"
-			(uuid "1aea4a48-b7e1-4442-a689-cb8c41b19dd1")
+			(uuid "dc44546c-c0dd-478e-b903-4f6c449e1f50")
 		)
 		(instances
-			(project "zbook"
+			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
 					(reference "RV2")
 					(unit 1)
@@ -8060,72 +7350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd5adcce-d54f-4fb4-8f12-80adf39d4f8c")
-		(property "Reference" "#PWR021"
-			(at 114.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4b28aab-df9f-482e-bbe9-73711f97afbb")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 80.01 109.22 90)
 		(unit 1)
@@ -8134,7 +7358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd834b31-76f0-4d46-a1d8-581c55bc87df")
-		(property "Reference" "R17"
+		(property "Reference" "R33"
 			(at 80.01 104.902 90)
 			(effects
 				(font
@@ -8195,7 +7419,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R17")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8210,7 +7434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dff5ca02-5d36-4101-b091-2c2e69a50186")
-		(property "Reference" "R15"
+		(property "Reference" "R30"
 			(at 80.01 74.422 90)
 			(effects
 				(font
@@ -8271,73 +7495,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 127 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4213ea0-43df-4f41-9e94-55b34517d475")
-		(property "Reference" "#PWR022"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c2716cb-a6a3-4970-870c-90fc10f994c2")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR022")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8352,7 +7510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5bfe2a3-59ae-4fd1-99f0-3b4b4a69493d")
-		(property "Reference" "C1"
+		(property "Reference" "C41"
 			(at 203.2 26.67 90)
 			(effects
 				(font
@@ -8413,7 +7571,84 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "C1")
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 31.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9608a28-104d-4397-b8dc-d069d20aaac8")
+		(property "Reference" "R22"
+			(at 168.148 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.116 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 163.83 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "727e5fc7-439a-45bb-889f-aaad286a961d")
+		)
+		(pin "2"
+			(uuid "651603e5-f34c-4600-a43e-394bf2b0423c")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8429,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efbb6c81-c0b4-48ca-aabb-028003ba2492")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0114"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -8479,7 +7714,84 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR028")
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 119.38 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f70c80b4-757c-4cfb-b6a8-b9708e32a901")
+		(property "Reference" "SW7"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723?s=N4IgTCBcDaIAoBUDKA2AzCpBZALG7CASgAQAyAYkiALoC%2BQA"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS636SM43SMTR LFS"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8da9b057-62f9-4c99-ba7c-d14baa8bd397")
+		)
+		(pin "1"
+			(uuid "92f72d73-92bc-418c-a871-db4c8c47d422")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -8495,7 +7807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc72a528-b2b4-48bc-a41f-603e53957950")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR098"
 			(at 248.92 53.34 0)
 			(effects
 				(font
@@ -8545,7 +7857,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR02")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -8561,7 +7873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe0b7f15-3327-4795-a134-688e8d9dc84d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0112"
 			(at 248.92 107.95 0)
 			(effects
 				(font
@@ -8611,7 +7923,73 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR06")
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 127 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe2cff11-357f-4188-ba9a-1a2b45abee33")
+		(property "Reference" "#PWR0103"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b7ad13-f922-4c89-8620-bebea4172d93")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8627,7 +8005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd35f8b-0957-464c-8f8e-04768bfc73de")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR094"
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -8677,7 +8055,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR027")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
