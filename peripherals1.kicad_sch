@@ -4612,7 +4612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/feztek/FZ2812-5050/18647407?s=N4IgTCBcDaIGIC0wA4CMYC0BWADLkAugL5A"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/advanced-photonix/PDV-P8103/480610?s=N4IgTCBcDaIAoBEBqBaOAOAjABgMwgF0BfIA"
 			(at 248.92 52.07 0)
 			(effects
 				(font
@@ -4630,7 +4630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FZ2812-5050"
+		(property "MPN" "PDV-P8103"
 			(at 248.92 52.07 0)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 		(dnp no)
 		(uuid "227cfcf6-e409-408f-846a-e41c37171fdb")
 		(property "Reference" "R19"
-			(at 195.834 50.8 90)
+			(at 189.23 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4825,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 193.802 50.8 90)
+			(at 187.198 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
