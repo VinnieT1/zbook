@@ -17,8 +17,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
+			(property "Reference" "BZ1"
+				(at 3.81 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				)
 			)
 			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
+				(at 3.81 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,8 +44,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
+			(property "Datasheet" "https://www.digikey.com.br/en/products/detail/tdk-corporation/PS1440P02BT/2236828"
+				(at 0.254 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Buzzer, polarized"
+			(property "Description" "BUZZER PIEZO 3V 14MM TH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PS1440P02BT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,30 +90,6 @@
 				)
 			)
 			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start 0 3.175)
 					(mid 3.1612 0)
@@ -3155,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 113.03) (xy 224.79 114.3)
+			(xy 224.79 115.57) (xy 224.79 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 118.11) (xy 240.03 118.11)
+			(xy 236.22 120.65) (xy 240.03 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 93.98) (xy 231.14 93.98)
+			(xy 228.6 96.52) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3490,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 97.79) (xy 224.79 100.33)
+			(xy 224.79 100.33) (xy 224.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3525,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 118.11) (xy 231.14 118.11)
+			(xy 228.6 120.65) (xy 231.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3885,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 240.03 93.98)
+			(xy 236.22 96.52) (xy 240.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4005,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 87.63) (xy 224.79 90.17)
+			(xy 224.79 90.17) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4065,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 121.92) (xy 224.79 124.46)
+			(xy 224.79 124.46) (xy 224.79 127)
 		)
 		(stroke
 			(width 0)
@@ -4119,7 +4104,7 @@
 	)
 	(global_label "POTENTIOMETER1_ADC"
 		(shape output)
-		(at 240.03 93.98 0)
+		(at 240.03 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4129,7 +4114,7 @@
 		)
 		(uuid "14d6f063-b32a-4a75-a0ab-9639525c9a48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7584 93.98 0)
+			(at 263.7584 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4390,7 @@
 	)
 	(global_label "POTENTIOMETER2_ADC"
 		(shape output)
-		(at 240.03 118.11 0)
+		(at 240.03 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4415,7 +4400,7 @@
 		)
 		(uuid "b7d92189-1dc9-466e-8ca5-da9da81fd89c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.6471 118.11 0)
+			(at 262.6471 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4521,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 224.79 113.03 0)
+		(at 224.79 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4545,7 +4530,7 @@
 		(fields_autoplaced yes)
 		(uuid "04858508-822d-407d-9cb9-762673bbb4cd")
 		(property "Reference" "#PWR0111"
-			(at 224.79 116.84 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4539,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 224.79 107.95 0)
+			(at 224.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 113.03 0)
+			(at 224.79 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 113.03 0)
+			(at 224.79 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 113.03 0)
+			(at 224.79 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
 			(at 229.87 53.34 0)
 			(effects
 				(font
@@ -5582,7 +5567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "peripherals1:CMEJ-0415_CUD"
 			(at 172.72 68.58 90)
 			(effects
 				(font
@@ -6053,7 +6038,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 233.68 118.11 90)
+		(at 233.68 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6061,7 +6046,7 @@
 		(dnp no)
 		(uuid "485359c3-2cbb-4240-9fd0-a7530cabb975")
 		(property "Reference" "R39"
-			(at 230.378 117.094 90)
+			(at 230.378 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6054,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 237.236 117.094 90)
+			(at 237.236 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6062,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 233.68 118.11 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +6071,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RT0402FRE07500RL/17011324"
-			(at 233.68 118.11 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6080,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 233.68 118.11 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6089,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07500RL"
-			(at 233.68 118.11 90)
+			(at 233.68 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 100.33 0)
+		(at 224.79 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6719,7 +6704,7 @@
 		(fields_autoplaced yes)
 		(uuid "6387c8bc-ef2c-41db-8be3-17a8f3ba92f4")
 		(property "Reference" "#PWR0107"
-			(at 224.79 106.68 0)
+			(at 224.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +6713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 105.41 0)
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 100.33 0)
+			(at 224.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 100.33 0)
+			(at 224.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +6739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 100.33 0)
+			(at 224.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7408,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 224.79 87.63 0)
+		(at 224.79 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7432,7 +7417,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f6d50f0-55a4-4acd-97f0-c53d482466ca")
 		(property "Reference" "#PWR0102"
-			(at 224.79 91.44 0)
+			(at 224.79 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7426,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 224.79 82.55 0)
+			(at 224.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +7434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 87.63 0)
+			(at 224.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 87.63 0)
+			(at 224.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 87.63 0)
+			(at 224.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7617,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 224.79 93.98 0)
+		(at 224.79 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7641,15 +7626,6 @@
 		(fields_autoplaced yes)
 		(uuid "84d4b615-72ce-4c31-8296-25d9b6a0a1af")
 		(property "Reference" "RV1"
-			(at 222.25 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Pot_US"
 			(at 222.25 95.2499 0)
 			(effects
 				(font
@@ -7658,8 +7634,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "R_Pot_US"
+			(at 222.25 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"
-			(at 224.79 93.98 0)
+			(at 224.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 93.98 0)
+			(at 224.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7662,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 224.79 93.98 0)
+			(at 224.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 192.405 91.44 90)
 			(effects
 				(font
@@ -7894,8 +7879,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/murata-electronics/PKHPS0013E4000-A2/16399967?s=N4IgTCBcDaIAoGkAScDKAGdBGAzAUQBZN0BaAQQgF0BfIA"
-			(at 192.405 91.44 90)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/tdk-corporation/PS1440P02BT/2236828"
+			(at 193.294 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" "BUZZER PIEZO 3V 14MM TH"
 			(at 193.04 93.98 0)
 			(effects
 				(font
@@ -7912,7 +7897,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PKHPS0013E4000-A2"
+		(property "MPN" "PS1440P02BT"
 			(at 193.04 93.98 0)
 			(effects
 				(font
@@ -8187,7 +8172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "peripherals1:LED_FZ2812-5050"
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -8325,7 +8310,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 233.68 93.98 90)
+		(at 233.68 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8333,7 +8318,7 @@
 		(dnp no)
 		(uuid "a30415e4-1fdd-44b5-9590-5aa3739fd5db")
 		(property "Reference" "R38"
-			(at 230.378 92.964 90)
+			(at 230.378 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8326,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 237.236 92.964 90)
+			(at 237.236 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8334,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 233.68 93.98 0)
+			(at 233.68 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8343,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RT0402FRE07500RL/17011324"
-			(at 233.68 93.98 0)
+			(at 233.68 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8352,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 233.68 93.98 0)
+			(at 233.68 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +8361,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE07500RL"
-			(at 233.68 93.98 90)
+			(at 233.68 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,7 +8816,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 224.79 118.11 0)
+		(at 224.79 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8840,15 +8825,6 @@
 		(fields_autoplaced yes)
 		(uuid "d85d3704-cc55-4044-86b7-de15dbbbfb59")
 		(property "Reference" "RV2"
-			(at 222.25 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Pot_US"
 			(at 222.25 119.3799 0)
 			(effects
 				(font
@@ -8857,8 +8833,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "R_Pot_US"
+			(at 222.25 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"
-			(at 224.79 118.11 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 118.11 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8861,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 224.79 118.11 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 115.57 124.46 0)
 			(effects
 				(font
@@ -9227,7 +9212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 57.4548 0)
 			(effects
 				(font
@@ -9565,7 +9550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 124.46 0)
+		(at 224.79 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9574,7 +9559,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe0b7f15-3327-4795-a134-688e8d9dc84d")
 		(property "Reference" "#PWR0114"
-			(at 224.79 130.81 0)
+			(at 224.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 129.54 0)
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 124.46 0)
+			(at 224.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 124.46 0)
+			(at 224.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 124.46 0)
+			(at 224.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
