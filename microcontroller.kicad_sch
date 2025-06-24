@@ -7883,7 +7883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "microcontroller:QFN-80_EP_14x14_Pitch0.4mm"
 			(at 91.44 110.49 0)
 			(effects
 				(font
@@ -8339,7 +8339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "microcontroller:SMD Button"
 			(at 361.95 88.9 0)
 			(effects
 				(font
@@ -9768,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "microcontroller:XTAL_ABM8-272-T3"
 			(at 201.93 119.38 0)
 			(effects
 				(font
@@ -11694,7 +11694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "microcontroller:SMD Button"
 			(at 361.95 55.88 0)
 			(effects
 				(font
@@ -15848,7 +15848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "microcontroller:XTAL_ABM8-272-T3"
 			(at 91.44 187.96 0)
 			(effects
 				(font
