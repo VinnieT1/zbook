@@ -2898,6 +2898,18 @@
 		(uuid 67ace04b-992b-4f37-8a70-dd75280534cc)
 	)
 	(rectangle
+		(start 191.77 74.93)
+		(end 240.03 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c8f9877-1f8e-4a67-8dee-cacea81df324)
+	)
+	(rectangle
 		(start 212.09 35.56)
 		(end 260.35 73.66)
 		(stroke
@@ -2971,6 +2983,16 @@
 		)
 		(uuid "bd037f38-840d-426a-8d66-e38aeacfa829")
 	)
+	(text "BQ Bypass"
+		(exclude_from_sim no)
+		(at 199.644 77.216 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "dfec3d8b-ae60-4410-ae18-26a2771b8783")
+	)
 	(text "Power Supply"
 		(exclude_from_sim no)
 		(at 153.416 22.606 0)
@@ -2993,6 +3015,34 @@
 		)
 		(uuid "fb42a8c3-d1dd-4811-a9cf-98bd7f44aecc")
 	)
+	(text_box "Only fitted if BQ and battery are not fitted."
+		(exclude_from_sim no)
+		(at 215.9 80.01 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 160 70 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 160 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "2ca4916e-26b0-4e96-83b2-b24539ac8cf7")
+	)
+	(junction
+		(at 200.66 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b9ad4e2-1ce7-4743-8ba5-7eef1a37a215")
+	)
 	(junction
 		(at 95.25 86.36)
 		(diameter 0)
@@ -3004,6 +3054,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f36471a-4fa8-4fcc-805f-e3358f8e772a")
+	)
+	(junction
+		(at 210.82 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54fa0f93-4f4e-4aa9-999a-d8a464cfed91")
 	)
 	(junction
 		(at 55.88 72.39)
@@ -3022,12 +3078,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65b694fe-a915-4d03-ae2a-17e7a3a85eec")
-	)
-	(junction
-		(at 73.66 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e07f02f-0bbc-4a0d-923c-d9c7427721f9")
 	)
 	(junction
 		(at 55.88 142.24)
@@ -3052,12 +3102,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cae813d3-7cd6-48aa-a769-ddfcd088888b")
-	)
-	(junction
-		(at 73.66 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da4b985e-b00b-4221-9712-a6f7f6706f4a")
 	)
 	(junction
 		(at 55.88 80.01)
@@ -3105,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 73.66 59.69)
+			(xy 66.04 59.69) (xy 63.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3155,6 +3199,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 104.14) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e82e54b-b354-4a54-ad77-9a4beaf5c63a")
+	)
+	(wire
+		(pts
 			(xy 224.79 48.26) (xy 224.79 50.8)
 		)
 		(stroke
@@ -3165,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 57.15) (xy 73.66 59.69)
+			(xy 66.04 57.15) (xy 66.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3215,6 +3269,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 91.44) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261ea53d-9f8f-463e-a04c-2b2ca98cfdf7")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 137.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a839cf3-c13a-4504-85a3-cb679c25304e")
+	)
+	(wire
+		(pts
 			(xy 137.16 43.18) (xy 137.16 45.72)
 		)
 		(stroke
@@ -3235,23 +3309,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 119.38) (xy 73.66 121.92)
+			(xy 66.04 119.38) (xy 66.04 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "30381f9b-cd0d-4f49-a903-d335a66be01e")
-	)
-	(wire
-		(pts
-			(xy 73.66 60.96) (xy 73.66 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331dec94-ce41-4212-8a51-86c7f0c22473")
 	)
 	(wire
 		(pts
@@ -3262,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "33d5ec99-84c7-4799-9074-a06eb2298a10")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3475a2bc-1321-4794-8ef6-02e5ca7538e8")
 	)
 	(wire
 		(pts
@@ -3345,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aac967f-9a99-47e1-9a47-3f94323961ff")
+	)
+	(wire
+		(pts
 			(xy 104.14 93.98) (xy 106.68 93.98)
 		)
 		(stroke
@@ -3365,6 +3449,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 91.44) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce1282a-d7cf-49da-bcc0-d54927bf860b")
+	)
+	(wire
+		(pts
 			(xy 55.88 142.24) (xy 62.23 142.24)
 		)
 		(stroke
@@ -3382,6 +3476,16 @@
 			(type default)
 		)
 		(uuid "62d7f6b0-e809-4213-9210-c4249e90d965")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634b2b7e-1810-48b9-b7ad-49416b2402bd")
 	)
 	(wire
 		(pts
@@ -3445,13 +3549,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 45.72) (xy 104.14 57.15)
+			(xy 203.2 88.9) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "764d277e-56a1-493e-832b-e139942a00fe")
+		(uuid "788a2d55-e9dc-4f1b-b564-a6d25e55ee24")
 	)
 	(wire
 		(pts
@@ -3465,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 121.92) (xy 73.66 121.92)
+			(xy 66.04 121.92) (xy 63.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3495,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 53.34) (xy 237.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d28d38-231c-4016-a12b-40897f86e122")
+	)
+	(wire
+		(pts
 			(xy 55.88 77.47) (xy 55.88 80.01)
 		)
 		(stroke
@@ -3502,6 +3616,16 @@
 			(type default)
 		)
 		(uuid "88ea8a35-3330-4156-91e5-791557071669")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bcb0f7-bd61-4659-a320-97f2a16ab2ec")
 	)
 	(wire
 		(pts
@@ -3522,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "8c1e2e5c-8e7f-4abd-bd8e-dba808e33e2e")
+	)
+	(wire
+		(pts
+			(xy 245.11 53.34) (xy 254 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c27dc4c-796d-4ccf-aa98-9c7c72fd4f20")
 	)
 	(wire
 		(pts
@@ -3555,7 +3689,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 45.72) (xy 137.16 57.15)
+			(xy 132.08 96.52) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922d89f3-b334-4bf3-8050-7b160b13afbc")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 137.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3705,23 +3849,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 53.34) (xy 250.19 53.34)
+			(xy 200.66 86.36) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdbdbc2e-3331-43ff-89e7-0dda8f556ff8")
+		(uuid "cd47a1e0-d540-404a-9ac8-b629c55d76b9")
 	)
 	(wire
 		(pts
-			(xy 73.66 121.92) (xy 73.66 123.19)
+			(xy 210.82 86.36) (xy 210.82 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ced1a124-1492-4bdd-8be9-34453896dccc")
+		(uuid "cdb58aff-8ecc-4fba-8e2a-7115f0fd4b70")
 	)
 	(wire
 		(pts
@@ -3762,6 +3906,16 @@
 			(type default)
 		)
 		(uuid "d1d40720-5ee9-4f9b-a8e5-5c5664ee67b1")
+	)
+	(wire
+		(pts
+			(xy 104.14 48.26) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b7fc8a-9b6a-4d4f-8aa5-cb8da02ced46")
 	)
 	(wire
 		(pts
@@ -3844,7 +3998,7 @@
 		(uuid "34864158-618c-4305-84ea-398d9a4cf900")
 	)
 	(label "LDO_EN"
-		(at 250.19 53.34 180)
+		(at 254 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,15 +4137,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 73.66 125.73 0)
+		(at 92.71 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "030be148-b642-4b69-85a3-517d6c80bbcb")
-		(property "Reference" "C7"
-			(at 76.2 124.714 0)
+		(dnp yes)
+		(uuid "042c94c0-1746-490a-aded-8415c5767c1c")
+		(property "Reference" "C3"
+			(at 87.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,8 +4153,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 75.692 127.254 0)
+		(property "Value" "10u"
+			(at 86.868 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,8 +4162,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 125.73 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,8 +4171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 73.66 125.73 0)
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +4181,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 125.73 0)
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNG"
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,15 +4199,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "181fdde5-9658-4795-aa9e-92111aeb69bd")
+			(uuid "9d7122ff-6097-4e30-9eb7-1a6be03bcc6f")
 		)
 		(pin "2"
-			(uuid "4b85a78b-f28d-4ef8-9adc-95e214506d71")
+			(uuid "3ad6dbb3-0038-4f21-80a5-12eefc877e07")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4117,17 +4280,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 73.66 119.38 0)
+		(lib_id "power:GND")
+		(at 132.08 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1213f338-08c6-4840-b471-1e1cd7368aee")
-		(property "Reference" "#PWR024"
-			(at 73.66 123.19 0)
+		(uuid "06f1cd05-f513-4f8a-88ba-0a59a2629e74")
+		(property "Reference" "#PWR010"
+			(at 132.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,8 +4298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VBUS"
-			(at 73.66 114.3 0)
+		(property "Value" "GND"
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 119.38 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4316,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 119.38 0)
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afec7763-3b9a-419f-962c-cb1599005129")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 66.04 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1213f338-08c6-4840-b471-1e1cd7368aee")
+		(property "Reference" "#PWR024"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBUS"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 73.66 119.38 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4495,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "14b0b1ee-6609-431e-a295-fa608a85110c")
 		(property "Reference" "R6"
 			(at 143.51 98.298 0)
@@ -4342,7 +4571,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1621d73f-4cb4-4f7c-ab03-45a0cb83ffad")
 		(property "Reference" "U2"
@@ -4488,6 +4717,72 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 210.82 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22f183fe-cb12-4058-bfe5-93ee23729192")
+		(property "Reference" "#PWR0137"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBQ"
+			(at 208.534 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a97a68d-f820-417e-bf80-865edcf5a11c")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -4692,72 +4987,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ad76c22-80b9-4f90-9590-d30747730372")
-		(property "Reference" "#PWR010"
-			(at 73.66 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.756 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29c0a011-3394-449d-a93c-115b1bf76fcd")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 224.79 48.26 0)
 		(unit 1)
@@ -4830,7 +5059,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3f13a6fe-78aa-4ef5-91c5-7fc814844408")
 		(property "Reference" "R1"
 			(at 194.056 48.514 90)
@@ -4906,7 +5135,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41148654-f2c8-41e2-adbe-f14238317295")
 		(property "Reference" "J2"
@@ -5085,76 +5314,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 95.25 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412fa549-a041-4775-bb17-c3176e740d61")
-		(property "Reference" "C5"
-			(at 97.79 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 97.79 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98cce997-59b6-4fee-9e6f-6632354ab576")
-		)
-		(pin "2"
-			(uuid "a5c571bc-3fbc-47eb-bfbf-7a6e56c7a35e")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5916,7 +6075,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6736f0ae-ae24-4097-8e9d-e36b3e7cb915")
 		(property "Reference" "#PWR08"
 			(at 201.93 66.04 0)
@@ -5928,7 +6086,7 @@
 			)
 		)
 		(property "Value" "+VBQ"
-			(at 204.47 60.9599 0)
+			(at 199.136 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +6207,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 59.69 0)
+		(at 104.14 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6057,7 +6215,7 @@
 		(dnp no)
 		(uuid "6dd2aeb3-9010-4cfe-90b9-6bdc05e2ce04")
 		(property "Reference" "C1"
-			(at 99.06 58.42 0)
+			(at 99.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,8 +6223,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 95.758 60.96 0)
+		(property "Value" "10u"
+			(at 98.298 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,8 +6232,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 59.69 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,8 +6241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 59.69 0)
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6251,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 59.69 0)
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNG"
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,13 +6284,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 205.74 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ea2877e-02ad-48f5-859a-8cd9c3da3d26")
+		(property "Reference" "R37"
+			(at 202.438 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 208.788 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC1206JR-070RL/729184"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206JR-070RL"
+			(at 205.74 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c219ef29-a649-42f7-9069-2573fb51beb6")
+		)
+		(pin "1"
+			(uuid "69bb171d-8644-4603-b0cd-b76e3b61c981")
+		)
+		(instances
+			(project ""
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LG_R971-KN-1:LG_R971-KN-1")
 		(at 176.53 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72d98234-24fe-4bfa-bbda-09c88a9266c9")
 		(property "Reference" "D2"
@@ -6134,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Value" "LG R971-KN-1-0-20-R18"
+		(property "Value" "LG Q976.01-MGNI-35-1"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -6142,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LG_R971-KN-1:LEDC2012X80N"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6300,7 +6543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LG R971-KN-1-0-20-R18"
+		(property "MPN" "LG Q976.01-MGNI-35-1"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6399,7 +6642,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79012585-8d21-4ce1-9d38-37d28d171e66")
 		(property "Reference" "#PWR03"
 			(at 201.93 50.8 0)
@@ -6411,7 +6653,7 @@
 			)
 		)
 		(property "Value" "+VBQ"
-			(at 204.47 45.7199 0)
+			(at 199.136 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6707,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "838dfb4d-be41-4cd1-b977-7654ead208cd")
 		(property "Reference" "D1"
@@ -6476,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Value" "LG_R971-KN-1"
+		(property "Value" "LG Q976.01-MGNI-35-1"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -6484,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LG_R971-KN-1:LEDC2012X80N"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -6494,7 +6736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -6642,7 +6884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LG R971-KN-1-0-20-R18"
+		(property "MPN" "LG Q976.01-MGNI-35-1"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -6662,6 +6904,85 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "85775c79-e931-47c9-8ecc-5f0331049d6a")
+		(property "Reference" "C5"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 101.092 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNG"
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd808528-99ba-4a29-ba64-c16df5135376")
+		)
+		(pin "2"
+			(uuid "1066f6c0-beea-4ccd-81ca-d589ace7a61b")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6810,35 +7131,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 107.95 0)
+		(lib_id "power:VBUS")
+		(at 200.66 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3eead6d-d3f5-4705-9e55-d0521a71ba72")
-		(property "Reference" "C6"
-			(at 95.25 106.6862 0)
+		(uuid "a11974aa-e0c3-45c2-98bf-ed1c86cb71dc")
+		(property "Reference" "#PWR075"
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10uF"
-			(at 95.25 109.2262 0)
+		(property "Value" "+VBUS"
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 107.95 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,8 +7165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 107.95 0)
+		(property "Datasheet" ""
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,8 +7174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,85 +7184,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee5053ed-fc06-4310-96aa-94cc9c75b9fe")
-		)
-		(pin "2"
-			(uuid "fb166f5a-0ea5-4f01-b5a7-f283ab008995")
+			(uuid "920b6f1b-1f0e-4b85-868b-e7c49aaaf956")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 137.16 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3f16386-a574-4672-9b72-39053a0d3e15")
-		(property "Reference" "C2"
-			(at 139.7 58.4262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 139.7 60.9662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a75ceda-34bb-4534-a81d-041dbea9c65b")
-		)
-		(pin "2"
-			(uuid "63c8eba6-bc12-496e-979c-8c03d8ce435d")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C2")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7010,6 +7256,85 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab251eb6-736e-4060-8b9d-e54e1ef7416c")
+		(property "Reference" "C2"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 143.002 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNG"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "802aae2c-b469-4fc5-ad16-969dff3affea")
+		)
+		(pin "2"
+			(uuid "77d7077d-850e-46f0-8b86-b133134f862c")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7291,7 +7616,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 73.66 57.15 0)
+		(at 66.04 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7300,7 +7625,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd880fa0-ff60-4cc0-8d02-69aa70561723")
 		(property "Reference" "#PWR05"
-			(at 73.66 60.96 0)
+			(at 66.04 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7634,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 73.66 52.07 0)
+			(at 66.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 57.15 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 57.15 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 73.66 57.15 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7687,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bfc8d4a6-c3c8-46fd-b642-9b2879884058")
 		(property "Reference" "R3"
 			(at 194.056 63.754 90)
@@ -7438,7 +7763,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c7e47e23-d10a-440f-95b2-3af32baea6dd")
 		(property "Reference" "R5"
 			(at 135.382 98.298 0)
@@ -7579,6 +7904,161 @@
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 132.08 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cdcc78e5-f43b-436b-908b-e735c32b1b0a")
+		(property "Reference" "R39"
+			(at 127.762 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 129.794 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 132.08 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84703f8c-5bba-4662-92f1-dbc9600f1e79")
+		)
+		(pin "2"
+			(uuid "9fef4c2a-8b13-43b2-b58b-73d7b75ebc4b")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d2f87322-52b8-4b91-999a-666d28298070")
+		(property "Reference" "C4"
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 156.972 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNG"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00750311-4ab7-4adf-ad24-87e5294cf150")
+		)
+		(pin "2"
+			(uuid "6ad86313-0029-4a03-be6c-a6d78cb6c69f")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7895,6 +8375,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 205.74 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9662687-ae39-4859-9b16-673853dfcd3b")
+		(property "Reference" "R38"
+			(at 202.438 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 208.788 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC1206JR-070RL/729184"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206JR-070RL"
+			(at 205.74 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c67a8fb8-01ec-4f5a-89f1-e362b4507aac")
+		)
+		(pin "1"
+			(uuid "c47cf8eb-1d9a-4436-9019-0eb9df96edf8")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 175.26 81.28 0)
 		(unit 1)
@@ -7960,77 +8516,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 73.66 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eede0de5-d58d-4a81-8775-250e30b2c66a")
-		(property "Reference" "C3"
-			(at 76.2 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 75.692 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45eb33ae-180b-4195-9e5e-650277cc53fe")
-		)
-		(pin "2"
-			(uuid "a67b5f8d-4823-41ce-8ea8-6ffac58d4fed")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 240.03 53.34 270)
+		(at 242.57 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8038,7 +8525,7 @@
 		(dnp no)
 		(uuid "f6983795-15d0-42c7-af23-147f5d725023")
 		(property "Reference" "R36"
-			(at 240.03 50.8 90)
+			(at 239.014 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8533,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 240.03 48.26 90)
+			(at 245.11 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,7 +8541,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 53.34 0)
+			(at 242.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8550,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-071KL/726408"
-			(at 240.03 53.34 0)
+			(at 242.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8559,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 240.03 53.34 0)
+			(at 242.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8568,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-071KL"
-			(at 240.03 53.34 90)
+			(at 242.57 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,76 +8586,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 151.13 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa78f009-68dc-4791-9735-dacb327502d1")
-		(property "Reference" "C4"
-			(at 153.67 90.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 153.67 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d6a638c-acca-48ca-9b49-4af51d2fc01e")
-		)
-		(pin "2"
-			(uuid "f2e5c490-2550-43b9-8dff-9c22b518c5ac")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8310,72 +8727,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feaafdc0-47ae-472e-abcd-1adbd0ba68cd")
-		(property "Reference" "#PWR026"
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.756 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9bc85fd-17cc-4cdf-9633-b217b057e92f")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
