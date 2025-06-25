@@ -4411,7 +4411,7 @@
 		)
 	)
 	(global_label "LED_YELLOW_GPIO"
-		(shape passive)
+		(shape input)
 		(at 55.88 115.57 180)
 		(fields_autoplaced yes)
 		(effects
