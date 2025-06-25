@@ -3887,7 +3887,7 @@
 		(uuid "f8b67f2a-3455-4b66-9357-4a11b3470e7f")
 	)
 	(global_label "USB_PROBE_D+"
-		(shape passive)
+		(shape bidirectional)
 		(at 62.23 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3909,7 +3909,7 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape passive)
+		(shape bidirectional)
 		(at 62.23 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3931,7 +3931,7 @@
 		)
 	)
 	(global_label "USB_D+"
-		(shape passive)
+		(shape bidirectional)
 		(at 62.23 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3953,7 +3953,7 @@
 		)
 	)
 	(global_label "USB_PROBE_D-"
-		(shape passive)
+		(shape bidirectional)
 		(at 62.23 134.62 0)
 		(fields_autoplaced yes)
 		(effects

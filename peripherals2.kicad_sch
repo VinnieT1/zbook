@@ -2798,6 +2798,12 @@
 		(uuid "907e5a9c-2af7-4ac8-987d-d8b4b482fa52")
 	)
 	(junction
+		(at 82.55 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93227edb-b3df-41f3-8481-9f2f1b3e0d54")
+	)
+	(junction
 		(at 78.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4125,6 +4131,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 87.63) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa3ae61-4b20-45b1-a46c-3906a988aef0")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 86.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6486db-2e3e-48ff-b2cd-e2450bb81138")
+	)
+	(wire
+		(pts
 			(xy 78.74 54.61) (xy 78.74 52.07)
 		)
 		(stroke
@@ -4252,6 +4278,16 @@
 			(type default)
 		)
 		(uuid "de404d06-f13c-4d68-8527-7197c301e67d")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05e0a11-8333-4632-adc7-95c0a2a71834")
 	)
 	(wire
 		(pts
@@ -4385,6 +4421,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 97.79) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a8baa4-e2e7-426a-b7b4-4c77bf834c37")
+	)
+	(wire
+		(pts
 			(xy 96.52 85.09) (xy 96.52 99.06)
 		)
 		(stroke
@@ -4426,7 +4472,7 @@
 		)
 	)
 	(global_label "SD_CD{slash}DAT3"
-		(shape output)
+		(shape bidirectional)
 		(at 96.52 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4513,7 +4559,7 @@
 			)
 		)
 	)
-	(global_label "SPI_CS"
+	(global_label "SPI_DISPLAY_CS"
 		(shape input)
 		(at 105.41 147.32 180)
 		(fields_autoplaced yes)
@@ -4525,7 +4571,7 @@
 		)
 		(uuid "430431ef-c8be-432b-9336-bcec6ac59817")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8934 147.32 0)
+			(at 87.3662 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4581,7 @@
 			)
 		)
 	)
-	(global_label "SPI_CS"
+	(global_label "SPI_ACCEL_CS"
 		(shape input)
 		(at 184.15 58.42 0)
 		(fields_autoplaced yes)
@@ -4547,7 +4593,7 @@
 		)
 		(uuid "4a2fdf08-764c-480c-addf-f52faee8ca10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.5553 58.42 0)
+			(at 200.4399 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4604,7 @@
 		)
 	)
 	(global_label "SD_DAT0"
-		(shape output)
+		(shape bidirectional)
 		(at 96.52 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4822,7 +4868,7 @@
 		)
 	)
 	(global_label "SD_CMD"
-		(shape input)
+		(shape bidirectional)
 		(at 96.52 62.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4844,7 +4890,7 @@
 		)
 	)
 	(global_label "SD_DAT1"
-		(shape output)
+		(shape bidirectional)
 		(at 96.52 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4866,7 +4912,7 @@
 		)
 	)
 	(global_label "SD_DAT2"
-		(shape output)
+		(shape bidirectional)
 		(at 96.52 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4878,6 +4924,28 @@
 		(uuid "d5fb81ba-0258-48d1-a35f-3f2cbe21501c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.6633 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CD{slash}DAT3"
+		(shape bidirectional)
+		(at 80.01 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb1e0a6e-6dfc-47f8-aa9e-dd28f566f0fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2828 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,6 +7295,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 82.55 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "868c81b1-0683-4104-9b7c-af9ee6b7cb72")
+		(property "Reference" "R31"
+			(at 81.534 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 81.534 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-074K7L/726477"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-074K7L"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c287eaa-975b-4384-ab6e-0055c4e0a87b")
+		)
+		(pin "1"
+			(uuid "42dfacb5-20fa-4c64-a47b-fcc6558c00e5")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/e26c05ee-f364-47de-be04-e77902e037c8"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "peripherals2:DISPLAY_CONN")
 		(at 120.65 133.35 0)
 		(unit 1)
@@ -7845,6 +7991,72 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/e26c05ee-f364-47de-be04-e77902e037c8"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 82.55 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a781bcc-6b0f-4cf1-9767-0860130153b7")
+		(property "Reference" "#PWR0119"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f97a766-d572-4991-9084-4a2853e0fc4a")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/e26c05ee-f364-47de-be04-e77902e037c8"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
