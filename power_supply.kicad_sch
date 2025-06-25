@@ -5059,7 +5059,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3f13a6fe-78aa-4ef5-91c5-7fc814844408")
 		(property "Reference" "R1"
 			(at 194.056 48.514 90)
@@ -6366,7 +6366,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72d98234-24fe-4bfa-bbda-09c88a9266c9")
 		(property "Reference" "D2"
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Value" "LG R971-KN-1-0-20-R18"
+		(property "Value" "LG Q976.01-MGNI-35-1"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LG_R971-KN-1:LEDC2012X80N"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6543,7 +6543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LG R971-KN-1-0-20-R18"
+		(property "MPN" "LG Q976.01-MGNI-35-1"
 			(at 176.53 64.77 0)
 			(effects
 				(font
@@ -6707,7 +6707,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "838dfb4d-be41-4cd1-b977-7654ead208cd")
 		(property "Reference" "D1"
@@ -6718,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Value" "LG_R971-KN-1"
+		(property "Value" "LG Q976.01-MGNI-35-1"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -6726,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LG_R971-KN-1:LEDC2012X80N"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/ams-osram-usa-inc/LG-Q976-01-MGNI-35-1/21556493"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -6884,7 +6884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LG R971-KN-1-0-20-R18"
+		(property "MPN" "LG Q976.01-MGNI-35-1"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -7687,7 +7687,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bfc8d4a6-c3c8-46fd-b642-9b2879884058")
 		(property "Reference" "R3"
 			(at 194.056 63.754 90)
