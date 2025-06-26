@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 0 0 0)
 			(effects
 				(font
