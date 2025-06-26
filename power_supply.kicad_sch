@@ -340,7 +340,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "power_supply:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-1-P16-TR/24818576?s=N4IgTCBcDaIKoCkwAYC0BhVAJVBxVAygLIAqqAjKgArkBsqJASiALoC%2BQA"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -718,7 +718,64 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2223,7 +2280,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "power_supply:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -2232,7 +2289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-1-P16-TR/24818576?s=N4IgTCBcDaIKoCkwAYC0BhVAJVBxVAygLIAqqAjKgArkBsqJASiALoC%2BQA"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -2601,7 +2658,64 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4795,7 +4909,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "042c94c0-1746-490a-aded-8415c5767c1c")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 87.63 106.68 0)
 			(effects
 				(font
@@ -4858,7 +4972,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4873,7 +4987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0660806e-cb87-4f7f-b135-8c2795f83630")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 151.13 87.63 0)
 			(effects
 				(font
@@ -4924,7 +5038,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4940,7 +5054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f1cd05-f513-4f8a-88ba-0a59a2629e74")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR030"
 			(at 132.08 113.03 0)
 			(effects
 				(font
@@ -4990,7 +5104,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR010")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5005,7 +5119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "091375a9-b5c2-43f0-989a-1f6b8b3e47b8")
-		(property "Reference" "R43"
+		(property "Reference" "R11"
 			(at 178.308 106.934 90)
 			(effects
 				(font
@@ -5066,7 +5180,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R43")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5082,7 +5196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1213f338-08c6-4840-b471-1e1cd7368aee")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR035"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -5132,7 +5246,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR024")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5233,7 +5347,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "14b0b1ee-6609-431e-a295-fa608a85110c")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 143.51 98.298 0)
 			(effects
 				(font
@@ -5294,7 +5408,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1da32fa4-b3d5-4241-bd66-894f7e5dd7c1")
-		(property "Reference" "D12"
+		(property "Reference" "D4"
 			(at 172.72 114.046 0)
 			(effects
 				(font
@@ -5483,7 +5597,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D12")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5499,7 +5613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f9b9c36-3c5e-4b4c-bc14-7f19f87b9ae3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -5549,7 +5663,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5564,7 +5678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22f183fe-cb12-4058-bfe5-93ee23729192")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR019"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -5615,7 +5729,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0137")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5630,7 +5744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "282f2829-7173-42fc-90c3-ee975ea62771")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -5681,7 +5795,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "288aa6e3-967d-4277-bce7-85364e2d5b31")
-		(property "Reference" "R44"
+		(property "Reference" "R12"
 			(at 203.708 106.934 90)
 			(effects
 				(font
@@ -5757,7 +5871,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R44")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5772,7 +5886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29b86cd6-facd-4142-9164-85e80b6a47c1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -5823,7 +5937,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5838,7 +5952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e199a08-915e-4129-a22a-a42c340da987")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR026"
 			(at 166.37 109.22 0)
 			(effects
 				(font
@@ -5888,7 +6002,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0149")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5903,7 +6017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "312341bd-762e-4eea-99e9-1325296d17c9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -5954,7 +6068,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5969,7 +6083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3247e237-bbcb-4a6f-936f-7cad248768d1")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR028"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -6020,7 +6134,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0152")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6036,7 +6150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eec09a4-3cdc-4934-b209-5af956137195")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR034"
 			(at 237.49 116.84 0)
 			(effects
 				(font
@@ -6086,7 +6200,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0153")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6368,7 +6482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d53f43-77b9-4347-8cd8-d0d839eed676")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 54.356 63.754 90)
 			(effects
 				(font
@@ -6393,7 +6507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-071KL/726408"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
 			(at 57.15 64.77 0)
 			(effects
 				(font
@@ -6429,7 +6543,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6445,7 +6559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4816fd40-14f0-4904-9ca2-0c42cf84802a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR038"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -6495,7 +6609,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR028")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ab6d0ec-b379-4fdf-ac8e-7a1057c1c9b6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6561,7 +6675,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6642,7 +6756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55436248-bf64-41ad-aabc-a5854dd8cb5a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 92.71 116.84 0)
 			(effects
 				(font
@@ -6693,7 +6807,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6709,7 +6823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59dd2cff-9135-4030-85fa-fe84a0e45ce1")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR08"
 			(at 222.25 68.58 0)
 			(effects
 				(font
@@ -6759,7 +6873,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0136")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b20ca39-12e2-4a39-b3be-24ac31bf71d5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -6825,7 +6939,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6840,7 +6954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cd77231-dd31-4e7c-b803-1408475d504b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR037"
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -6891,7 +7005,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR027")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6906,7 +7020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60ffa067-3333-47ac-beb6-0ba71bdb1f1a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -6957,85 +7071,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 59.69 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "616501ea-d785-4b27-b828-a887bc6596ec")
-		(property "Reference" "D9"
-			(at 60.0075 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 60.0075 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/mcc-micro-commercial-components/SM5817PL-TP/1793251"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM5817PL-TP"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f52734a-092c-4882-84da-0f3655385e6a")
-		)
-		(pin "2"
-			(uuid "f6966815-924b-478c-a1f2-16be1e7e7200")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D9")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7050,7 +7086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "628c2675-72a5-4cf5-a8ae-ef427acdd92f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 104.14 104.14 0)
 			(effects
 				(font
@@ -7101,7 +7137,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7117,7 +7153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e2cf40-725d-4230-9a36-a9509be93d7a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR032"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -7167,7 +7203,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0135")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6736f0ae-ae24-4097-8e9d-e36b3e7cb915")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -7233,7 +7269,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7250,7 +7286,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6829d2cc-24aa-419d-9053-c9386a315143")
-		(property "Reference" "SW9"
+		(property "Reference" "SW1"
 			(at 229.87 48.26 0)
 			(effects
 				(font
@@ -7275,7 +7311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/same-sky-formerly-cui-devices/SLW-121456-3A-N-D/24399265?s=N4IgTCBcDaIMoBkDqBaAjGNAWArANhQGYBBFAORQBEQBdAXyA"
 			(at 229.87 64.77 0)
 			(effects
 				(font
@@ -7320,7 +7356,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "SW9")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7335,7 +7371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b632f32-43e5-4f0d-8adc-8d314b9d9bf5")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR04"
 			(at 240.03 50.8 0)
 			(effects
 				(font
@@ -7386,7 +7422,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0146")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7479,7 +7515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ea2877e-02ad-48f5-859a-8cd9c3da3d26")
-		(property "Reference" "R37"
+		(property "Reference" "R6"
 			(at 198.628 87.884 90)
 			(effects
 				(font
@@ -7540,7 +7576,84 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R37")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 59.69 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "724e783d-b772-493f-8531-953512ca237f")
+		(property "Reference" "D7"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 60.0075 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/mcc-micro-commercial-components/SM5817PL-TP/1793251"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM5817PL-TP"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "577621eb-c868-42fe-bce1-541683993836")
+		)
+		(pin "2"
+			(uuid "6fc82c41-3828-4ad7-b43e-16f91398f18b")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b59326-3725-424f-b468-f144bf7b6aeb")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 95.25 107.95 0)
 			(effects
 				(font
@@ -7606,7 +7719,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7687,7 +7800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6ccf5b-b839-4898-94db-e01652e6dfcc")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 198.12 114.046 0)
 			(effects
 				(font
@@ -7757,7 +7870,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "804da5b1-1157-4eae-8733-cc488f110244")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR027"
 			(at 191.77 109.22 0)
 			(effects
 				(font
@@ -7823,7 +7936,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0150")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7839,7 +7952,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "85775c79-e931-47c9-8ecc-5f0331049d6a")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 100.33 97.79 0)
 			(effects
 				(font
@@ -7902,7 +8015,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7917,7 +8030,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "87fd8645-cce8-4a97-98ee-0aa07d71876c")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 193.04 58.674 0)
 			(effects
 				(font
@@ -7987,7 +8100,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8002,7 +8115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90fe515e-1531-4a79-8e3c-f82af0afa88a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR036"
 			(at 67.31 127 0)
 			(effects
 				(font
@@ -8053,7 +8166,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR025")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8068,7 +8181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c285d78-9f07-40ce-a368-7d74f6f3feac")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 54.356 125.984 90)
 			(effects
 				(font
@@ -8093,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-071KL/726408"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
 			(at 57.15 127 0)
 			(effects
 				(font
@@ -8129,7 +8242,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8144,7 +8257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1065ff1-db11-4381-be87-19fafbd7c1a7")
-		(property "Reference" "R45"
+		(property "Reference" "R13"
 			(at 229.108 106.934 90)
 			(effects
 				(font
@@ -8205,7 +8318,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R45")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a11974aa-e0c3-45c2-98bf-ed1c86cb71dc")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR018"
 			(at 196.85 90.17 0)
 			(effects
 				(font
@@ -8270,7 +8383,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR075")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c1ac7a-82e7-44e4-bb99-4382cb85a5a7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -8336,7 +8449,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8497,7 +8610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5194ccc-e866-4465-8316-4995121a8099")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR029"
 			(at 116.84 113.03 0)
 			(effects
 				(font
@@ -8547,7 +8660,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0120")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8562,7 +8675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9751d8b-4c3a-429b-be25-8b9bcfa14bb2")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 54.356 128.524 90)
 			(effects
 				(font
@@ -8587,7 +8700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -8623,7 +8736,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8638,7 +8751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9826e2d-e180-417d-b837-1200c127b7ba")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -8689,7 +8802,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8771,7 +8884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd880fa0-ff60-4cc0-8d02-69aa70561723")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8821,7 +8934,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8836,7 +8949,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bfc8d4a6-c3c8-46fd-b642-9b2879884058")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 181.356 63.754 90)
 			(effects
 				(font
@@ -8897,7 +9010,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8912,7 +9025,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c7e47e23-d10a-440f-95b2-3af32baea6dd")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 135.382 98.298 0)
 			(effects
 				(font
@@ -8973,7 +9086,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9073,7 +9186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9c97d20-c961-4f3e-a585-b06fa95aaaa3")
-		(property "Reference" "D14"
+		(property "Reference" "D6"
 			(at 223.52 114.046 0)
 			(effects
 				(font
@@ -9143,7 +9256,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D14")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9158,7 +9271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb1fbf00-fa0c-4c9d-a072-cf849b1a955c")
-		(property "Reference" "D8"
+		(property "Reference" "D2"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -9175,7 +9288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -9220,7 +9333,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9348,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "cdcc78e5-f43b-436b-908b-e735c32b1b0a")
-		(property "Reference" "R39"
+		(property "Reference" "R10"
 			(at 128.778 102.87 0)
 			(effects
 				(font
@@ -9296,7 +9409,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R39")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9312,7 +9425,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d2f87322-52b8-4b91-999a-666d28298070")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -9375,7 +9488,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9444,7 +9557,7 @@
 				(hide yes)
 			)
 		)
-		(pin "S1"
+		(pin "SH4"
 			(uuid "16c8779a-d3f9-4394-a37c-49816cbc63d4")
 		)
 		(pin "A1_B12"
@@ -9483,6 +9596,15 @@
 		(pin "B8"
 			(uuid "94d9ecf1-9400-4c62-94c1-0be0f793c9aa")
 		)
+		(pin "SH3"
+			(uuid "da11d4f0-28fe-418f-8cc9-61b1fc331dc4")
+		)
+		(pin "SH1"
+			(uuid "33e7a214-7479-487a-b6c5-4e1cd16dc328")
+		)
+		(pin "SH2"
+			(uuid "90ccf220-3881-489a-a55e-e3e3b244a567")
+		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
@@ -9502,7 +9624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63304e0-affc-4458-b244-1589c24a4be3")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR033"
 			(at 212.09 116.84 0)
 			(effects
 				(font
@@ -9552,7 +9674,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR0151")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9567,7 +9689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc82b1d0-4033-4f34-86a5-492994d67ffe")
-		(property "Reference" "R36"
+		(property "Reference" "R2"
 			(at 236.728 53.34 0)
 			(effects
 				(font
@@ -9628,7 +9750,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R36")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9696,7 +9818,7 @@
 				(hide yes)
 			)
 		)
-		(pin "S1"
+		(pin "SH2"
 			(uuid "a23ceaf1-9606-451f-9336-fbc8bfe1116a")
 		)
 		(pin "B1_A12"
@@ -9735,6 +9857,15 @@
 		(pin "B8"
 			(uuid "97b85f8a-a643-4857-9275-dda256cd223b")
 		)
+		(pin "SH4"
+			(uuid "31b18601-092d-4018-a945-d754493e4af1")
+		)
+		(pin "SH3"
+			(uuid "0c19783d-2a85-46a8-abd8-9879bc84c871")
+		)
+		(pin "SH1"
+			(uuid "25663670-f472-4215-ae94-1b8470662ff8")
+		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
@@ -9753,7 +9884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4ce5dbe-a211-4457-83a6-d2a2f40d4f99")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 105.41 72.39 0)
 			(effects
 				(font
@@ -9804,7 +9935,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9819,7 +9950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9662687-ae39-4859-9b16-673853dfcd3b")
-		(property "Reference" "R38"
+		(property "Reference" "R7"
 			(at 198.628 90.424 90)
 			(effects
 				(font
@@ -9880,7 +10011,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R38")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9895,7 +10026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebbabc2f-5854-4a8f-9758-c060d5bb339a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -9945,7 +10076,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9960,7 +10091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa8e8215-0c87-4faf-b693-0aa34277dc61")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -10010,7 +10141,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10025,7 +10156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe238058-8a9d-44a2-b265-0d27607da0ef")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 54.356 66.294 90)
 			(effects
 				(font
@@ -10050,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
 			(at 57.15 67.31 0)
 			(effects
 				(font
@@ -10086,7 +10217,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
