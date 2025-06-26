@@ -5681,12 +5681,6 @@
 		(uuid "0055fa09-9f68-4bc4-9972-3b4ebb49293c")
 	)
 	(junction
-		(at 209.55 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00c55a79-2779-4a8e-949a-7708724c10b4")
-	)
-	(junction
 		(at 369.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6380,16 +6374,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 185.42) (xy 209.55 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "090b962d-3801-45f5-ad73-3b50811695ec")
-	)
-	(wire
-		(pts
 			(xy 271.78 78.74) (xy 297.18 78.74)
 		)
 		(stroke
@@ -6857,16 +6841,6 @@
 			(type default)
 		)
 		(uuid "2c2692a9-6ec4-4818-9919-a15fc45d4219")
-	)
-	(wire
-		(pts
-			(xy 207.01 185.42) (xy 209.55 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2f2bb2-35ca-4d22-af36-772046202914")
 	)
 	(wire
 		(pts
@@ -7487,6 +7461,16 @@
 			(type default)
 		)
 		(uuid "54d554de-336c-4303-a2f6-23bb32e440b8")
+	)
+	(wire
+		(pts
+			(xy 209.55 185.42) (xy 207.01 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5603db80-6dc4-40f4-afff-11f20040206a")
 	)
 	(wire
 		(pts
@@ -11141,6 +11125,28 @@
 		(uuid "b9573e49-069f-4c81-bcbd-f6985f2f6ebd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.7208 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSFET_DRAIN"
+		(shape output)
+		(at 209.55 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc1c5aac-648e-4f34-995c-1e2d042642b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.2633 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
