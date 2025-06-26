@@ -112,7 +112,7 @@
 		(uuid "665c70df-6851-432c-8ba1-2fe8fa4d8dbb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/StepFiles/PTS636SM43SMTRLFS.stp"
+	(model "${KIPRJMOD}/Libraries/microcontroller.pretty/PTS636SM43SMTRLFS.stp"
 		(offset
 			(xyz 0 0 0)
 		)
