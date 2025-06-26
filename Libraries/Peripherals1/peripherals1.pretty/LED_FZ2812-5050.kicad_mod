@@ -234,4 +234,16 @@
 		(uuid "c4fe453e-0a05-4cac-8e6a-cac6fca32ab1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Peripherals1/peripherals1.pretty/FZ2812-5050.stp"
+		(opacity 0.2600)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
