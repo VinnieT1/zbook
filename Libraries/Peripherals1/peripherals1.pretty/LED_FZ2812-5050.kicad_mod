@@ -235,7 +235,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Libraries/Peripherals1/peripherals1.pretty/FZ2812-5050.stp"
-		(opacity 0.2600)
+		(opacity 0.9600)
 		(offset
 			(xyz 0 0 0)
 		)

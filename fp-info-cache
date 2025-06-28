@@ -1,4 +1,4 @@
-25625590703695799
+25627341926484213
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102703,6 +102703,13 @@ LED_FZ2812-5050
 0
 4
 4
+peripherals1
+TO-18-2
+TO-18-2, generated with kicad-footprint-generator TO_SOT_THT_generate.py
+TO-18-2
+0
+2
+2
 peripherals2
 CUI_MSD-4-A
 
