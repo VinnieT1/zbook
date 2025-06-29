@@ -501,6 +501,12 @@
       "version": 4
     },
     "net_colors": {
+      "+1V1": "rgb(132, 132, 0)",
+      "+3V3": "rgb(163, 0, 255)",
+      "+BATT": "rgb(255, 153, 0)",
+      "+VBQ": "rgb(132, 0, 132)",
+      "+VBUS": "rgb(0, 132, 132)",
+      "+V_DISP": "rgb(0, 255, 255)",
       "GND": "rgb(72, 0, 0)"
     },
     "netclass_assignments": null,
