@@ -6421,6 +6421,12 @@
 		(uuid "4b449034-e632-490e-84b6-e5f69ab52401")
 	)
 	(junction
+		(at 97.79 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5077b32a-d244-48c4-ac2f-b45ac7a7d36e")
+	)
+	(junction
 		(at 300.99 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6431,12 +6437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5292f129-60dd-4ea2-ac5c-4a498974b7ff")
-	)
-	(junction
-		(at 97.79 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65a45e81-3e30-422c-aa44-adfa5ad58ecc")
 	)
 	(junction
 		(at 64.77 177.8)
@@ -7994,6 +7994,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 176.53) (xy 97.79 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d52331-9ebf-4d8e-8bc0-27ba18a80fb7")
+	)
+	(wire
+		(pts
 			(xy 125.73 102.87) (xy 123.19 102.87)
 		)
 		(stroke
@@ -8131,6 +8141,16 @@
 			(type default)
 		)
 		(uuid "4e4c4879-a3bc-4b04-b005-780a9b8b3c81")
+	)
+	(wire
+		(pts
+			(xy 97.79 185.42) (xy 97.79 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6b7e1b-5b57-4ace-82a2-d9f67be79d48")
 	)
 	(wire
 		(pts
@@ -8341,16 +8361,6 @@
 			(type default)
 		)
 		(uuid "58fe8e67-73f2-4547-8a0c-e96eca381ee5")
-	)
-	(wire
-		(pts
-			(xy 97.79 187.96) (xy 100.33 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5951b49c-75c6-42c8-8026-6921e7e293ca")
 	)
 	(wire
 		(pts
@@ -9001,6 +9011,16 @@
 			(type default)
 		)
 		(uuid "89e105ab-fe49-4bd0-87f8-1afe6fb8eb21")
+	)
+	(wire
+		(pts
+			(xy 97.79 187.96) (xy 100.33 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a118435-9bfe-47d2-80e5-f878b2e247be")
 	)
 	(wire
 		(pts
@@ -9861,16 +9881,6 @@
 			(type default)
 		)
 		(uuid "c42522cc-3b62-4825-99d9-fa7bfe8b85a4")
-	)
-	(wire
-		(pts
-			(xy 97.79 187.96) (xy 97.79 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c492e6ea-3a54-40a2-836b-cae711c21284")
 	)
 	(wire
 		(pts
@@ -17065,6 +17075,82 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 97.79 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "811a0b2a-ae1a-4334-9232-88aae0656af1")
+		(property "Reference" "R53"
+			(at 94.742 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 94.742 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 97.79 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-071KL/726408"
+			(at 97.79 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 97.79 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-071KL"
+			(at 97.79 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35bde7ee-ac5c-4508-ab5f-c745421e446e")
+		)
+		(pin "2"
+			(uuid "d7b4e0c6-1d16-4e06-b847-da1c4bf7903f")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
+					(reference "R53")
 					(unit 1)
 				)
 			)
