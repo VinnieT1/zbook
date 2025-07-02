@@ -6790,17 +6790,18 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "29959d61-dca8-4081-82af-b11cb9d33254")
-		(at 401.55 109.75)
+		(at 338.58 188.44)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
-			(at 0 -1.448 0)
+			(at 0 1.57 0)
 			(layer "F.SilkS")
 			(uuid "d455c68f-499a-4b3b-800e-1c541447a1d6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -6919,7 +6920,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6943,7 +6944,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15916,11 +15917,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "53a1cf80-2408-45c0-b4cd-5dd7bde6f5a5")
-		(at 61.1 78.2)
+		(at 335.400966 183.342501)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
-			(at 0 -1.448 0)
+			(at 2.019034 0.447499 0)
 			(layer "F.SilkS")
 			(uuid "1e2bbe46-c81d-4b35-963e-12f5bf229400")
 			(effects
@@ -17053,7 +17054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17077,7 +17078,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19741,7 +19742,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "66f6f1b9-e548-40bb-8d53-171ef74c3b8e")
-		(at 61.399034 85.239999 90)
+		(at 337.08 186.25 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -19792,7 +19793,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-071KL"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19810,16 +19811,6 @@
 		(sheetfile "power_supply.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "778e6280-d761-426f-8064-d55e262a5046")
-		)
-		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
 			(stroke
@@ -19830,34 +19821,14 @@
 			(uuid "43985bdc-09c9-4dca-960b-bfd122c45065")
 		)
 		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ae720b28-284f-4e5c-8cde-739859e5dd49")
-		)
-		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "99082cf7-0ef1-4249-94cc-71fbc88f0a36")
-		)
-		(fp_line
-			(start 0.93 0.47)
-			(end -0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a57f492c-236e-40cb-9864-1fd875fcdd57")
+			(layer "F.SilkS")
+			(uuid "778e6280-d761-426f-8064-d55e262a5046")
 		)
 		(fp_line
 			(start -0.93 0.47)
@@ -19870,24 +19841,44 @@
 			(uuid "3fc2eab2-7947-47f9-867a-95f9e3dfb861")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
+			(start 0.93 0.47)
+			(end -0.93 0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "b7945297-7fed-4e08-aec2-360e2617f319")
+			(layer "F.CrtYd")
+			(uuid "a57f492c-236e-40cb-9864-1fd875fcdd57")
 		)
 		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "99082cf7-0ef1-4249-94cc-71fbc88f0a36")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae720b28-284f-4e5c-8cde-739859e5dd49")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "776e0598-026b-479c-9d77-d1ec0cfcb97b")
+			(uuid "2ab1d2f7-d50d-4c4c-88cd-d026ee2501f6")
 		)
 		(fp_line
 			(start 0.525 0.27)
@@ -19900,14 +19891,24 @@
 			(uuid "1765e447-a54c-46c9-861b-be4186fbf32d")
 		)
 		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2ab1d2f7-d50d-4c4c-88cd-d026ee2501f6")
+			(uuid "776e0598-026b-479c-9d77-d1ec0cfcb97b")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7945297-7fed-4e08-aec2-360e2617f319")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -19921,7 +19922,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 90)
+			(at -0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19930,7 +19931,7 @@
 			(uuid "0a4efcf4-0d19-4b33-95df-8d8a0d0be31e")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 90)
+			(at 0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23102,7 +23103,7 @@
 		(property "Reference" "C5"
 			(at 0 1.6 0)
 			(layer "F.SilkS")
-			(uuid "33bb38df-7560-4687-abbb-50374c645fa5")
+			(uuid "181f533a-d825-4dac-90dc-6bc9da5beb0e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23114,7 +23115,7 @@
 		(property "Value" "10u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "4293ff57-71b8-4cc3-9d09-b44d0720224f")
+			(uuid "26182e12-f173-41f2-be94-9ec3b017cf1f")
 			(effects
 				(font
 					(size 1 1)
@@ -23126,7 +23127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48676550-0dbc-437d-aeed-795b8f859c35")
+			(uuid "4914721c-81be-454a-9517-975a1871eb45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23138,7 +23139,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ad6c8e3-fa8a-4e74-9ccd-b262b6a41909")
+			(uuid "e9983dfd-6823-4cc2-9aa7-01d244bd3b9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23914,7 +23915,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9374845f-f2aa-47d0-8147-2f89e4df3afd")
+			(uuid "24936dc4-1d55-4fb5-bf33-67acf37a4757")
 		)
 		(fp_line
 			(start -1.4 -1.699999)
@@ -23924,18 +23925,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "29f71176-ec3c-4e8e-b481-4852b84c9b62")
+			(uuid "cd32ebc1-869d-4842-ae1f-14f0e90eeb0a")
 		)
 		(fp_circle
-			(center -2 -1.7)
-			(end -1.874999 -1.7)
+			(center -1.8 -1.8)
+			(end -1.674999 -1.8)
 			(stroke
 				(width 0.25)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a4fce9ff-c309-4c23-8989-1b0a78a99a1a")
+			(uuid "b610abac-8a32-4ee8-a961-8865788d6bda")
 		)
 		(fp_line
 			(start -0.800001 1.45)
@@ -23945,7 +23946,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8c648288-0da5-4e32-a5dd-e32f4c59e628")
+			(uuid "5b997ffa-8d93-4046-89a4-64389459a080")
 		)
 		(fp_line
 			(start -0.800001 1.45)
@@ -23955,7 +23956,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "63acd0fc-d6db-48ad-9dd7-be9d2e397752")
+			(uuid "1fc3efc8-558f-4cc6-93f0-3cbdc03bbebd")
 		)
 		(fp_line
 			(start 0.800001 1.45)
@@ -23965,7 +23966,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "007d4b22-ba5a-483c-89cb-c773e312041a")
+			(uuid "6c7b77c5-b5a4-48c4-8891-d0aab2585790")
 		)
 		(fp_line
 			(start -0.800001 -1.45)
@@ -23975,7 +23976,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "96117a2b-7bfa-4e46-8c5a-c29011c65f43")
+			(uuid "0c2baf2c-52a2-4fba-83db-a0d129fc2d54")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 270)
@@ -24040,7 +24041,7 @@
 			(uuid "6052d9d4-2f4c-4ecb-88b9-28f735713353")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Libraries/Power_Supply/footprints.pretty/DBV0005A.stp"
+		(model "${KIPRJMOD}/Libraries/Power_Supply/power_supply.pretty/DBV0005A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25705,7 +25706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25729,7 +25730,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32151,7 +32152,7 @@
 		(property "Reference" "R4"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "df86741d-0b29-4f39-a7c8-83eebfd498f6")
+			(uuid "be5535f6-36d0-4f3b-b0ca-7e049e7f8456")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -32163,7 +32164,7 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "d6c7b049-d2e9-4b07-ae67-524d63f0d064")
+			(uuid "cbc764a1-357b-401c-b336-1bda5feff0e8")
 			(effects
 				(font
 					(size 1 1)
@@ -32175,7 +32176,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b578b34-d48c-4e3c-b233-506c7360d047")
+			(uuid "5d9b6009-cd70-4f93-bd8c-aefda676df7e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32187,7 +32188,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e33ce87-5579-45bb-a90c-0e8357aa0b14")
+			(uuid "ebc01c9b-7b5e-43f5-89f3-39f99c963133")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33914,7 +33915,7 @@
 		(uuid "c38713e1-8dab-410d-b372-982cc7d32383")
 		(at 342.875 185.55 90)
 		(property "Reference" "J2"
-			(at 0.1 -3.8 90)
+			(at 1.2 -3.715 90)
 			(layer "F.SilkS")
 			(uuid "8aae5a8c-179d-4ac0-9e3c-f6ef75f209bd")
 			(effects
@@ -36570,7 +36571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36594,7 +36595,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40257,11 +40258,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e3accceb-0723-4a76-9685-7202d26ced7b")
-		(at 61.399034 82.037499 90)
+		(at 335.63 186.02 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
-			(at 0 -1.43 90)
+			(at -1.04 -1.51 270)
 			(layer "F.SilkS")
 			(uuid "03595921-872c-45be-9364-72083d8e54b0")
 			(effects
@@ -41914,14 +41915,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ecf12370-a1cd-42a7-b096-3c368d192b22")
 		(at 353.52 128.62)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C53"
-			(at 0 -1.43 0)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(uuid "5661461c-5615-44c2-9602-58035c23998b")
 			(effects
@@ -41932,7 +41933,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 0 1.43 0)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "8de9b577-b7a3-42a9-8817-9a986ef6a2c9")
 			(effects
@@ -41942,7 +41943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A225KO5NQNC/3887119"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41966,12 +41967,12 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B225KP8NNNC"
+		(property "MPN" "CL05A225KO5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08c21189-3b42-4d97-b2b6-2dae3ed565f4")
+			(uuid "882a8e1d-68ec-4c1f-a3f4-8d8e6edafb7e")
 			(effects
 				(font
 					(size 1 1)
@@ -41985,104 +41986,104 @@
 		(sheetfile "peripherals2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6d2178df-6dee-4034-83d8-ac09961e1988")
+			(uuid "ece05b6d-3c32-4316-8258-5fecb8d0a08c")
 		)
 		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.107836 0.36)
+			(end 0.107836 0.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c0417ca0-a045-4f4e-81ab-73292e7920ac")
+			(uuid "62e2a121-06cf-4511-ab9a-78bfc1d0ccde")
 		)
 		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "baa6cc16-8748-4c75-b6b7-05dfd3718f3e")
+			(uuid "bdc014ad-2544-4585-ab74-2cd9d53d3ca4")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f0b1df0b-1509-42ff-9199-0c2cb96bb246")
+			(uuid "5fd3a166-a279-4250-ba97-0b6425696ce4")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d93cb671-e08c-4aaf-8521-9c8a72214bb3")
+			(uuid "69907cf3-50ba-4398-9731-3049edd9d59c")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
+			(start 0.91 0.46)
+			(end -0.91 0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1331deaa-4b4e-464c-806c-771901b697b7")
+			(uuid "9e289622-21e0-49fc-9e71-28d8206c1cff")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "50767bf5-3d71-4875-b1b3-91365c5d9fc9")
+			(uuid "df7ed5aa-cc20-4271-b99f-659e28709b75")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f4ec4b3a-f461-41cd-93b4-8103badfb5c6")
+			(uuid "6020e909-3614-4c45-bb0b-3867e30ab49e")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fa7aa0e8-a6b9-4aae-b145-e82043969a26")
+			(uuid "7583f0ac-94b9-428c-88c7-03675328b26c")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
+			(start 0.5 0.25)
+			(end -0.5 0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d93711da-406b-4d23-91a9-370dad82aa9a")
+			(uuid "b923ec6f-729c-438d-87c9-8e0d86e0362d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -42090,14 +42091,14 @@
 			(uuid "0bf165b6-d2d9-4685-aa47-38f496dbe542")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.25 0.25)
+					(thickness 0.04)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
+			(at -0.48 0)
+			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 23 "Net-(J9-VCC)")
@@ -42105,8 +42106,8 @@
 			(uuid "1108eb2e-498f-49cd-bf98-804eab51aefb")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
+			(at 0.48 0)
+			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
@@ -42114,7 +42115,7 @@
 			(uuid "4cb1e6c7-419a-45ac-8805-367c167a2f9d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45410,7 +45411,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.17 0)
+			(at -0.44 -1.145 0)
 			(layer "F.SilkS")
 			(uuid "df241a87-d41d-4913-8463-635becd40561")
 			(effects

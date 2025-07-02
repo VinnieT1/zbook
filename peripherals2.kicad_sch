@@ -5772,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -5781,7 +5781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A225KO5NQNC/3887119"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B225KP8NNNC"
+		(property "MPN" "CL05A225KO5NQNC"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -7346,7 +7346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -7364,7 +7364,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 144.78 128.27 0)
 			(effects
 				(font
