@@ -8334,72 +8334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 199.39 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79012585-8d21-4ce1-9d38-37d28d171e66")
-		(property "Reference" "#PWR03"
-			(at 199.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBQ"
-			(at 196.596 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 199.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ac464c4-8f65-47d7-8c1c-2d7c8b6661be")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 198.12 107.95 180)
 		(unit 1)
@@ -9337,6 +9271,72 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 199.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8f2ef95-7e74-41b0-a091-366dd0fe87bb")
+		(property "Reference" "#PWR03"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBUS"
+			(at 196.342 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3524c5-f709-49df-bb0a-3a0bbdb8956e")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
