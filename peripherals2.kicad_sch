@@ -2939,12 +2939,6 @@
 		(uuid "cadfabf0-ff91-4c2e-bd74-d10825647f80")
 	)
 	(junction
-		(at 72.39 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd8b7973-f43d-425f-ae64-a57a752cc97e")
-	)
-	(junction
 		(at 96.52 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2955,6 +2949,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd388a1c-21e3-4f29-a99d-21874ae6f3aa")
+	)
+	(junction
+		(at 72.39 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e321084d-9b03-4d56-ad92-a7de62b03e5f")
 	)
 	(junction
 		(at 133.35 119.38)
@@ -3037,16 +3037,6 @@
 			(type default)
 		)
 		(uuid "01532124-5e55-4e7b-b05f-fa7dc7fc71a4")
-	)
-	(wire
-		(pts
-			(xy 72.39 125.73) (xy 87.63 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019a9b22-c466-447a-ad24-296bf032c7fb")
 	)
 	(wire
 		(pts
@@ -3137,16 +3127,6 @@
 			(type default)
 		)
 		(uuid "0d85f649-229b-4990-9d15-d37b4db2dc3d")
-	)
-	(wire
-		(pts
-			(xy 72.39 125.73) (xy 72.39 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f944e4c-2306-452b-a3fb-7b77a7253df3")
 	)
 	(wire
 		(pts
@@ -3267,6 +3247,16 @@
 			(type default)
 		)
 		(uuid "1ffea2f4-a998-49bd-84e4-8979383957af")
+	)
+	(wire
+		(pts
+			(xy 72.39 128.27) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20470349-1332-4799-ac58-7a1d73de67a4")
 	)
 	(wire
 		(pts
@@ -3430,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 128.27) (xy 77.47 128.27)
+			(xy 71.12 128.27) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3880,6 +3870,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 128.27) (xy 72.39 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8592e284-0e55-4a0c-9149-2ee0af94b6e2")
+	)
+	(wire
+		(pts
 			(xy 158.75 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -4300,7 +4300,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 125.73) (xy 72.39 125.73)
+			(xy 71.12 125.73) (xy 87.63 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5772,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -5781,7 +5781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/samsung-electro-mechanics/CL05A225KO5NQNC/3887119"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A225KO5NQNC"
+		(property "MPN" "CL10B225KP8NNNC"
 			(at 144.78 121.92 0)
 			(effects
 				(font
