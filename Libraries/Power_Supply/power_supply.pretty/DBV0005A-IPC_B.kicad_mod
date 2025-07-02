@@ -172,7 +172,7 @@
 		(uuid "af9caeaa-1fcc-40dc-8d0b-1209a702dab4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/Power_Supply/footprints.pretty/DBV0005A.stp"
+	(model "${KIPRJMOD}/Libraries/Power_Supply/power_supply.pretty/DBV0005A.stp"
 		(offset
 			(xyz 0 0 0)
 		)
