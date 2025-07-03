@@ -2271,6 +2271,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:T2N7002AK"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "T2N7002AK"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=29712&prodName=T2N7002AK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "T2N7002AK_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "T2N7002AK_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WS2812B_1"
 			(pin_names
 				(offset 0.254)
@@ -3005,6 +3303,12 @@
 		(uuid "677ddf35-7c83-46c5-b96e-26ffa4e1cb34")
 	)
 	(junction
+		(at 181.61 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69716db2-a290-4160-83ae-e73647dca015")
+	)
+	(junction
 		(at 139.7 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3023,6 +3327,12 @@
 		(uuid "81dc492c-ebc4-43b3-b81b-6bd8de7b63fb")
 	)
 	(junction
+		(at 190.5 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88a37697-048a-4246-8eef-1774382539e6")
+	)
+	(junction
 		(at 229.87 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3033,6 +3343,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d02df11-0a47-4b68-b27c-c39c0df0cfba")
+	)
+	(junction
+		(at 190.5 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4d8fca-b592-47b9-9112-614e7de8dbe6")
+	)
+	(junction
+		(at 190.5 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a635327c-67fd-4539-a7fe-39091986fbf0")
 	)
 	(junction
 		(at 138.43 59.69)
@@ -3085,6 +3407,16 @@
 			(type default)
 		)
 		(uuid "0cba80f5-678f-4ddb-a468-768437e366ec")
+	)
+	(wire
+		(pts
+			(xy 190.5 87.63) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3706f6-bd50-4092-b3b8-f2d45f7505fa")
 	)
 	(wire
 		(pts
@@ -3158,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8bf602-8a89-48d1-bb49-44251a9017bc")
+	)
+	(wire
+		(pts
 			(xy 76.2 129.54) (xy 76.2 132.08)
 		)
 		(stroke
@@ -3205,6 +3547,16 @@
 			(type default)
 		)
 		(uuid "2950e902-1ef9-44b6-b11d-71d86d0fb95a")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bf025b-d3bc-4259-af0d-82878e60a0ff")
 	)
 	(wire
 		(pts
@@ -3338,6 +3690,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 104.14) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499d4ac8-eab1-4212-b7c0-1e72c10fb074")
+	)
+	(wire
+		(pts
 			(xy 139.7 100.33) (xy 139.7 102.87)
 		)
 		(stroke
@@ -3458,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 91.44) (xy 182.88 91.44)
+			(xy 180.34 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3558,16 +3920,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 190.5 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "910c20db-87e8-4373-80ab-11d21f20a832")
-	)
-	(wire
-		(pts
 			(xy 102.87 100.33) (xy 102.87 102.87)
 		)
 		(stroke
@@ -3615,6 +3967,16 @@
 			(type default)
 		)
 		(uuid "9b7d3448-2f84-4de8-9cb1-94bf28aec3ca")
+	)
+	(wire
+		(pts
+			(xy 182.88 104.14) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d9057e-e8a0-4cc7-b3b1-2ff960d719e6")
 	)
 	(wire
 		(pts
@@ -3718,6 +4080,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 87.63) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85e690c-0df1-43d7-b957-8e6e27ce0f27")
+	)
+	(wire
+		(pts
 			(xy 63.5 101.6) (xy 66.04 101.6)
 		)
 		(stroke
@@ -3725,6 +4097,16 @@
 			(type default)
 		)
 		(uuid "b92962b0-0eb4-48ad-ba92-2b7df5dade3e")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92cad47-d961-4584-8661-a001f6c2d99b")
 	)
 	(wire
 		(pts
@@ -3768,6 +4150,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 92.71) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98026fa-4743-44ab-ad5b-484eecaa7951")
+	)
+	(wire
+		(pts
 			(xy 63.5 86.36) (xy 66.04 86.36)
 		)
 		(stroke
@@ -3798,16 +4190,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 190.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0d5349f-a63b-444d-a547-4d369ecddcb8")
-	)
-	(wire
-		(pts
 			(xy 139.7 59.69) (xy 142.24 59.69)
 		)
 		(stroke
@@ -3818,6 +4200,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 92.71) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35d0e96-5e11-40e6-9200-bf5be68f9680")
+	)
+	(wire
+		(pts
 			(xy 57.15 165.1) (xy 57.15 163.83)
 		)
 		(stroke
@@ -3825,6 +4217,16 @@
 			(type default)
 		)
 		(uuid "d4f9b39f-6f8f-4f10-a475-1c0e3b50935f")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d540a8d3-fe43-4293-a2ce-d0225861198a")
 	)
 	(wire
 		(pts
@@ -3895,6 +4297,16 @@
 			(type default)
 		)
 		(uuid "f08e2b4e-caf5-401a-97eb-7f1f932a0856")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.87) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f319b85c-7175-4930-89ab-a100ab014a2c")
 	)
 	(wire
 		(pts
@@ -4068,7 +4480,7 @@
 	)
 	(global_label "BUZZER_GPIO"
 		(shape input)
-		(at 180.34 91.44 180)
+		(at 180.34 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4078,7 +4490,7 @@
 		)
 		(uuid "46bc6f25-9fd8-4bf0-990c-ccd90f862adb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.4734 91.44 0)
+			(at 164.4734 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,6 +4761,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04826c77-3a2f-41a5-b77b-590b8245b261")
+		(property "Reference" "#PWR0129"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e98b022-cfad-411f-b1a0-8723bba5065c")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR0129")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4768,6 +5245,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:T2N7002AK")
+		(at 187.96 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ac87058-df7d-478c-8d18-1d1fb6421aab")
+		(property "Reference" "Q5"
+			(at 192.786 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T2N7002AK,LM"
+			(at 192.786 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 193.04 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 200MA SOT23"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T2N7002AK,LM"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35be557c-166a-497c-a558-858529687f74")
+		)
+		(pin "3"
+			(uuid "32c0ff93-1e39-4b41-ad46-8f09ee303afc")
+		)
+		(pin "2"
+			(uuid "0d8b3638-d9d6-47e7-9f45-2a26056e2726")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_US_1")
 		(lib_id "Device:R_Small_US")
 		(at 229.87 53.34 0)
@@ -4849,7 +5410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 185.42 91.44 90)
+		(at 185.42 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4857,7 +5418,7 @@
 		(dnp no)
 		(uuid "1b604d86-8bf1-47f5-af95-7997cf409da9")
 		(property "Reference" "R35"
-			(at 182.118 90.424 90)
+			(at 182.372 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5426,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 188.468 90.424 90)
+			(at 182.626 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +5434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.42 91.44 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-071KL/726408"
-			(at 185.42 91.44 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +5452,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 185.42 91.44 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5461,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-071KL"
-			(at 185.42 91.44 90)
+			(at 185.42 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5476,7 @@
 			(uuid "3ca4680d-550d-4429-ba03-a5d082747b1f")
 		)
 		(instances
-			(project ""
+			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
 					(reference "R35")
 					(unit 1)
@@ -5793,72 +6354,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38165bb7-79ee-4a06-a4a1-c33777a946fa")
-		(property "Reference" "#PWR0129"
-			(at 186.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6150d0b6-7988-4a5f-9a2d-088a619a15aa")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 233.68 120.65 90)
 		(unit 1)
@@ -6007,6 +6502,82 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 185.42 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c027aa1-8a24-4398-b614-281b3706d132")
+		(property "Reference" "R56"
+			(at 182.118 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 187.706 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfc54088-d41b-4fbc-8321-af1c37979054")
+		)
+		(pin "1"
+			(uuid "7571b429-b21e-429b-81b8-015659938a3e")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -7820,7 +8391,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 193.04 93.98 0)
+		(at 195.58 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7829,7 +8400,7 @@
 		(fields_autoplaced yes)
 		(uuid "94d041a5-6e59-4580-9659-3bfc3c31fc72")
 		(property "Reference" "BZ1"
-			(at 196.85 92.7099 0)
+			(at 199.39 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +8409,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 196.85 95.2499 0)
+			(at 199.39 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 192.405 91.44 90)
+			(at 194.945 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +8427,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/tdk-corporation/PS1440P02BT/2236828"
-			(at 193.294 92.456 90)
+			(at 195.834 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +8436,7 @@
 			)
 		)
 		(property "Description" "BUZZER PIEZO 3V 14MM TH"
-			(at 193.04 93.98 0)
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +8445,7 @@
 			)
 		)
 		(property "MPN" "PS1440P02BT"
-			(at 193.04 93.98 0)
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +8460,7 @@
 			(uuid "aecf890c-9504-4368-9ed1-0b9c5e775510")
 		)
 		(instances
-			(project ""
+			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
 					(reference "BZ1")
 					(unit 1)
@@ -8495,6 +9066,71 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7efe680-4062-46a0-bd46-e322e013bb62")
+		(property "Reference" "#PWR0170"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e293397-1c7d-43f6-9030-1e89cb930cc8")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
