@@ -12855,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "+1V1_PROBE"
 			(at 243.84 40.64 0)
 			(effects
 				(font

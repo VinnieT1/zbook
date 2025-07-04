@@ -6144,7 +6144,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "288aa6e3-967d-4277-bce7-85364e2d5b31")
 		(property "Reference" "R12"
 			(at 203.708 106.934 90)
@@ -8340,7 +8340,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c6ccf5b-b839-4898-94db-e01652e6dfcc")
 		(property "Reference" "D5"
 			(at 198.12 114.046 0)

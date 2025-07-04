@@ -8887,7 +8887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OP598A/498701"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/tt-electronics-optek-technology/OP598A/498701?s=N4IgTCBcDaIPIAUCsBOAHAQRAXQL5A"
 			(at 54.61 157.48 0)
 			(effects
 				(font
@@ -8896,7 +8896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN phototransistor, collector/emitter"
+		(property "Description" "Phototransistor"
 			(at 54.61 157.48 0)
 			(effects
 				(font
