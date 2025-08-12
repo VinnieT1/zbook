@@ -8510,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Value" "IR204A"
+		(property "Value" "INL-3AHIR15"
 			(at 123.317 158.75 0)
 			(effects
 				(font
@@ -8518,7 +8518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
 			(at 124.46 159.385 0)
 			(effects
 				(font
@@ -8527,7 +8527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/harvatek-corporation/B13V1IR-20C000114U1930/13574162?s=N4IgTCBcDaIEIEYDMA1BBJASgWm2ADAML4kIIAsAqggJxL4gC6AvkA"
+		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/inolux/INL-3AHIR15/10384794"
 			(at 123.19 163.83 0)
 			(effects
 				(font
@@ -8536,7 +8536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Infrared LED , 3mm LED package"
+		(property "Description" "THROUGH HOLE / STANDARD 3MM T1"
 			(at 124.46 163.83 0)
 			(effects
 				(font
@@ -8545,7 +8545,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B13V1IR--20C000114U1930"
+		(property "MPN" "INL-3AHIR15"
 			(at 124.46 163.83 0)
 			(effects
 				(font
