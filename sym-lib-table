@@ -4,4 +4,6 @@
   (lib (name "B2B-XH-A")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Power_Supply/B2B-XH-A/B2B-XH-A.kicad_sym")(options "")(descr ""))
   (lib (name "Power_PMIC_TexasInstruments_BQ25185")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Power_PMIC_TexasInstruments_BQ25185.kicad_sym")(options "")(descr ""))
   (lib (name "LG_R971-KN-1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LG_R971-KN-1/LG_R971-KN-1.kicad_sym")(options "")(descr ""))
+  (lib (name "microcontroller")(type "KiCad")(uri "${KIPRJMOD}/microcontroller.kicad_sym")(options "")(descr ""))
+  (lib (name "peripherals2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/peripherals2.kicad_sym")(options "")(descr ""))
 )
