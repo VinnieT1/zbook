@@ -3913,162 +3913,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "microcontroller:RP2350B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 31.75 28.0102 0)
+			(property "Reference" "U3"
+				(at -31.75 35.814 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4083,7 +3933,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "microcontroller:QFN-80_EP_14x14_Pitch0.4mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4111,6 +3961,69 @@
 				)
 			)
 			(property "MPN" "SC1510"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5232,7 +5145,7 @@
 				(pin passive line
 					(at 31.75 22.86 180)
 					(length 2.54)
-					(name "AVDD"
+					(name "IOVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5582,6 +5495,191 @@
 						)
 					)
 					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "peripherals1:switch_button"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "switch_button_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_button_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7086,6 +7184,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 147.32) (xy 110.49 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1891bc15-0c68-4046-b044-2582a12af7f6")
+	)
+	(wire
+		(pts
 			(xy 143.51 73.66) (xy 151.13 73.66)
 		)
 		(stroke
@@ -7216,16 +7324,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 147.32) (xy 107.95 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240804a2-5af9-4271-9310-e04f1fadb934")
-	)
-	(wire
-		(pts
 			(xy 207.01 184.15) (xy 214.63 184.15)
 		)
 		(stroke
@@ -7233,6 +7331,16 @@
 			(type default)
 		)
 		(uuid "2481113d-fdec-4fdd-8800-84dcb802ff9d")
+	)
+	(wire
+		(pts
+			(xy 113.03 147.32) (xy 113.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252fe778-a1e3-4387-9405-c1825550570a")
 	)
 	(wire
 		(pts
@@ -7413,6 +7521,16 @@
 			(type default)
 		)
 		(uuid "304f2a58-8831-4fbf-a990-02fe417266d1")
+	)
+	(wire
+		(pts
+			(xy 121.92 160.02) (xy 113.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312416f5-acb7-4eef-b1bf-2db6098ba21b")
 	)
 	(wire
 		(pts
@@ -7703,16 +7821,6 @@
 			(type default)
 		)
 		(uuid "450dec7a-9a57-42dd-b321-9743521e454e")
-	)
-	(wire
-		(pts
-			(xy 113.03 147.32) (xy 113.03 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4519b61d-b659-4385-b812-a26334649f4b")
 	)
 	(wire
 		(pts
@@ -8056,16 +8164,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 115.57 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c7377a-51e9-4911-871b-2f84ef429356")
-	)
-	(wire
-		(pts
 			(xy 49.53 237.49) (xy 49.53 240.03)
 		)
 		(stroke
@@ -8083,6 +8181,16 @@
 			(type default)
 		)
 		(uuid "564462a4-1894-48ff-90f5-f93170d7cdf4")
+	)
+	(wire
+		(pts
+			(xy 115.57 147.32) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57111f68-aac1-4337-887d-259b7d6b13c5")
 	)
 	(wire
 		(pts
@@ -8256,16 +8364,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 149.86) (xy 110.49 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed98b7c-a66d-41a3-af72-05c911d8ad30")
-	)
-	(wire
-		(pts
 			(xy 186.69 189.23) (xy 194.31 189.23)
 		)
 		(stroke
@@ -8323,6 +8421,16 @@
 			(type default)
 		)
 		(uuid "648cc9a8-f403-433e-8adb-2b4cdbbb0b56")
+	)
+	(wire
+		(pts
+			(xy 121.92 157.48) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ab9228-054a-41c8-a635-8b1ec3085da0")
 	)
 	(wire
 		(pts
@@ -8656,6 +8764,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 147.32) (xy 102.87 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aef6362-631b-4698-80d6-fea8562b3907")
+	)
+	(wire
+		(pts
 			(xy 33.02 242.57) (xy 52.07 242.57)
 		)
 		(stroke
@@ -8776,6 +8894,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 171.45) (xy 133.35 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e1bec6-147f-4bd8-8a26-7a7970656bf6")
+	)
+	(wire
+		(pts
 			(xy 162.56 80.01) (xy 162.56 82.55)
 		)
 		(stroke
@@ -8783,6 +8911,16 @@
 			(type default)
 		)
 		(uuid "845f8b17-3f09-412f-8100-a58dc03fdc08")
+	)
+	(wire
+		(pts
+			(xy 105.41 168.91) (xy 105.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854c81d7-d1dc-49d4-9f1e-c5672fff30f6")
 	)
 	(wire
 		(pts
@@ -9546,6 +9684,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 162.56) (xy 110.49 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf12914f-e4a3-4c7f-9179-1edf7cee1081")
+	)
+	(wire
+		(pts
 			(xy 132.08 95.25) (xy 123.19 95.25)
 		)
 		(stroke
@@ -9573,16 +9721,6 @@
 			(type default)
 		)
 		(uuid "c2edaa54-46b7-420b-8137-6fe4fd6ad66a")
-	)
-	(wire
-		(pts
-			(xy 102.87 147.32) (xy 102.87 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f47c90-4d32-4333-a2be-ae8ca4ef1295")
 	)
 	(wire
 		(pts
@@ -9753,16 +9891,6 @@
 			(type default)
 		)
 		(uuid "c8e710ff-2554-4a2b-b776-d7c53d2263d7")
-	)
-	(wire
-		(pts
-			(xy 105.41 147.32) (xy 105.41 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c926d3aa-8b46-48d3-b59f-eadeaa9be0af")
 	)
 	(wire
 		(pts
@@ -9996,6 +10124,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 166.37) (xy 107.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d850df0f-18a4-40bc-a3d5-aa8a06ebd26f")
+	)
+	(wire
+		(pts
 			(xy 118.11 39.37) (xy 118.11 41.91)
 		)
 		(stroke
@@ -10033,6 +10171,16 @@
 			(type default)
 		)
 		(uuid "db845f74-2a64-432b-bc32-4c0d964d4d61")
+	)
+	(wire
+		(pts
+			(xy 133.35 168.91) (xy 105.41 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb19803-3023-482a-8b8a-6d4b05a92abe")
 	)
 	(wire
 		(pts
@@ -10113,6 +10261,16 @@
 			(type default)
 		)
 		(uuid "e20fb6e6-d6e1-4ef1-80b0-08d1d7a8e3e1")
+	)
+	(wire
+		(pts
+			(xy 107.95 166.37) (xy 133.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22efd24-bd0f-4f74-82e2-d2273d8801bc")
 	)
 	(wire
 		(pts
@@ -10745,12 +10903,12 @@
 		(uuid "48e2d998-f297-48e2-a6f2-b1a42f48aa58")
 	)
 	(label "RUN_RP2350"
-		(at 102.87 160.02 90)
+		(at 133.35 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4d6edfbc-164b-4edf-b7f3-c03841bf5920")
 	)
@@ -10775,12 +10933,12 @@
 		(uuid "514e45a7-2d8f-4ea5-8b6b-d06d95635365")
 	)
 	(label "RP2350_TX{slash}RP2040_RX"
-		(at 105.41 172.72 90)
+		(at 133.35 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "518d4fe1-1e74-4c62-b536-93881dd78d86")
 	)
@@ -11225,12 +11383,12 @@
 		(uuid "ed4a8046-6eeb-41a9-90d7-2d0cdec9cdb0")
 	)
 	(label "RP2350_RX{slash}RP2040_TX"
-		(at 107.95 172.72 90)
+		(at 133.35 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f3837cd3-3ea4-4309-92be-4882a645a22c")
 	)
@@ -11840,22 +11998,22 @@
 	)
 	(global_label "BUZZER_GPIO"
 		(shape output)
-		(at 115.57 149.86 270)
+		(at 121.92 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "90715eb9-5eb4-4659-a3cb-b4c5d50f6faa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 165.7266 90)
+			(at 137.7866 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12082,44 +12240,44 @@
 	)
 	(global_label "~{IR_EMITTER_GPIO}"
 		(shape output)
-		(at 110.49 149.86 270)
+		(at 121.92 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e01d0e1d-da29-4574-987b-bb93102ecef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 168.6899 90)
+			(at 140.7499 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "MOSFET_GPIO"
 		(shape output)
-		(at 113.03 149.86 270)
+		(at 121.92 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e09ddef4-1160-4953-aa7b-f680ca2670fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 165.4847 90)
+			(at 137.5447 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12506,7 +12664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/w%C3%BCrth-elektronik/61300821821/16579774?s=N4IgTCBcDaIGwEYDMAGFAOMDMJAXQF8g"
 			(at 365.76 143.51 0)
 			(effects
 				(font
@@ -12516,6 +12674,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 365.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300821821"
 			(at 365.76 143.51 0)
 			(effects
 				(font
@@ -12579,15 +12746,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 365.76 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61300821821"
 			(at 365.76 143.51 0)
 			(effects
 				(font
@@ -13558,7 +13716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "peripherals1:switch_button")
 		(at 360.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13568,7 +13726,7 @@
 		(fields_autoplaced yes)
 		(uuid "20da43cb-0146-447c-8b80-50d62865407d")
 		(property "Reference" "SW1"
-			(at 360.68 48.26 0)
+			(at 360.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,15 +13734,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 360.68 50.8 0)
+			(at 360.68 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 360.68 50.8 0)
+		(property "Footprint" "peripherals1:SW_1825910-6-4"
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +13751,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
-			(at 360.68 50.8 0)
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,6 +13845,12 @@
 		)
 		(pin "1"
 			(uuid "1c931ff0-f957-4c96-b5ef-7cf5beab20dd")
+		)
+		(pin "4"
+			(uuid "e960b8eb-914b-4d55-8603-e537ab3c0a5d")
+		)
+		(pin "3"
+			(uuid "c9719aed-9854-4b5f-868d-eb6ee2a4d1a6")
 		)
 		(instances
 			(project "zbook"
@@ -15412,148 +15576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 128.27 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42e14b79-b211-4646-b4cf-da085e5461f8")
-		(property "Reference" "C6"
-			(at 130.81 45.7262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 130.81 48.2662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ee3fd56-eaeb-4e3c-8321-50053aa80b7a")
-		)
-		(pin "2"
-			(uuid "65ebb598-1c73-4331-b11b-92599c6e5c82")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 201.93 119.38 270)
 		(unit 1)
@@ -16045,6 +16067,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc28b87-cc7d-4a20-ab77-9c42fb494cc1")
+		(property "Reference" "C19"
+			(at 137.16 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 137.16 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2936a0bf-0171-4180-99b7-9fcc7ea5d704")
+		)
+		(pin "2"
+			(uuid "64513512-334d-4d25-90f1-3e776fb9f6e8")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 355.6 143.51 270)
 		(mirror x)
@@ -16426,7 +16590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
 			(at 118.11 46.99 0)
 			(effects
 				(font
@@ -16444,7 +16608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
+		(property "MPN" "CL05A475MP5NRNC"
 			(at 118.11 46.99 0)
 			(effects
 				(font
@@ -16831,6 +16995,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5400da90-3d44-41b2-a72c-e9fbf31cda6d")
+		(property "Reference" "C6"
+			(at 130.81 45.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 130.81 48.2662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "259cc13d-7b82-4076-ae9c-ecf990e0e96b")
+		)
+		(pin "2"
+			(uuid "8a9be4a4-9ad1-49f6-b4f0-8e20ccbefe76")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 107.95 39.37 0)
 		(unit 1)
@@ -17168,7 +17474,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 107.95 172.72 0)
+		(at 133.35 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17176,7 +17482,7 @@
 		(dnp no)
 		(uuid "600f40bf-d32d-456b-9e9f-9b24c0357bfe")
 		(property "Reference" "TP10"
-			(at 107.696 174.244 0)
+			(at 138.938 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17491,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 109.22 173.9899 0)
+			(at 134.6199 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17195,7 +17501,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 113.03 172.72 0)
+			(at 133.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17204,7 +17510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 172.72 0)
+			(at 133.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17213,7 +17519,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17222,7 +17528,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17231,7 +17537,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17240,7 +17546,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17249,7 +17555,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17258,7 +17564,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +17573,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17276,7 +17582,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 107.95 172.72 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21641,7 +21947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/sullins-connector-solutions/PPPC152LFBN-RC/810254"
 			(at 201.93 194.31 0)
 			(effects
 				(font
@@ -21651,6 +21957,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PPPC152LFBN-RC"
 			(at 201.93 194.31 0)
 			(effects
 				(font
@@ -22600,7 +22915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 46.99 0)
 			(effects
 				(font
@@ -24591,7 +24906,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 102.87 160.02 0)
+		(at 133.35 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24599,7 +24914,7 @@
 		(dnp no)
 		(uuid "e7f7474b-f3b8-405f-ae0f-59e3481781dc")
 		(property "Reference" "TP21"
-			(at 102.362 165.354 90)
+			(at 138.684 171.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,7 +24923,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 104.14 161.2899 0)
+			(at 134.6199 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24618,7 +24933,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 107.95 160.02 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24627,7 +24942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 160.02 0)
+			(at 133.35 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24636,7 +24951,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 102.87 160.02 0)
+			(at 133.35 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24645,7 +24960,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24654,7 +24969,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24663,7 +24978,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24672,7 +24987,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24681,7 +24996,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24690,7 +25005,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24699,7 +25014,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 102.87 160.02 90)
+			(at 133.35 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24917,148 +25232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec76e2c9-58d4-4922-af53-7a67a711c4fc")
-		(property "Reference" "C19"
-			(at 137.16 72.3962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 137.16 74.9362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3889531"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43358e2c-64bf-421f-a1e3-6c23d9b5460b")
-		)
-		(pin "2"
-			(uuid "fa874ef3-0e1c-4d4f-bc0c-0c265af49df9")
-		)
-		(instances
-			(project ""
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 368.3 45.72 0)
 		(unit 1)
@@ -25266,7 +25439,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 105.41 172.72 270)
+		(at 133.35 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25274,7 +25447,7 @@
 		(dnp no)
 		(uuid "eddd95dc-2c43-46cf-b26c-4e728f8f91af")
 		(property "Reference" "TP9"
-			(at 102.362 174.244 90)
+			(at 134.112 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25283,7 +25456,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 104.1401 173.99 0)
+			(at 134.62 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25293,7 +25466,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 105.41 177.8 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25302,7 +25475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 177.8 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25311,7 +25484,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 172.72 0)
+			(at 133.35 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25320,7 +25493,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25329,7 +25502,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25338,7 +25511,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25347,7 +25520,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25356,7 +25529,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25365,7 +25538,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25374,7 +25547,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 105.41 172.72 90)
+			(at 133.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25748,7 +25921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 155.448 0)
+			(at 130.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

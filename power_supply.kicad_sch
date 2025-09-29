@@ -3786,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/texas-instruments/TLV74033PDBVR/12642183?s=N4IgTCBcDaICoBkBqB2ALABgMxYAoBEAhJAJRAF0BfIA"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/texas-instruments/TLV78533PDBVR/26812391"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -3804,7 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TLV74033PDBVR"
+		(property "MPN" "TLV78533PDBVR"
 			(at 143.51 58.42 0)
 			(effects
 				(font

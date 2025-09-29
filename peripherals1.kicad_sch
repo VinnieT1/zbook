@@ -1834,156 +1834,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
@@ -2812,6 +2662,191 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "peripherals1:switch_button"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "switch_button_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "switch_button_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6813,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/panasonic-electronic-components/ERJ-2RKF2202X/1746152"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-13220RL/14008194"
 			(at 60.96 115.57 0)
 			(effects
 				(font
@@ -6831,7 +6866,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2202X"
+		(property "MPN" "RC0402JR-13220RL"
 			(at 60.96 115.57 90)
 			(effects
 				(font
@@ -7413,7 +7448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "peripherals1:switch_button")
 		(at 130.81 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7423,7 +7458,7 @@
 		(fields_autoplaced yes)
 		(uuid "578e4f16-6852-4d16-881e-fd678052e74c")
 		(property "Reference" "SW5"
-			(at 130.81 85.09 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,15 +7466,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 130.81 87.63 0)
+			(at 130.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 130.81 87.63 0)
+		(property "Footprint" "peripherals1:SW_1825910-6-4"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7483,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
-			(at 130.81 87.63 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,6 +7578,12 @@
 		(pin "1"
 			(uuid "5a223033-9016-469d-af9b-166dcaeeaf21")
 		)
+		(pin "3"
+			(uuid "bd1510ec-8c12-49b5-a2be-da81e631ac25")
+		)
+		(pin "4"
+			(uuid "f7d09ad6-0348-4a81-9081-78b55f6304f1")
+		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
@@ -7586,7 +7627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/panasonic-electronic-components/ERJ-2RKF2202X/1746152"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-13220RL/14008194"
 			(at 60.96 86.36 0)
 			(effects
 				(font
@@ -7604,7 +7645,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2202X"
+		(property "MPN" "RC0402JR-13220RL"
 			(at 60.96 86.36 90)
 			(effects
 				(font
@@ -8360,7 +8401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "peripherals1:switch_button")
 		(at 130.81 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8370,7 +8411,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c05a054-7592-4e67-9895-87b0d928b8de")
 		(property "Reference" "SW3"
-			(at 130.81 52.07 0)
+			(at 130.81 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,15 +8419,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 130.81 54.61 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 130.81 54.61 0)
+		(property "Footprint" "peripherals1:SW_1825910-6-4"
+			(at 130.81 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8436,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
-			(at 130.81 54.61 0)
+			(at 130.81 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,6 +8530,12 @@
 		)
 		(pin "1"
 			(uuid "1367851c-7257-40e2-ba33-a2c122140e6b")
+		)
+		(pin "4"
+			(uuid "00990c51-41cf-44b6-a098-e4640dbf1e1b")
+		)
+		(pin "3"
+			(uuid "ac97193a-4f0e-4198-876f-6f05a1b7afc9")
 		)
 		(instances
 			(project "zbook"
@@ -9294,7 +9341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"
 			(at 224.79 96.52 0)
 			(effects
 				(font
@@ -9543,7 +9590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "peripherals1:switch_button")
 		(at 93.98 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9553,7 +9600,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bc04f8a-a342-4e4c-a55c-52bc06efc150")
 		(property "Reference" "SW4"
-			(at 93.98 85.09 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,15 +9608,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 93.98 87.63 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 93.98 87.63 0)
+		(property "Footprint" "peripherals1:SW_1825910-6-4"
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +9625,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
-			(at 93.98 87.63 0)
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,6 +9720,12 @@
 		(pin "1"
 			(uuid "1ea8d0d2-314c-4dcc-88ba-67cf70b0faf8")
 		)
+		(pin "4"
+			(uuid "b0000fce-cab7-40a9-8bec-d782a2ad2a32")
+		)
+		(pin "3"
+			(uuid "52d9c984-6bde-4ce0-aa00-522c059db80b")
+		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
@@ -9683,7 +9736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "peripherals1:switch_button")
 		(at 93.98 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9693,7 +9746,7 @@
 		(fields_autoplaced yes)
 		(uuid "948b1f0d-7999-4581-bea2-88ebb1cdc29c")
 		(property "Reference" "SW2"
-			(at 93.98 52.07 0)
+			(at 93.98 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,15 +9754,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 93.98 54.61 0)
+			(at 93.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 93.98 54.61 0)
+		(property "Footprint" "peripherals1:SW_1825910-6-4"
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
-			(at 93.98 54.61 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,6 +9866,12 @@
 		(pin "1"
 			(uuid "0e8ce06e-ac60-4881-a021-f45e7f7d223a")
 		)
+		(pin "3"
+			(uuid "e4fd6655-a3b9-4490-9a6e-078117b200f7")
+		)
+		(pin "4"
+			(uuid "107fdc53-30a7-438f-856c-d01b80ed941f")
+		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
@@ -9850,7 +9909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
+		(property "Footprint" "peripherals1:PS1440P02BT"
 			(at 194.945 87.63 90)
 			(effects
 				(font
@@ -10476,7 +10535,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 237.236 95.504 90)
 			(effects
 				(font
@@ -10493,7 +10552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RT0402FRE07500RL/17011324"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/panasonic-electronic-components/ERJ-2RKF1000X/192080"
 			(at 233.68 96.52 0)
 			(effects
 				(font
@@ -10511,7 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402FRE07500RL"
+		(property "MPN" "ERJ-2RKF1000X"
 			(at 233.68 96.52 90)
 			(effects
 				(font
@@ -11301,7 +11360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "FDN327N"
 			(at 121.92 128.2699 0)
 			(effects
 				(font
@@ -11461,7 +11520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/panasonic-electronic-components/ERJ-2RKF2202X/1746152"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-13220RL/14008194"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -11479,7 +11538,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2202X"
+		(property "MPN" "RC0402JR-13220RL"
 			(at 60.96 132.08 90)
 			(effects
 				(font
@@ -11600,7 +11659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/panasonic-electronic-components/ERJ-2RKF2202X/1746152"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-13220RL/14008194"
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -11618,7 +11677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2202X"
+		(property "MPN" "RC0402JR-13220RL"
 			(at 60.96 101.6 90)
 			(effects
 				(font

@@ -6,4 +6,5 @@
   (lib (name "LG_R971-KN-1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LG_R971-KN-1/LG_R971-KN-1.kicad_sym")(options "")(descr ""))
   (lib (name "microcontroller")(type "KiCad")(uri "${KIPRJMOD}/microcontroller.kicad_sym")(options "")(descr ""))
   (lib (name "peripherals2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/peripherals2.kicad_sym")(options "")(descr ""))
+  (lib (name "peripherals1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Peripherals1/peripherals1.kicad_sym")(options "")(descr ""))
 )

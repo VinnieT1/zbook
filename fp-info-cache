@@ -1,4 +1,4 @@
-25623843854998437
+25627362210361985
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102684,6 +102684,20 @@ CMEJ-0415-42-P
 2
 peripherals1
 LED_FZ2812-5050
+
+
+0
+4
+4
+peripherals1
+PS1440P02BT
+
+
+0
+2
+2
+peripherals1
+SW_1825910-6-4
 
 
 0
