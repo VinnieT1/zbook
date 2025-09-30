@@ -11,8 +11,9 @@
 		(uuid "3981bde1-9beb-4924-a21a-8ffb378979dc")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -53,8 +54,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.130108 2.424301)
-		(end -1.154301 3.400108)
+		(start -3.400108 2.424301)
+		(end -2.424301 3.400108)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,8 +64,8 @@
 		(uuid "69827337-327e-4f24-9325-654852ecd151")
 	)
 	(fp_line
-		(start -1.289618 1.583811)
-		(end -2.130108 2.424301)
+		(start -2.559618 1.583811)
+		(end -3.400108 2.424301)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +74,8 @@
 		(uuid "5cf6ef6d-bcef-4067-9424-5be8a2fd9674")
 	)
 	(fp_line
-		(start -1.154301 3.400108)
-		(end -0.313811 2.559618)
+		(start -2.424301 3.400108)
+		(end -1.583811 2.559618)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -83,9 +84,9 @@
 		(uuid "18313be4-0359-4624-8051-0b2fe65ac2ec")
 	)
 	(fp_arc
-		(start -1.289618 1.583811)
-		(mid 3.398392 -2.128392)
-		(end -0.313811 2.559618)
+		(start -2.559618 1.583811)
+		(mid 2.128392 -2.128392)
+		(end -1.583811 2.559618)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -94,8 +95,8 @@
 		(uuid "0f0fa52c-836f-4640-81ac-671f937b4a86")
 	)
 	(fp_line
-		(start -2.323922 2.420125)
-		(end -1.150125 3.593922)
+		(start -3.593922 2.420125)
+		(end -2.420125 3.593922)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -104,8 +105,8 @@
 		(uuid "377e498a-0468-4c79-a922-78485e40fee2")
 	)
 	(fp_line
-		(start -1.465573 1.561775)
-		(end -2.323922 2.420125)
+		(start -2.735573 1.561775)
+		(end -3.593922 2.420125)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -114,8 +115,8 @@
 		(uuid "6ae33e8f-60be-4fd9-afe6-d1dfa138a698")
 	)
 	(fp_line
-		(start -1.150125 3.593922)
-		(end -0.291775 2.735573)
+		(start -2.420125 3.593922)
+		(end -1.561775 2.735573)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -124,9 +125,9 @@
 		(uuid "87759565-36cc-4a12-8d7e-a0bc06708629")
 	)
 	(fp_arc
-		(start -1.465573 1.561775)
-		(mid 3.497386 -2.227386)
-		(end -0.291775 2.735573)
+		(start -2.735573 1.561775)
+		(mid 2.227386 -2.227386)
+		(end -1.561775 2.735573)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +136,8 @@
 		(uuid "63d775f6-3dd9-437c-95f5-4995686ebe9c")
 	)
 	(fp_line
-		(start -1.976616 2.426372)
-		(end -1.156372 3.246616)
+		(start -3.246616 2.426372)
+		(end -2.426372 3.246616)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -145,8 +146,8 @@
 		(uuid "87a537ef-6773-4928-b33e-9160e1ba94b9")
 	)
 	(fp_line
-		(start -1.156372 3.246616)
-		(end -0.329057 2.419301)
+		(start -2.426372 3.246616)
+		(end -1.599057 2.419301)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -155,8 +156,8 @@
 		(uuid "caa8893f-bd61-4361-b93d-2f1845cfdb2b")
 	)
 	(fp_line
-		(start -1.149301 1.599057)
-		(end -1.976616 2.426372)
+		(start -2.419301 1.599057)
+		(end -3.246616 2.426372)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -165,9 +166,9 @@
 		(uuid "f1a8513f-31d8-4e1c-bbbf-b4e7ee5e84d0")
 	)
 	(fp_arc
-		(start -1.149301 1.599057)
-		(mid 3.32061 -2.05061)
-		(end -0.329057 2.419301)
+		(start -2.419301 1.599057)
+		(mid 2.05061 -2.05061)
+		(end -1.599057 2.419301)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -176,8 +177,8 @@
 		(uuid "a905ade5-0b4d-4463-9cbb-5e7094832985")
 	)
 	(fp_circle
-		(center 1.27 0)
-		(end 3.67 0)
+		(center 0 0)
+		(end 2.4 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -198,7 +199,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 2.54 0)
+		(at 0 -1.27)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -206,7 +207,7 @@
 		(uuid "1405fec6-34b6-43e1-bc6b-61ddf4a10aee")
 	)
 	(pad "2" thru_hole circle
-		(at 0 0)
+		(at 0 1.27)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -214,15 +215,15 @@
 		(uuid "b3ad8492-fc9c-4b1a-96ef-750c4c9d2bf9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-18-2.step"
+	(model "${KIPRJMOD}/Libraries/Peripherals1/OP598A.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
