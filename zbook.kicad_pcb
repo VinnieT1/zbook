@@ -56786,6 +56786,19 @@
 			)
 		)
 	)
+	(gr_text "Front Header View"
+		(at 176.2 100.8 0)
+		(layer "B.SilkS")
+		(uuid "3c440984-5932-4a6f-8683-67961c498ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "ZBook Project\nGerber Files:\n- Comments Layer: zbook-User_Comments.gbr\n- PCB Edge Cut Layer: zbook-Edge_Cuts.gbr\n- Front Copper Layer: zbook-F_Cu.gbr\n- Front Solder Mask Layer: zbook-F_Mask.gbr\n- Front Solder Paste Layer: zbook-F_Paste.gbr\n- Front Silkscreen Layer: zbook-F_Silkscreen.gbr\n- Inner 1 Layer: zbook-In1_Cu.gbr\n- Inner 2 Layer: zbook-In2_Cu.gbr\n- Bottom Copper Layer: zbook-B_Cu.gbr\n- Bottom Solder Mask Layer: zbook-B_Mask.gbr\n- Bottom Solder Paste Layer: zbook-B_Paste.gbr\n- Bottom Silkscreen Layer: zbook-B_Silkscreen.gbr"
 		(at 191.8 86.5 0)
 		(layer "Cmts.User")
@@ -56817,16 +56830,16 @@
 				(type solid)
 			)
 		)
-		(column_widths 7.325 13.2)
-		(row_heights 1.9 1.8 1.9 1.8 1.9 2 1.9 1.6 1.9 1.8 1.9 2 1.9 2)
+		(column_widths 7.2 13.2)
+		(row_heights 1.65 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8)
 		(cells
 			(table_cell "+3V3"
-				(start 155.3375 100.85)
-				(end 162.6625 102.75)
+				(start 155.4 101.175)
+				(end 162.6 102.825)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "5eb4ac69-7e47-4340-95a8-fa593eeb9c8b")
+				(uuid "66ef6c4f-b4bf-401e-a71f-a0c39d45fbde")
 				(effects
 					(font
 						(size 1 1)
@@ -56836,12 +56849,12 @@
 				)
 			)
 			(table_cell "+VBUS"
-				(start 162.6625 100.85)
-				(end 175.8625 102.75)
+				(start 162.6 101.175)
+				(end 175.8 102.825)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "d8b18b18-cbb3-4179-bfec-ec9d518cc40b")
+				(uuid "5ea8ff43-6136-4b5a-a771-e742d1507862")
 				(effects
 					(font
 						(size 1 1)
@@ -56851,12 +56864,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 102.75)
-				(end 162.6625 104.55)
+				(start 155.4 102.825)
+				(end 162.6 104.625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "2c77d8b8-e077-4773-94be-4ca8a8c8a152")
+				(uuid "9f2405ff-db1c-4a89-a6b5-e82faf790054")
 				(effects
 					(font
 						(size 1 1)
@@ -56865,13 +56878,13 @@
 					(justify left mirror)
 				)
 			)
-			(table_cell "I2C SCL"
-				(start 162.6625 102.75)
-				(end 175.8625 104.55)
+			(table_cell "I2C_SCL"
+				(start 162.6 102.825)
+				(end 175.8 104.625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "17bf2e79-265c-4d3c-8271-82c6a5870ba2")
+				(uuid "b0f44164-0e24-4978-9642-f38b8c2f1828")
 				(effects
 					(font
 						(size 1 1)
@@ -56881,12 +56894,42 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 104.55)
-				(end 162.6625 106.45)
+				(start 155.4 104.625)
+				(end 162.6 106.425)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "d19a4cc4-9366-4dc1-9043-6eee93a7008e")
+				(uuid "95a485f8-d110-48e7-ba3f-d6d6a444502a")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+					)
+					(justify left mirror)
+				)
+			)
+			(table_cell "I2C_SDA"
+				(start 162.6 104.625)
+				(end 175.8 106.425)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "B.SilkS")
+				(uuid "717666ba-9d03-4664-a9b1-36be9b214d38")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+					)
+					(justify left mirror)
+				)
+			)
+			(table_cell "GND"
+				(start 155.4 106.425)
+				(end 162.6 108.225)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "B.SilkS")
+				(uuid "24c85a33-e7fb-4c15-ba58-4b0a5620ec2a")
 				(effects
 					(font
 						(size 1 1)
@@ -56896,12 +56939,12 @@
 				)
 			)
 			(table_cell "GPIO08"
-				(start 162.6625 104.55)
-				(end 175.8625 106.45)
+				(start 162.6 106.425)
+				(end 175.8 108.225)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "057958da-9595-4b4b-a437-472f8620e453")
+				(uuid "b0aced40-6737-4d7f-a1de-1ddfbe2f6daf")
 				(effects
 					(font
 						(size 1 1)
@@ -56911,12 +56954,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 106.45)
-				(end 162.6625 108.25)
+				(start 155.4 108.225)
+				(end 162.6 110.025)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "7560e1bb-eed3-454e-a71d-7c311e495304")
+				(uuid "96c21e41-1f74-4ae7-be15-2bc2ce76acfe")
 				(effects
 					(font
 						(size 1 1)
@@ -56926,12 +56969,12 @@
 				)
 			)
 			(table_cell "GPIO07"
-				(start 162.6625 106.45)
-				(end 175.8625 108.25)
+				(start 162.6 108.225)
+				(end 175.8 110.025)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "db00f126-8fd7-4d39-bce0-4d868520cc96")
+				(uuid "b5c7449e-0fc6-4b47-9d5d-da75456a9a98")
 				(effects
 					(font
 						(size 1 1)
@@ -56941,12 +56984,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 108.25)
-				(end 162.6625 110.15)
+				(start 155.4 110.025)
+				(end 162.6 111.825)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "bd75b487-d066-45a6-a4c0-a6bea8e82a89")
+				(uuid "d24fdea8-6ba6-4e9a-aeb1-49243cc448dc")
 				(effects
 					(font
 						(size 1 1)
@@ -56956,12 +56999,12 @@
 				)
 			)
 			(table_cell "GPIO43 (ADC)"
-				(start 162.6625 108.25)
-				(end 175.8625 110.15)
+				(start 162.6 110.025)
+				(end 175.8 111.825)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "251fbe6f-92d7-4f71-99ac-16315a7ddd9a")
+				(uuid "c008bedd-86ad-4a87-9ac1-1883b16860a7")
 				(effects
 					(font
 						(size 1 1)
@@ -56971,12 +57014,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 110.15)
-				(end 162.6625 112.15)
+				(start 155.4 111.825)
+				(end 162.6 113.625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "19e79242-0930-4da0-8258-922e2e36ddae")
+				(uuid "c2ea6b62-c917-4943-92b9-89c370f5eb51")
 				(effects
 					(font
 						(size 1 1)
@@ -56986,12 +57029,12 @@
 				)
 			)
 			(table_cell "GPIO47 (ADC)"
-				(start 162.6625 110.15)
-				(end 175.8625 112.15)
+				(start 162.6 111.825)
+				(end 175.8 113.625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "f111249b-f8bb-47df-92fd-d56cf7afb634")
+				(uuid "8c757cd9-8f9d-4480-92a6-9c97881c594a")
 				(effects
 					(font
 						(size 1 1)
@@ -57001,12 +57044,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 112.15)
-				(end 162.6625 114.05)
+				(start 155.4 113.625)
+				(end 162.6 115.425)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "1d8f0405-623f-4290-a8b6-a9bdc09f4f4a")
+				(uuid "c4ed45b1-674e-478d-962f-3e5e33942e10")
 				(effects
 					(font
 						(size 1 1)
@@ -57016,12 +57059,12 @@
 				)
 			)
 			(table_cell "GPIO46 (ADC)"
-				(start 162.6625 112.15)
-				(end 175.8625 114.05)
+				(start 162.6 113.625)
+				(end 175.8 115.425)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "42794712-f769-44ef-b12f-37c6df8e101e")
+				(uuid "a04a4036-df3d-45af-a881-51450fbb149f")
 				(effects
 					(font
 						(size 1 1)
@@ -57031,12 +57074,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 114.05)
-				(end 162.6625 115.65)
+				(start 155.4 115.425)
+				(end 162.6 117.225)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "47542900-f0fb-45e2-b808-22778791fbbb")
+				(uuid "c2b18b3f-723b-43a6-80fd-a5b65b2d8036")
 				(effects
 					(font
 						(size 1 1)
@@ -57046,12 +57089,12 @@
 				)
 			)
 			(table_cell "GPIO45 (ADC)"
-				(start 162.6625 114.05)
-				(end 175.8625 115.65)
+				(start 162.6 115.425)
+				(end 175.8 117.225)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "a2530204-83a0-4fc1-9c71-a5da7a99915b")
+				(uuid "68cbe032-a18f-418e-a550-8921979834dc")
 				(effects
 					(font
 						(size 1 1)
@@ -57061,12 +57104,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 115.65)
-				(end 162.6625 117.55)
+				(start 155.4 117.225)
+				(end 162.6 119.025)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "1a49f496-b5b2-4e97-8cac-7f643095ecc7")
+				(uuid "9d236a55-912d-4736-a114-093c44805dbb")
 				(effects
 					(font
 						(size 1 1)
@@ -57076,12 +57119,12 @@
 				)
 			)
 			(table_cell "GPIO44 (ADC)"
-				(start 162.6625 115.65)
-				(end 175.8625 117.55)
+				(start 162.6 117.225)
+				(end 175.8 119.025)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "7043fe9a-5cd9-40f5-9c23-27bb33ce0b32")
+				(uuid "d87aec02-01ec-4efc-a117-7c2ed161fbaa")
 				(effects
 					(font
 						(size 1 1)
@@ -57091,12 +57134,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 117.55)
-				(end 162.6625 119.35)
+				(start 155.4 119.025)
+				(end 162.6 120.825)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "3d661748-edd7-4b9e-86ca-171eef7ae653")
+				(uuid "1ed4e97c-13ae-4f01-8ff1-23b17daf13cf")
 				(effects
 					(font
 						(size 1 1)
@@ -57105,13 +57148,13 @@
 					(justify left mirror)
 				)
 			)
-			(table_cell "MOSFET DRAIN"
-				(start 162.6625 117.55)
-				(end 175.8625 119.35)
+			(table_cell "MOSFET_DRAIN"
+				(start 162.6 119.025)
+				(end 175.8 120.825)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "1b3a05d7-dc3f-4ae3-afaa-08a105ab4068")
+				(uuid "d0ee506d-162c-49da-a294-86dcec4a92ca")
 				(effects
 					(font
 						(size 1 1)
@@ -57121,12 +57164,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 119.35)
-				(end 162.6625 121.25)
+				(start 155.4 120.825)
+				(end 162.6 122.625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "9cb9ec20-28e8-4e2c-bb67-65a6a8eee4cd")
+				(uuid "4c58bc7a-9ee7-46e6-9732-80536a01f0db")
 				(effects
 					(font
 						(size 1 1)
@@ -57135,13 +57178,13 @@
 					(justify left mirror)
 				)
 			)
-			(table_cell "SPI MISO"
-				(start 162.6625 119.35)
-				(end 175.8625 121.25)
+			(table_cell "SPI_MISO"
+				(start 162.6 120.825)
+				(end 175.8 122.625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "9ba9f738-e73e-425e-bef7-7e553524d682")
+				(uuid "47234353-84fd-4585-ac04-4f2bccad7646")
 				(effects
 					(font
 						(size 1 1)
@@ -57151,12 +57194,12 @@
 				)
 			)
 			(table_cell "GPIO27"
-				(start 155.3375 121.25)
-				(end 162.6625 123.25)
+				(start 155.4 122.625)
+				(end 162.6 124.425)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "6a2255c6-e6b8-4f97-9c56-ee85f5983f6a")
+				(uuid "8e7bcf5a-3b44-4f94-9a32-83428472ddb2")
 				(effects
 					(font
 						(size 1 1)
@@ -57166,12 +57209,12 @@
 				)
 			)
 			(table_cell "GPIO26"
-				(start 162.6625 121.25)
-				(end 175.8625 123.25)
+				(start 162.6 122.625)
+				(end 175.8 124.425)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "d55b9501-651f-414c-8594-9ccc618713b8")
+				(uuid "45c17417-e1a4-4c01-beff-85423992f045")
 				(effects
 					(font
 						(size 1 1)
@@ -57181,12 +57224,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 123.25)
-				(end 162.6625 125.15)
+				(start 155.4 124.425)
+				(end 162.6 126.225)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "ba80a538-3d97-4738-b2d4-703de1b97186")
+				(uuid "9d05fdbd-1e73-44be-a9dd-d5c1fb6675f0")
 				(effects
 					(font
 						(size 1 1)
@@ -57195,13 +57238,13 @@
 					(justify left mirror)
 				)
 			)
-			(table_cell "SPI SCLK"
-				(start 162.6625 123.25)
-				(end 175.8625 125.15)
+			(table_cell "SPI_SCLK"
+				(start 162.6 124.425)
+				(end 175.8 126.225)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "4e07d3ce-42a2-42de-b845-11269ab7cd67")
+				(uuid "829d8665-8511-4385-a29b-c9d9956611ec")
 				(effects
 					(font
 						(size 1 1)
@@ -57211,12 +57254,12 @@
 				)
 			)
 			(table_cell "GND"
-				(start 155.3375 125.15)
-				(end 162.6625 127.15)
+				(start 155.4 126.225)
+				(end 162.6 128.025)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "a93ca443-9056-4d99-ae93-be10d0e16513")
+				(uuid "30be04e9-8fc4-46f8-b67b-cbe8fe783124")
 				(effects
 					(font
 						(size 1 1)
@@ -57225,13 +57268,13 @@
 					(justify left mirror)
 				)
 			)
-			(table_cell "SPI MOSI"
-				(start 162.6625 125.15)
-				(end 175.8625 127.15)
+			(table_cell "SPI_MOSI"
+				(start 162.6 126.225)
+				(end 175.8 128.025)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
 				(layer "B.SilkS")
-				(uuid "411abb24-e1ff-4ada-99f1-c962d343eedc")
+				(uuid "11df8005-659e-45e0-8bd7-80c6812951d7")
 				(effects
 					(font
 						(size 1 1)
@@ -58703,6 +58746,15 @@
 		(uuid "079ce105-bcd9-444e-b23e-710e12a7f5ad")
 	)
 	(via
+		(at 160.4 79.8)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "085d98c1-435e-40ae-8c24-47aff5bfd401")
+	)
+	(via
 		(at 132.9 90.3)
 		(size 0.6)
 		(drill 0.3)
@@ -58752,6 +58804,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "0e42c7eb-eb06-4177-b046-ed665bc4073b")
+	)
+	(via
+		(at 160.8 91)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "0ed8dda8-1e66-4c23-b247-5bc59a0bb3de")
 	)
 	(via
 		(at 161.3 136.4)
@@ -59172,6 +59233,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "2e1fc507-584c-4092-b135-cecaafa455d6")
+	)
+	(via
+		(at 159.2 82.8)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "2e3a970e-3845-41df-9949-96cd7fc1091a")
 	)
 	(via
 		(at 137.2 117.1)
@@ -61288,6 +61358,15 @@
 		(uuid "c0f67404-9848-4e99-a9d9-0f78585f2827")
 	)
 	(via
+		(at 159.2 86.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "c1577a48-f6ff-4628-8c62-5dc693777114")
+	)
+	(via
 		(at 163 129.92)
 		(size 0.6)
 		(drill 0.3)
@@ -61584,6 +61663,15 @@
 		(free yes)
 		(net 1)
 		(uuid "d5a27d4d-b322-4477-bab0-7d8bbe93de7f")
+	)
+	(via
+		(at 161.6 80.8)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "d5e9ab1e-8f6e-4108-9dd8-e6e6625102da")
 	)
 	(via
 		(at 155.792493 111)
