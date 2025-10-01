@@ -61,3 +61,4 @@ plots/
 
 .DS_Store
 fp-info-cache
+*.pos
