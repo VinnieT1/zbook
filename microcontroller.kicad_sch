@@ -6189,6 +6189,12 @@
 		(uuid "d97017c1-6100-40da-90a3-74cad8ed5ab8")
 	)
 	(junction
+		(at 31.75 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "051cd35b-9b7d-4d9e-b1f1-5366e30f176d")
+	)
+	(junction
 		(at 214.63 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6529,12 +6535,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e583eb-9bed-4c99-8948-580ed9b20235")
-	)
-	(junction
-		(at 29.21 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db02ae88-5ca0-432c-ad95-c6e7253ea1c9")
 	)
 	(junction
 		(at 214.63 194.31)
@@ -7274,7 +7274,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 116.84) (xy 29.21 119.38)
+			(xy 31.75 116.84) (xy 31.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7771,6 +7771,16 @@
 			(type default)
 		)
 		(uuid "4219e260-6b2d-4b93-91f7-35a3e77094c8")
+	)
+	(wire
+		(pts
+			(xy 31.75 109.22) (xy 59.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429d89ee-d629-48b5-8ffb-3af8598263a9")
 	)
 	(wire
 		(pts
@@ -8994,17 +9004,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 109.22) (xy 59.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d67fb93-3bf7-4428-ab5d-9a64f8feb2bc")
-	)
-	(wire
-		(pts
-			(xy 29.21 109.22) (xy 29.21 111.76)
+			(xy 31.75 109.22) (xy 31.75 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10314,7 +10314,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 106.68) (xy 29.21 109.22)
+			(xy 31.75 106.68) (xy 31.75 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10742,7 +10742,7 @@
 		)
 		(uuid "13f3185c-8205-422b-a63d-59ca4f8ed137")
 	)
-	(label "GPIO43"
+	(label "GPIO41"
 		(at 186.69 189.23 0)
 		(effects
 			(font
@@ -11012,7 +11012,7 @@
 		)
 		(uuid "690768a5-2f26-4b4a-a5e0-d26ebfe4f81e")
 	)
-	(label "GPIO43"
+	(label "GPIO41"
 		(at 132.08 109.22 180)
 		(effects
 			(font
@@ -15861,7 +15861,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 29.21 114.3 0)
+		(at 31.75 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15869,7 +15869,7 @@
 		(dnp no)
 		(uuid "49151f0a-b2e0-42df-a32b-d633b0d6e10d")
 		(property "Reference" "C24"
-			(at 30.226 113.03 0)
+			(at 26.416 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +15878,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 30.226 115.57 0)
+			(at 26.416 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +15887,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +15896,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/samsung-electro-mechanics/CL05B104KA5NNNC/5961204?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIEEUA5EuEAXQF8g"
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +15905,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +15914,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KA5NNNC"
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15923,7 +15923,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,7 +15932,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15941,7 +15941,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15950,7 +15950,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +15959,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15968,7 +15968,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15977,7 +15977,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 29.21 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18277,7 +18277,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 119.38 0)
+		(at 31.75 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18285,7 +18285,7 @@
 		(dnp no)
 		(uuid "6fc9f0c0-86d8-4298-89b6-58efd79d3a25")
 		(property "Reference" "#PWR051"
-			(at 29.21 125.73 0)
+			(at 31.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18294,7 +18294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 123.19 0)
+			(at 31.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18302,7 +18302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 119.38 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18311,7 +18311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 119.38 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18320,7 +18320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 119.38 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20298,72 +20298,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 29.21 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90abaf4a-0992-4127-acc4-d89b725347d8")
-		(property "Reference" "#PWR045"
-			(at 29.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 29.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20e9073d-4fbd-4ffd-93dc-e1f01b4c7436")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -25897,6 +25831,71 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 31.75 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4764201-bdb0-41c7-b942-eb217a264f81")
+		(property "Reference" "#PWR045"
+			(at 31.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 30.988 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a9aabf1-3c57-4d41-add6-b383808b2f24")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d36fc6ee-483e-4a4a-988a-06a4ba308aa7"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
