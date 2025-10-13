@@ -1140,23 +1140,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
+			(property "Reference" "RV1"
+				(at -2.54 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "R_Potentiometer_US"
-				(at -2.54 0 90)
+			(property "Value" "R_Pot_US"
+				(at -2.54 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1175,6 +1177,69 @@
 				)
 			)
 			(property "Description" "Potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1288,6 +1353,44 @@
 				)
 			)
 			(symbol "R_Potentiometer_US_1_1"
+				(pin no_connect line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "MNT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MNT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "MNT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MNT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5372,7 +5475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f55ea6-6137-4f97-a5a2-26b4bad3d4e7")
-		(property "Reference" "R21"
+		(property "Reference" "RV1"
 			(at 232.41 52.0699 0)
 			(effects
 				(font
@@ -5498,7 +5601,7 @@
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "R21")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d4b615-72ce-4c31-8296-25d9b6a0a1af")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 222.25 95.2499 0)
 			(effects
 				(font
@@ -9341,7 +9444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal"
+		(property "Footprint" "peripherals1:PTV09A-4020F-B102"
 			(at 224.79 96.52 0)
 			(effects
 				(font
@@ -9440,10 +9543,16 @@
 		(pin "2"
 			(uuid "dc44546c-c0dd-478e-b903-4f6c449e1f50")
 		)
+		(pin "MNT1"
+			(uuid "86a960b7-321e-4103-8118-f975041234f3")
+		)
+		(pin "MNT2"
+			(uuid "f840100a-469e-4d41-89eb-a6ec0b8bf120")
+		)
 		(instances
 			(project ""
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/a1f414e1-5df9-4629-ac63-50177a532799"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -12192,7 +12301,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "220"
 			(at 117.856 162.814 90)
 			(effects
 				(font
@@ -12209,7 +12318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-0727RL/726450"
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402JR-13220RL/14008194"
 			(at 114.3 163.83 0)
 			(effects
 				(font
@@ -12227,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-0727RL"
+		(property "MPN" "RC0402JR-13220RL"
 			(at 114.3 163.83 90)
 			(effects
 				(font

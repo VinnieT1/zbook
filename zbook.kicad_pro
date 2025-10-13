@@ -534,7 +534,7 @@
       "specctra_dsn": "",
       "step": "zbook.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "gerbers/zbook.wrl"
     },
     "page_layout_descr_file": ""
   },
