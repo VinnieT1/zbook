@@ -944,27 +944,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
+		(symbol "Device:D_Zener_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -972,7 +972,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -981,6 +981,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -989,16 +998,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1016,10 +1016,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_0_1"
+			(symbol "D_Zener_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -1031,7 +1031,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -1043,7 +1043,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 0.762 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -1054,10 +1054,10 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "D_Zener_Small_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.778)
 					(name "K"
 						(effects
 							(font
@@ -1074,8 +1074,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.778)
 					(name "A"
 						(effects
 							(font
@@ -1574,6 +1574,304 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2637,7 +2935,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-		(end 76.2 134.62)
+		(end 87.63 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -2682,7 +2980,7 @@
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 137.16 26.162 0)
+		(at 142.494 26.162 0)
 		(effects
 			(font
 				(size 10.16 10.16)
@@ -2703,7 +3001,19 @@
 		(uuid "fb42a8c3-d1dd-4811-a9cf-98bd7f44aecc")
 	)
 	(junction
-		(at 48.26 40.64)
+		(at 68.58 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23aff232-190f-47b5-b3ed-0cc26027362b")
+	)
+	(junction
+		(at 71.12 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456669fd-a925-4fde-91b2-ac83ea30f378")
+	)
+	(junction
+		(at 48.26 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59efb2cf-9a92-4997-ab6f-a5dac08a46c1")
@@ -2715,13 +3025,13 @@
 		(uuid "61b7fd35-f80c-46c6-837c-8517d525570e")
 	)
 	(junction
-		(at 48.26 97.79)
+		(at 48.26 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65b694fe-a915-4d03-ae2a-17e7a3a85eec")
 	)
 	(junction
-		(at 30.48 67.31)
+		(at 30.48 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fa4530f-6d90-4ee8-a1a2-5a6d0e193288")
@@ -2733,34 +3043,34 @@
 		(uuid "88a20402-1835-4150-ab8d-383e36fbe9b5")
 	)
 	(junction
-		(at 48.26 105.41)
+		(at 48.26 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e2bdc82-e2b7-4a86-9d07-0511ac087fb1")
 	)
 	(junction
-		(at 58.42 85.09)
+		(at 72.39 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92e69ec5-bbc7-4168-aebf-b053ec1063f7")
+		(uuid "9c36abdf-2166-480a-93d6-9be6482af7e8")
 	)
 	(junction
-		(at 30.48 124.46)
+		(at 30.48 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6affdd1-3b8b-4390-b870-dbcc242d2e6d")
-	)
-	(junction
-		(at 58.42 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2561ead-323f-4016-8492-c8dc7efe32f1")
 	)
 	(junction
 		(at 125.73 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdec6cb4-7682-4baa-956a-ce1a69e920f6")
+	)
+	(junction
+		(at 68.58 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec2a3bf-c6d1-4387-a270-ceae491d0847")
 	)
 	(junction
 		(at 156.21 53.34)
@@ -2775,21 +3085,33 @@
 		(uuid "c941c125-f776-4e68-8068-190d9506cf97")
 	)
 	(junction
-		(at 48.26 48.26)
+		(at 71.12 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebed1392-c398-4a66-8474-6eb06026f9ff")
+	)
+	(junction
+		(at 74.93 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec506043-bd9c-418f-86e6-f94c06c1c6dd")
+	)
+	(junction
+		(at 48.26 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2d56cc-b641-4f61-aedc-97338d5339b0")
 	)
 	(no_connect
-		(at 22.86 123.19)
+		(at 22.86 127)
 		(uuid "2576f28d-f658-4b5a-b7cf-9313aef42622")
 	)
 	(no_connect
-		(at 45.72 113.03)
+		(at 45.72 116.84)
 		(uuid "7de1e94a-7ea7-46ec-92ff-289fbbd464aa")
 	)
 	(no_connect
-		(at 45.72 115.57)
+		(at 45.72 119.38)
 		(uuid "8094de91-8bba-448d-bf63-c58d8561e8ea")
 	)
 	(no_connect
@@ -2797,20 +3119,20 @@
 		(uuid "ad556791-04db-456c-acb6-cc83e1f1b30a")
 	)
 	(no_connect
-		(at 45.72 55.88)
+		(at 45.72 60.96)
 		(uuid "b7a67eb1-71bc-4ddc-87f5-6bb9af7b20e7")
 	)
 	(no_connect
-		(at 22.86 66.04)
+		(at 22.86 71.12)
 		(uuid "ce4867ca-4aed-4829-8fa4-eef26650f3e5")
 	)
 	(no_connect
-		(at 45.72 58.42)
+		(at 45.72 63.5)
 		(uuid "ced70fc8-9f1b-4954-8f4d-10c08cc2a782")
 	)
 	(wire
 		(pts
-			(xy 58.42 27.94) (xy 55.88 27.94)
+			(xy 69.85 21.59) (xy 71.12 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 48.26) (xy 48.26 48.26)
+			(xy 45.72 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +3152,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 33.02) (xy 46.99 33.02)
+			(xy 64.77 30.48) (xy 71.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068ff274-3397-4ba1-9de9-e443bc348224")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 46.99 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +3172,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 90.17) (xy 53.34 90.17)
+			(xy 52.07 93.98) (xy 53.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 25.4) (xy 58.42 27.94)
+			(xy 74.93 19.05) (xy 74.93 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 90.17) (xy 46.99 90.17)
+			(xy 45.72 93.98) (xy 46.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2880,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 92.71) (xy 46.99 92.71)
+			(xy 45.72 96.52) (xy 46.99 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +3232,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 27.94) (xy 60.96 27.94)
+			(xy 72.39 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acd9e80-d733-4606-8c97-ff0c82df6eb7")
+	)
+	(wire
+		(pts
+			(xy 74.93 21.59) (xy 77.47 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 53.34 92.71)
+			(xy 52.07 96.52) (xy 53.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 97.79) (xy 48.26 97.79)
+			(xy 45.72 101.6) (xy 48.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 30.48 124.46)
+			(xy 33.02 128.27) (xy 30.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2980,23 +3322,43 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 82.55) (xy 58.42 85.09)
+			(xy 68.58 86.36) (xy 68.58 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30381f9b-cd0d-4f49-a903-d335a66be01e")
+		(uuid "2f3755da-45bd-4091-a957-932361843e46")
 	)
 	(wire
 		(pts
-			(xy 30.48 66.04) (xy 30.48 67.31)
+			(xy 71.12 29.21) (xy 71.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc3afc1-6be0-4c54-be11-c2f8be16ee4f")
+	)
+	(wire
+		(pts
+			(xy 30.48 71.12) (xy 30.48 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a3389f8-c091-41fe-831c-3c0d6138462c")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff10452-f8d4-4416-8f05-e1424b9e572e")
 	)
 	(wire
 		(pts
@@ -3010,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 67.31) (xy 30.48 68.58)
+			(xy 30.48 72.39) (xy 30.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.19) (xy 30.48 124.46)
+			(xy 30.48 127) (xy 30.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 35.56) (xy 53.34 35.56)
+			(xy 52.07 40.64) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3050,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 77.47) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500554a9-d20e-4ba0-8e2d-311260e80bbe")
+	)
+	(wire
+		(pts
 			(xy 125.73 53.34) (xy 125.73 54.61)
 		)
 		(stroke
@@ -3060,7 +3432,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 105.41) (xy 54.61 105.41)
+			(xy 62.23 85.09) (xy 62.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571f9d86-b81a-4e2c-a2bb-ce6a9238c276")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b27137f-a460-49e1-a1a0-9ec5e64a1436")
+	)
+	(wire
+		(pts
+			(xy 48.26 109.22) (xy 54.61 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 48.26 43.18)
+			(xy 45.72 48.26) (xy 48.26 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3492,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 33.02) (xy 53.34 33.02)
+			(xy 71.12 36.83) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a414c8b-d217-4fe6-831c-5b64f26c7c8a")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 53.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3512,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 48.26 45.72)
+			(xy 50.8 88.9) (xy 50.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9feebd-0815-4ebf-a1d4-75b0157c93aa")
+	)
+	(wire
+		(pts
+			(xy 45.72 50.8) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3532,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 48.26 100.33)
+			(xy 68.58 77.47) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ac775d-3930-4bb9-99b8-d2eba69b3ba5")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 48.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 48.26 43.18)
+			(xy 48.26 45.72) (xy 48.26 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3150,17 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 85.09) (xy 55.88 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82883742-3002-48d5-9449-db6cd9fa4f7b")
-	)
-	(wire
-		(pts
-			(xy 48.26 48.26) (xy 54.61 48.26)
+			(xy 48.26 53.34) (xy 54.61 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 124.46) (xy 30.48 125.73)
+			(xy 30.48 128.27) (xy 30.48 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3592,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 48.26 48.26)
+			(xy 48.26 50.8) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3612,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 85.09) (xy 48.26 85.09)
+			(xy 45.72 88.9) (xy 50.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 48.26 102.87)
+			(xy 45.72 106.68) (xy 48.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3250,6 +3662,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 30.48) (xy 64.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a351ac71-4dd3-44e9-b1ac-cc6c7f60addb")
+	)
+	(wire
+		(pts
 			(xy 156.21 54.61) (xy 153.67 54.61)
 		)
 		(stroke
@@ -3260,17 +3682,37 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 85.09) (xy 58.42 85.09)
+			(xy 50.8 77.47) (xy 57.15 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b89fe18b-0fa2-4691-aec5-d5dfb8e21196")
+		(uuid "af186e61-a3e5-4c92-b43f-bcfeffd4f333")
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 48.26 27.94)
+			(xy 71.12 30.48) (xy 71.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3930065-bf93-48ed-b5d2-c1db2f11e58d")
+	)
+	(wire
+		(pts
+			(xy 67.31 77.47) (xy 68.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58189b3-e0ec-46b2-a60c-28a1ca294093")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 50.8 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3280,7 +3722,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 46.99 35.56)
+			(xy 50.8 21.59) (xy 59.69 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbac6b06-fc19-434b-aa6c-8ce602f5c62d")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 46.99 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 54.61 97.79)
+			(xy 48.26 101.6) (xy 54.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3752,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 54.61 40.64)
+			(xy 48.26 45.72) (xy 54.61 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3310,13 +3762,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 67.31) (xy 30.48 67.31)
+			(xy 33.02 72.39) (xy 30.48 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d364dd10-cf79-4473-9116-3fdec8f1edbb")
+	)
+	(wire
+		(pts
+			(xy 71.12 21.59) (xy 71.12 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d0d40c-ef49-4283-a0c1-be4b26d56c38")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47678e6-4c81-41d3-b418-3fa2d6ee6dbc")
 	)
 	(wire
 		(pts
@@ -3350,6 +3822,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 21.59) (xy 74.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a5d734-da1c-4282-aeac-f1e2107df82b")
+	)
+	(wire
+		(pts
 			(xy 130.81 64.77) (xy 130.81 62.23)
 		)
 		(stroke
@@ -3360,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 102.87) (xy 48.26 105.41)
+			(xy 48.26 106.68) (xy 48.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3882,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 48.26 100.33)
+			(xy 50.8 33.02) (xy 50.8 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb033776-6d56-41ea-bda1-cbe4f084fbe1")
+	)
+	(wire
+		(pts
+			(xy 45.72 104.14) (xy 48.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3417,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "eff5cd9e-531a-4b8b-b233-96e60c283720")
+	)
+	(wire
+		(pts
+			(xy 68.58 92.71) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1928579-f504-447a-95c5-43c45bdee8d1")
 	)
 	(wire
 		(pts
@@ -3440,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 105.41) (xy 48.26 105.41)
+			(xy 45.72 109.22) (xy 48.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 40.64) (xy 48.26 40.64)
+			(xy 45.72 45.72) (xy 48.26 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3962,7 @@
 	)
 	(global_label "USB_PROBE_D+"
 		(shape bidirectional)
-		(at 54.61 105.41 0)
+		(at 54.61 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3470,7 +3972,7 @@
 		)
 		(uuid "15963352-bd6e-4c28-b2b7-a8c51dedad15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.361 105.41 0)
+			(at 71.361 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3984,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 54.61 40.64 0)
+		(at 54.61 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3492,7 +3994,7 @@
 		)
 		(uuid "4d93fee9-6622-4984-98d8-e0f90162d0a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1039 40.64 0)
+			(at 64.1039 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +4006,7 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 54.61 48.26 0)
+		(at 54.61 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3514,7 +4016,7 @@
 		)
 		(uuid "72355651-d313-4a4d-ac78-5a4d225cac46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1039 48.26 0)
+			(at 64.1039 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +4028,7 @@
 	)
 	(global_label "USB_PROBE_D-"
 		(shape bidirectional)
-		(at 54.61 97.79 0)
+		(at 54.61 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3536,7 +4038,7 @@
 		)
 		(uuid "e6dd935c-3703-47da-9f09-adff047bdf99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.361 97.79 0)
+			(at 71.361 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +4057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "091375a9-b5c2-43f0-989a-1f6b8b3e47b8")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 130.048 90.424 90)
 			(effects
 				(font
@@ -3679,24 +4181,60 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 58.42 82.55 0)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 62.23 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1213f338-08c6-4840-b471-1e1cd7368aee")
-		(property "Reference" "#PWR010"
-			(at 58.42 86.36 0)
+		(uuid "0bf49def-6e4d-4b4b-9f99-29a00af31aff")
+		(property "Reference" "Q2"
+			(at 62.484 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SL2301S"
+			(at 62.484 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 64.135 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2301S/26112879?s=N4IgTCBcDaIMoBkwGYAMBGOIC6BfIA"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 2.4A 140M@4.5V,2.4A 900MW 1."
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,16 +4242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VBUS"
-			(at 58.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 82.55 0)
+		(property "MPN" "SL2301S"
+			(at 62.23 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,8 +4251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 58.42 82.55 0)
+		(property "Availability" ""
+			(at 62.23 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,22 +4260,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 58.42 82.55 0)
+		(property "Check_prices" ""
+			(at 62.23 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Description_1" ""
+			(at 62.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 62.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 62.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 62.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 62.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cff593a1-5648-4875-8cca-1a0d09016360")
 		)
 		(pin "1"
-			(uuid "efd092fd-d6c3-4c42-8cff-cbd3f291d88f")
+			(uuid "944fad28-9893-4462-bc5c-ecc452b53fed")
+		)
+		(pin "3"
+			(uuid "6b54ff03-6961-447b-b78c-57e6fd196b50")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR010")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4050,16 +4631,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 68.58 0)
+		(at 30.48 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f9b9c36-3c5e-4b4c-bc14-7f19f87b9ae3")
-		(property "Reference" "#PWR07"
-			(at 30.48 74.93 0)
+		(property "Reference" "#PWR010"
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4648,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 73.66 0)
+			(at 30.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 68.58 0)
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 68.58 0)
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 68.58 0)
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4688,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e199a08-915e-4129-a22a-a42c340da987")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 118.11 92.71 0)
 			(effects
 				(font
@@ -4369,7 +4949,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3247e237-bbcb-4a6f-936f-7cad248768d1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 147.32 92.71 0)
 			(effects
 				(font
@@ -4435,24 +5015,24 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 60.96 85.09 0)
+		(lib_id "Device:D_Zener_Small")
+		(at 68.58 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e8eb1e8-86ee-4ffd-a620-f314c9e597b2")
-		(property "Reference" "TP5"
-			(at 62.23 85.0899 0)
+		(uuid "3659a30e-15f6-492a-8db4-b5a8fa13d272")
+		(property "Reference" "D2"
+			(at 71.12 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,18 +5040,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
-			(at 62.23 86.3599 0)
+		(property "Value" "5.6V"
+			(at 71.12 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 66.04 85.09 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 68.58 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,8 +5058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 66.04 85.09 0)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/diodes-incorporated/SMAZ5V6-13-F/755466"
+			(at 68.58 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +5067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 60.96 85.09 0)
+		(property "Description" "Zener diode, small symbol"
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,62 +5076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 60.96 85.09 0)
+		(property "MPN" "SMAZ5V6-13-F"
+			(at 68.58 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,12 +5086,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2956fae4-ae9c-4425-ba44-1b5a7b8b6713")
+			(uuid "0ba2ee68-aa8e-44ce-878b-84324cc053a9")
+		)
+		(pin "2"
+			(uuid "0b92521c-8d2e-42cd-aa4b-e11559d73362")
 		)
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "TP5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4582,7 +5110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eec09a4-3cdc-4934-b209-5af956137195")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -4632,7 +5160,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4640,15 +5168,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 49.53 33.02 90)
+		(at 49.53 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "46d53f43-77b9-4347-8cd8-d0d839eed676")
-		(property "Reference" "R1"
-			(at 46.736 32.004 90)
+		(property "Reference" "R2"
+			(at 46.736 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +5184,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 52.578 32.004 90)
+			(at 52.578 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 33.02 0)
+			(at 49.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +5201,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
-			(at 49.53 33.02 0)
+			(at 49.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +5210,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 49.53 33.02 0)
+			(at 49.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +5219,7 @@
 			)
 		)
 		(property "MPN" "AC0402FR-075K1L"
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +5228,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +5237,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +5246,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +5255,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +5264,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +5273,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +5282,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 49.53 33.02 90)
+			(at 49.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +5299,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4779,16 +5307,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 125.73 0)
+		(at 30.48 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4816fd40-14f0-4904-9ca2-0c42cf84802a")
-		(property "Reference" "#PWR017"
-			(at 30.48 132.08 0)
+		(property "Reference" "#PWR019"
+			(at 30.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +5324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 130.81 0)
+			(at 30.48 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +5332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 125.73 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 125.73 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +5350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 125.73 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5364,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4975,16 +5502,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 33.02 90)
+		(lib_id "power:VBUS")
+		(at 72.39 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4e44917b-0abc-4cf0-b1b4-57009a1d83a9")
-		(property "Reference" "#PWR02"
-			(at 59.69 33.02 0)
+		(uuid "4b17a791-8e4f-46c3-b6e3-286f5fa1b3c1")
+		(property "Reference" "#PWR011"
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,17 +5519,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 56.388 33.02 90)
+		(property "Value" "+VBUS"
+			(at 72.39 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 33.02 0)
+			(at 72.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5537,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 33.02 0)
+			(at 72.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 72.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9789464d-ec75-416a-bb3e-3ff6c2f82fbd")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e44917b-0abc-4cf0-b1b4-57009a1d83a9")
+		(property "Reference" "#PWR02"
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.388 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 33.02 0)
+			(at 53.34 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,16 +5633,234 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 71.12 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5458cc36-8a99-4524-9d2b-7d13377ab3f3")
+		(property "Reference" "D1"
+			(at 73.66 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.6V"
+			(at 73.66 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 71.12 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/diodes-incorporated/SMAZ5V6-13-F/755466"
+			(at 71.12 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMAZ5V6-13-F"
+			(at 71.12 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e02bbe7a-e190-4eb4-b358-883145462c7d")
+		)
+		(pin "2"
+			(uuid "20ce5ce1-7dd2-4dd1-93a3-d9aeff24afd9")
+		)
+		(instances
+			(project ""
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 68.58 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ad12477-2858-442d-a6f2-21b1ee48dc0c")
+		(property "Reference" "R4"
+			(at 65.786 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 65.278 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402FR-07100KL/726526"
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 68.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396991da-a06f-4727-89ab-626ca8f9528a")
+		)
+		(pin "2"
+			(uuid "b7997d08-3e4d-4728-bc4e-aa1e260c2d3e")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 53.34 35.56 90)
+		(at 53.34 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5b20ca39-12e2-4a39-b3be-24ac31bf71d5")
-		(property "Reference" "#PWR03"
-			(at 59.69 35.56 0)
+		(property "Reference" "#PWR04"
+			(at 59.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.388 35.56 90)
+			(at 56.388 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 35.56 0)
+			(at 53.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 35.56 0)
+			(at 53.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 35.56 0)
+			(at 53.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5910,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5108,15 +5918,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 92.71 90)
+		(at 53.34 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5cd77231-dd31-4e7c-b803-1408475d504b")
-		(property "Reference" "#PWR014"
-			(at 59.69 92.71 0)
+		(property "Reference" "#PWR018"
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.388 92.71 90)
+			(at 56.388 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 92.71 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 92.71 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 92.71 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5976,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5174,16 +5984,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 60.96 27.94 0)
+		(at 74.93 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "605d3bb0-e000-48d8-b7ee-98e9bac572c7")
-		(property "Reference" "TP1"
-			(at 62.23 27.9399 0)
+		(uuid "5f297e29-5623-4144-a69b-be1a3d3204ee")
+		(property "Reference" "TP5"
+			(at 76.2 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +6002,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 62.23 29.2099 0)
+			(at 76.2 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +6012,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 66.04 27.94 0)
+			(at 80.01 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +6021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 27.94 0)
+			(at 80.01 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +6030,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +6039,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +6048,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +6057,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +6066,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +6075,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +6084,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +6093,138 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 60.96 27.94 0)
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee07e329-c924-479b-8656-90182a57d69d")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 77.47 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605d3bb0-e000-48d8-b7ee-98e9bac572c7")
+		(property "Reference" "TP1"
+			(at 78.74 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 78.74 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 77.47 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +6253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60ffa067-3333-47ac-beb6-0ba71bdb1f1a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 130.81 71.12 0)
 			(effects
 				(font
@@ -5363,7 +6304,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5379,7 +6320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e2cf40-725d-4230-9a36-a9509be93d7a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -5429,7 +6370,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5577,148 +6518,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 52.07 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "724e783d-b772-493f-8531-953512ca237f")
-		(property "Reference" "D2"
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 52.3875 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/mcc-micro-commercial-components/SM5817PL-TP/1793251"
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM5817PL-TP"
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 52.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "577621eb-c868-42fe-bce1-541683993836")
-		)
-		(pin "2"
-			(uuid "6fc82c41-3828-4ad7-b43e-16f91398f18b")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 33.02 67.31 0)
+		(at 33.02 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5727,7 +6528,7 @@
 		(fields_autoplaced yes)
 		(uuid "74a7b425-9980-445e-8382-4998cb97f079")
 		(property "Reference" "TP4"
-			(at 34.29 67.3099 0)
+			(at 34.29 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +6537,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 34.29 68.5799 0)
+			(at 34.29 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +6547,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 67.31 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +6556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 67.31 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +6565,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +6574,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +6583,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +6592,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +6601,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6610,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +6619,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +6628,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 33.02 67.31 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,8 +6649,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 71.12 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "795fe93e-1957-49a5-a252-fd963f9e3144")
+		(property "Reference" "R1"
+			(at 68.326 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 67.818 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402FR-07100KL/726526"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 71.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36d43338-0269-47f3-9e74-399698d626db")
+		)
+		(pin "2"
+			(uuid "0f9a4c9b-5a3a-4e58-891a-7e38803ac04d")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 33.02 124.46 0)
+		(at 33.02 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5858,7 +6798,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b5528fa-8e09-4ecc-83c8-2413a32d8f68")
 		(property "Reference" "TP6"
-			(at 34.29 124.4599 0)
+			(at 34.29 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +6807,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 34.29 125.7299 0)
+			(at 34.29 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6817,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 124.46 0)
+			(at 38.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +6826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 124.46 0)
+			(at 38.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +6835,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6844,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6853,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6862,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6871,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6880,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6889,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6898,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 33.02 124.46 0)
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,15 +6920,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 90.17 90)
+		(at 53.34 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "90fe515e-1531-4a79-8e3c-f82af0afa88a")
-		(property "Reference" "#PWR013"
-			(at 59.69 90.17 0)
+		(property "Reference" "#PWR014"
+			(at 59.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6937,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.388 90.17 90)
+			(at 56.388 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 90.17 0)
+			(at 53.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 90.17 0)
+			(at 53.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 90.17 0)
+			(at 53.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6978,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6046,15 +6986,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 49.53 90.17 90)
+		(at 49.53 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9c285d78-9f07-40ce-a368-7d74f6f3feac")
-		(property "Reference" "R3"
-			(at 46.736 89.154 90)
+		(property "Reference" "R7"
+			(at 46.736 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +7002,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 52.578 89.154 90)
+			(at 52.578 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +7010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 90.17 0)
+			(at 49.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +7019,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
-			(at 49.53 90.17 0)
+			(at 49.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +7028,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 49.53 90.17 0)
+			(at 49.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +7037,7 @@
 			)
 		)
 		(property "MPN" "AC0402FR-075K1L"
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +7046,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +7055,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +7064,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +7073,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +7082,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +7091,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +7100,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 49.53 90.17 90)
+			(at 49.53 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +7117,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6192,7 +7132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1065ff1-db11-4381-be87-19fafbd7c1a7")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 159.258 90.424 90)
 			(effects
 				(font
@@ -6316,7 +7256,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6465,6 +7405,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adbebb18-7559-4855-bac4-782ca0124cb2")
+		(property "Reference" "#PWR015"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 70.612 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d972720-10c1-4225-b09b-7c9716b1d0fb")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 125.73 52.07 0)
 		(unit 1)
@@ -6473,7 +7479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b45391b0-c541-45b6-8142-3e1b1105483b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -6524,7 +7530,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6532,15 +7538,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 49.53 92.71 90)
+		(at 49.53 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9751d8b-4c3a-429b-be25-8b9bcfa14bb2")
-		(property "Reference" "R6"
-			(at 46.736 91.694 90)
+		(property "Reference" "R8"
+			(at 46.736 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,7 +7554,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 52.578 91.694 90)
+			(at 52.578 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +7562,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 92.71 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +7571,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
-			(at 49.53 92.71 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +7580,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 49.53 92.71 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +7589,7 @@
 			)
 		)
 		(property "MPN" "AC0402FR-075K1L"
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +7598,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +7607,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +7616,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +7625,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +7634,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +7643,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +7652,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 49.53 92.71 90)
+			(at 49.53 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +7669,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6678,7 +7684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baabbffd-6cb2-47b4-8faf-482452aa060c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 156.21 55.88 0)
 			(effects
 				(font
@@ -6729,7 +7735,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6737,16 +7743,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 58.42 25.4 0)
+		(at 74.93 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd880fa0-ff60-4cc0-8d02-69aa70561723")
 		(property "Reference" "#PWR01"
-			(at 58.42 29.21 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +7760,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 58.42 20.32 0)
+			(at 74.93 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +7768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 25.4 0)
+			(at 74.93 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,7 +7777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 25.4 0)
+			(at 74.93 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +7786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 58.42 25.4 0)
+			(at 74.93 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,24 +7955,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 52.07 27.94 180)
+		(lib_id "Transistor_FET:AO3401A")
+		(at 64.77 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cb1fbf00-fa0c-4c9d-a072-cf849b1a955c")
-		(property "Reference" "D1"
-			(at 52.07 25.4 0)
+		(uuid "ca235d6a-b59f-4589-9ccc-1faf721af231")
+		(property "Reference" "Q1"
+			(at 65.024 15.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 52.3875 24.13 0)
+		(property "Value" "SL2301S"
+			(at 65.024 18.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 66.675 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2301S/26112879?s=N4IgTCBcDaIMoBkwGYAMBGOIC6BfIA"
+			(at 68.58 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 2.4A 140M@4.5V,2.4A 900MW 1."
+			(at 64.77 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,35 +8009,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 52.07 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/mcc-micro-commercial-components/SM5817PL-TP/1793251"
-			(at 52.07 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 52.07 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM5817PL-TP"
-			(at 52.07 27.94 0)
+		(property "MPN" "SL2301S"
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,7 +8019,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +8028,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +8037,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +8046,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +8055,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +8064,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +8073,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 52.07 27.94 0)
+			(at 64.77 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,16 +8081,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4eb63b00-d443-4058-a581-a08f77198e6b")
-		)
 		(pin "2"
-			(uuid "c9efe512-21f0-4ac6-9105-e89b2b2cbf80")
+			(uuid "9047d780-5be3-47bd-94be-9253687c6425")
+		)
+		(pin "1"
+			(uuid "772965de-aca9-4682-b0c4-920e29c475ed")
+		)
+		(pin "3"
+			(uuid "9318bf8d-c5aa-43f0-98dd-e00b7eb71fb7")
 		)
 		(instances
-			(project ""
+			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D1")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7092,7 +8102,7 @@
 	(symbol
 		(lib_name "USB_C_Receptacle_USB2.0_16P_1")
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 30.48 43.18 0)
+		(at 30.48 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7101,7 +8111,7 @@
 		(fields_autoplaced yes)
 		(uuid "d34a2c24-7ac0-4b36-9d65-a7fbd09de3c1")
 		(property "Reference" "J1"
-			(at 30.48 20.32 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +8119,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 30.48 22.86 0)
+			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +8127,7 @@
 			)
 		)
 		(property "Footprint" "power_supply:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
-			(at 34.29 43.18 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +8136,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-1-P16-TR/24818576?s=N4IgTCBcDaIKoCkwAYC0BhVAJVBxVAygLIAqqAjKgArkBsqJASiALoC%2BQA"
-			(at 34.29 43.18 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +8145,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +8154,7 @@
 			)
 		)
 		(property "MPN" "UJ20-C-H-G-SMT-1-P16-TR"
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +8163,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +8172,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +8181,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +8190,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +8199,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +8208,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +8217,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 30.48 43.18 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,8 +8283,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddbaad3d-b3b6-4e26-b973-c0b52c098fc1")
+		(property "Reference" "#PWR03"
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.152 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4492984-238e-4883-90d4-4245c13d0680")
+		)
+		(instances
+			(project "zbook"
+				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 30.48 100.33 0)
+		(at 30.48 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7283,7 +8359,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfa731c7-0c45-48cb-8189-8abafd792208")
 		(property "Reference" "J2"
-			(at 30.48 77.47 0)
+			(at 30.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +8367,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 30.48 80.01 0)
+			(at 30.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +8375,7 @@
 			)
 		)
 		(property "Footprint" "power_supply:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
-			(at 34.29 100.33 0)
+			(at 34.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +8384,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/pt/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-1-P16-TR/24818576?s=N4IgTCBcDaIKoCkwAYC0BhVAJVBxVAygLIAqqAjKgArkBsqJASiALoC%2BQA"
-			(at 34.29 100.33 0)
+			(at 34.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +8393,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +8402,7 @@
 			)
 		)
 		(property "MPN" "UJ20-C-H-G-SMT-1-P16-TR"
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +8411,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +8420,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +8429,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +8438,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +8447,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +8456,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +8465,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 30.48 100.33 0)
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,15 +8598,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 49.53 35.56 90)
+		(at 49.53 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fe238058-8a9d-44a2-b265-0d27607da0ef")
-		(property "Reference" "R2"
-			(at 46.736 34.544 90)
+		(property "Reference" "R3"
+			(at 46.736 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +8614,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 52.578 34.544 90)
+			(at 52.578 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +8622,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 35.56 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +8631,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/AC0402FR-075K1L/5895438?s=N4IgTCBcDaIIIGEAMAWJYBiAlAtEg7AKwDSAjADIgC6AvkA"
-			(at 49.53 35.56 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +8640,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 49.53 35.56 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +8649,7 @@
 			)
 		)
 		(property "MPN" "AC0402FR-075K1L"
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +8658,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +8667,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +8676,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +8685,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +8694,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +8703,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +8712,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 49.53 35.56 90)
+			(at 49.53 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +8729,7 @@
 		(instances
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
