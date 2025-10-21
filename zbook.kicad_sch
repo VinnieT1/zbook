@@ -277,7 +277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 90.17 181.61 0)
 			(effects
 				(font
@@ -404,7 +404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 71.12 181.61 0)
 			(effects
 				(font
@@ -531,7 +531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 83.82 181.61 0)
 			(effects
 				(font
@@ -659,7 +659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 35.56 181.61 0)
 			(effects
 				(font
@@ -789,7 +789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 77.47 181.61 0)
 			(effects
 				(font
@@ -917,7 +917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 50.8 181.61 0)
 			(effects
 				(font
@@ -1048,7 +1048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 43.18 181.61 0)
 			(effects
 				(font
@@ -1179,7 +1179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 27.94 181.61 0)
 			(effects
 				(font
