@@ -944,156 +944,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Small"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1574,304 +1424,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:AO3401A"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3401A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3001,18 +2553,6 @@
 		(uuid "fb42a8c3-d1dd-4811-a9cf-98bd7f44aecc")
 	)
 	(junction
-		(at 68.58 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23aff232-190f-47b5-b3ed-0cc26027362b")
-	)
-	(junction
-		(at 71.12 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "456669fd-a925-4fde-91b2-ac83ea30f378")
-	)
-	(junction
 		(at 48.26 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3049,28 +2589,28 @@
 		(uuid "8e2bdc82-e2b7-4a86-9d07-0511ac087fb1")
 	)
 	(junction
-		(at 72.39 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c36abdf-2166-480a-93d6-9be6482af7e8")
-	)
-	(junction
 		(at 30.48 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6affdd1-3b8b-4390-b870-dbcc242d2e6d")
 	)
 	(junction
+		(at 50.8 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b24a2bbe-3081-421d-83eb-28b77f75a7e7")
+	)
+	(junction
+		(at 50.8 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b80341b4-ec24-41a2-9865-74492a66ccde")
+	)
+	(junction
 		(at 125.73 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdec6cb4-7682-4baa-956a-ce1a69e920f6")
-	)
-	(junction
-		(at 68.58 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bec2a3bf-c6d1-4387-a270-ceae491d0847")
 	)
 	(junction
 		(at 156.21 53.34)
@@ -3083,18 +2623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c941c125-f776-4e68-8068-190d9506cf97")
-	)
-	(junction
-		(at 71.12 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebed1392-c398-4a66-8474-6eb06026f9ff")
-	)
-	(junction
-		(at 74.93 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec506043-bd9c-418f-86e6-f94c06c1c6dd")
 	)
 	(junction
 		(at 48.26 53.34)
@@ -3132,16 +2660,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 21.59) (xy 71.12 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0588234e-8d06-49c8-98f2-c32f62067075")
-	)
-	(wire
-		(pts
 			(xy 45.72 53.34) (xy 48.26 53.34)
 		)
 		(stroke
@@ -3149,16 +2667,6 @@
 			(type default)
 		)
 		(uuid "05d4c628-c710-46a2-a995-3dc5d0ddf2b3")
-	)
-	(wire
-		(pts
-			(xy 64.77 30.48) (xy 71.12 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068ff274-3397-4ba1-9de9-e443bc348224")
 	)
 	(wire
 		(pts
@@ -3192,16 +2700,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 19.05) (xy 74.93 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11bac1ad-e614-4ee8-ac44-d833780512a9")
-	)
-	(wire
-		(pts
 			(xy 45.72 93.98) (xy 46.99 93.98)
 		)
 		(stroke
@@ -3229,26 +2727,6 @@
 			(type default)
 		)
 		(uuid "1913d4f8-e6b4-4434-8a51-c54b064687b3")
-	)
-	(wire
-		(pts
-			(xy 72.39 77.47) (xy 74.93 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1acd9e80-d733-4606-8c97-ff0c82df6eb7")
-	)
-	(wire
-		(pts
-			(xy 74.93 21.59) (xy 77.47 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aea2787-297b-4c28-8143-6cfb9b539250")
 	)
 	(wire
 		(pts
@@ -3322,26 +2800,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 86.36) (xy 68.58 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3755da-45bd-4091-a957-932361843e46")
-	)
-	(wire
-		(pts
-			(xy 71.12 29.21) (xy 71.12 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fc3afc1-6be0-4c54-be11-c2f8be16ee4f")
-	)
-	(wire
-		(pts
 			(xy 30.48 71.12) (xy 30.48 72.39)
 		)
 		(stroke
@@ -3349,16 +2807,6 @@
 			(type default)
 		)
 		(uuid "3a3389f8-c091-41fe-831c-3c0d6138462c")
-	)
-	(wire
-		(pts
-			(xy 62.23 86.36) (xy 68.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff10452-f8d4-4416-8f05-e1424b9e572e")
 	)
 	(wire
 		(pts
@@ -3412,16 +2860,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 77.47) (xy 72.39 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "500554a9-d20e-4ba0-8e2d-311260e80bbe")
-	)
-	(wire
-		(pts
 			(xy 125.73 53.34) (xy 125.73 54.61)
 		)
 		(stroke
@@ -3432,17 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 85.09) (xy 62.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571f9d86-b81a-4e2c-a2bb-ce6a9238c276")
-	)
-	(wire
-		(pts
-			(xy 72.39 74.93) (xy 72.39 77.47)
+			(xy 50.8 74.93) (xy 50.8 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3492,16 +2920,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 36.83) (xy 71.12 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a414c8b-d217-4fe6-831c-5b64f26c7c8a")
-	)
-	(wire
-		(pts
 			(xy 52.07 38.1) (xy 53.34 38.1)
 		)
 		(stroke
@@ -3529,16 +2947,6 @@
 			(type default)
 		)
 		(uuid "6fc12d76-76d2-42fd-968f-02de97bbf256")
-	)
-	(wire
-		(pts
-			(xy 68.58 77.47) (xy 68.58 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ac775d-3930-4bb9-99b8-d2eba69b3ba5")
 	)
 	(wire
 		(pts
@@ -3662,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 30.48) (xy 64.77 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a351ac71-4dd3-44e9-b1ac-cc6c7f60addb")
-	)
-	(wire
-		(pts
 			(xy 156.21 54.61) (xy 153.67 54.61)
 		)
 		(stroke
@@ -3682,33 +3080,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 77.47) (xy 57.15 77.47)
+			(xy 50.8 77.47) (xy 53.34 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af186e61-a3e5-4c92-b43f-bcfeffd4f333")
-	)
-	(wire
-		(pts
-			(xy 71.12 30.48) (xy 71.12 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3930065-bf93-48ed-b5d2-c1db2f11e58d")
-	)
-	(wire
-		(pts
-			(xy 67.31 77.47) (xy 68.58 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58189b3-e0ec-46b2-a60c-28a1ca294093")
 	)
 	(wire
 		(pts
@@ -3722,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 21.59) (xy 59.69 21.59)
+			(xy 50.8 22.86) (xy 53.34 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3739,6 +3117,16 @@
 			(type default)
 		)
 		(uuid "bcc41f07-617b-40a4-92e6-308fc607b27a")
+	)
+	(wire
+		(pts
+			(xy 50.8 20.32) (xy 50.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4e96c2-70e8-4ba5-8cd7-9228dc78853f")
 	)
 	(wire
 		(pts
@@ -3772,26 +3160,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 21.59) (xy 71.12 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d0d40c-ef49-4283-a0c1-be4b26d56c38")
-	)
-	(wire
-		(pts
-			(xy 68.58 85.09) (xy 68.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47678e6-4c81-41d3-b418-3fa2d6ee6dbc")
-	)
-	(wire
-		(pts
 			(xy 133.35 58.42) (xy 130.81 58.42)
 		)
 		(stroke
@@ -3819,16 +3187,6 @@
 			(type default)
 		)
 		(uuid "d672d0fa-5a4d-4672-a801-3a6737dd9cbf")
-	)
-	(wire
-		(pts
-			(xy 71.12 21.59) (xy 74.93 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a5d734-da1c-4282-aeac-f1e2107df82b")
 	)
 	(wire
 		(pts
@@ -3882,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 50.8 21.59)
+			(xy 50.8 33.02) (xy 50.8 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3909,16 +3267,6 @@
 			(type default)
 		)
 		(uuid "eff5cd9e-531a-4b8b-b233-96e60c283720")
-	)
-	(wire
-		(pts
-			(xy 68.58 92.71) (xy 68.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1928579-f504-447a-95c5-43c45bdee8d1")
 	)
 	(wire
 		(pts
@@ -4188,151 +3536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 62.23 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bf49def-6e4d-4b4b-9f99-29a00af31aff")
-		(property "Reference" "Q2"
-			(at 62.484 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SL2301S"
-			(at 62.484 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 64.135 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2301S/26112879?s=N4IgTCBcDaIMoBkwGYAMBGOIC6BfIA"
-			(at 66.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 2.4A 140M@4.5V,2.4A 900MW 1."
-			(at 62.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SL2301S"
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 62.23 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cff593a1-5648-4875-8cca-1a0d09016360")
-		)
-		(pin "1"
-			(uuid "944fad28-9893-4462-bc5c-ecc452b53fed")
-		)
-		(pin "3"
-			(uuid "6b54ff03-6961-447b-b78c-57e6fd196b50")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_LDO_TexasInstruments:TLV740P")
 		(at 143.51 58.42 0)
 		(unit 1)
@@ -4350,12 +3553,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TLV78533PDBVR"
 			(at 143.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "power_supply:DBV0005A-IPC_B"
@@ -5022,85 +4226,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 68.58 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3659a30e-15f6-492a-8db4-b5a8fa13d272")
-		(property "Reference" "D2"
-			(at 71.12 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.6V"
-			(at 71.12 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 68.58 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/diodes-incorporated/SMAZ5V6-13-F/755466"
-			(at 68.58 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 68.58 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMAZ5V6-13-F"
-			(at 68.58 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ba2ee68-aa8e-44ce-878b-84324cc053a9")
-		)
-		(pin "2"
-			(uuid "0b92521c-8d2e-42cd-aa4b-e11559d73362")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 93.98 0)
 		(unit 1)
@@ -5503,7 +4628,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 72.39 74.93 0)
+		(at 50.8 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5511,7 +4636,7 @@
 		(dnp no)
 		(uuid "4b17a791-8e4f-46c3-b6e3-286f5fa1b3c1")
 		(property "Reference" "#PWR011"
-			(at 72.39 78.74 0)
+			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +4645,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 72.39 71.12 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +4653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 74.93 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +4662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 74.93 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +4671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 72.39 74.93 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,224 +4752,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 71.12 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5458cc36-8a99-4524-9d2b-7d13377ab3f3")
-		(property "Reference" "D1"
-			(at 73.66 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.6V"
-			(at 73.66 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 71.12 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/diodes-incorporated/SMAZ5V6-13-F/755466"
-			(at 71.12 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 71.12 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMAZ5V6-13-F"
-			(at 71.12 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e02bbe7a-e190-4eb4-b358-883145462c7d")
-		)
-		(pin "2"
-			(uuid "20ce5ce1-7dd2-4dd1-93a3-d9aeff24afd9")
-		)
-		(instances
-			(project ""
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 68.58 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ad12477-2858-442d-a6f2-21b1ee48dc0c")
-		(property "Reference" "R4"
-			(at 65.786 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 65.278 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402FR-07100KL/726526"
-			(at 68.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 68.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-07100KL"
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 68.58 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "396991da-a06f-4727-89ab-626ca8f9528a")
-		)
-		(pin "2"
-			(uuid "b7997d08-3e4d-4728-bc4e-aa1e260c2d3e")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5984,7 +4891,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 74.93 77.47 0)
+		(at 53.34 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5993,7 +4900,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f297e29-5623-4144-a69b-be1a3d3204ee")
 		(property "Reference" "TP5"
-			(at 76.2 77.4699 0)
+			(at 54.61 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +4909,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 76.2 78.7399 0)
+			(at 54.61 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +4919,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 80.01 77.47 0)
+			(at 58.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +4928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 77.47 0)
+			(at 58.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +4937,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +4946,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +4955,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +4964,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +4973,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +4982,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +4991,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +5000,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 74.93 77.47 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +5022,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 77.47 21.59 0)
+		(at 53.34 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6124,7 +5031,7 @@
 		(fields_autoplaced yes)
 		(uuid "605d3bb0-e000-48d8-b7ee-98e9bac572c7")
 		(property "Reference" "TP1"
-			(at 78.74 21.5899 0)
+			(at 54.61 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +5040,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 78.74 22.8599 0)
+			(at 54.61 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 82.55 21.59 0)
+			(at 58.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +5059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 21.59 0)
+			(at 58.42 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +5068,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +5077,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +5086,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +5095,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +5104,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +5113,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +5122,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +5131,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 77.47 21.59 0)
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,145 +5550,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 71.12 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "795fe93e-1957-49a5-a252-fd963f9e3144")
-		(property "Reference" "R1"
-			(at 68.326 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 67.818 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/yageo/RC0402FR-07100KL/726526"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-07100KL"
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 71.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36d43338-0269-47f3-9e74-399698d626db")
-		)
-		(pin "2"
-			(uuid "0f9a4c9b-5a3a-4e58-891a-7e38803ac04d")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7405,72 +6173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adbebb18-7559-4855-bac4-782ca0124cb2")
-		(property "Reference" "#PWR015"
-			(at 68.58 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 70.612 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d972720-10c1-4225-b09b-7c9716b1d0fb")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 125.73 52.07 0)
 		(unit 1)
@@ -7743,7 +6445,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 74.93 19.05 0)
+		(at 50.8 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7751,7 +6453,7 @@
 		(dnp no)
 		(uuid "bd880fa0-ff60-4cc0-8d02-69aa70561723")
 		(property "Reference" "#PWR01"
-			(at 74.93 22.86 0)
+			(at 50.8 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +6462,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 74.93 15.24 0)
+			(at 50.8 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +6470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 19.05 0)
+			(at 50.8 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +6479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 19.05 0)
+			(at 50.8 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +6488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 74.93 19.05 0)
+			(at 50.8 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,151 +6651,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 64.77 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca235d6a-b59f-4589-9ccc-1faf721af231")
-		(property "Reference" "Q1"
-			(at 65.024 15.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SL2301S"
-			(at 65.024 18.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 66.675 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com.br/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2301S/26112879?s=N4IgTCBcDaIMoBkwGYAMBGOIC6BfIA"
-			(at 68.58 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 2.4A 140M@4.5V,2.4A 900MW 1."
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SL2301S"
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 64.77 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9047d780-5be3-47bd-94be-9253687c6425")
-		)
-		(pin "1"
-			(uuid "772965de-aca9-4682-b0c4-920e29c475ed")
-		)
-		(pin "3"
-			(uuid "9318bf8d-c5aa-43f0-98dd-e00b7eb71fb7")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8277,72 +6834,6 @@
 			(project "zbook"
 				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddbaad3d-b3b6-4e26-b973-c0b52c098fc1")
-		(property "Reference" "#PWR03"
-			(at 71.12 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.152 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4492984-238e-4883-90d4-4245c13d0680")
-		)
-		(instances
-			(project "zbook"
-				(path "/b90666d0-8852-4bb1-832d-f9d855027372/d670a894-5140-4373-b43b-8923af8a146b"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
